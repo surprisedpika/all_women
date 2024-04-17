@@ -1,0 +1,50 @@
+# The name of your project/route.
+# This will be displayed in the header for people who are viewing your route
+title: All Women
+
+# The version of your route. There's no particular format here.
+# This will be displayed in the metadata in the settings dialog
+version: 1.0.0
+
+# This is the route itself. Here it points to the main.yaml file we created earlier
+route: 
+  use: ./main.yaml
+
+# Extra configuration.
+# The project must define a map to compile properly.
+# For now, we will use the Breath of the Wild celer map maintained by Pistonight
+config:
+- use: Pistonight/celer-presets/botw/map.yaml
+- plugins:
+  - use: link
+  - use: variables
+- icons:
+    shrine: https://icons.pistonite.org/icon/shrine.shrine.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    tower: https://icons.pistonite.org/icon/location.tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    woman: https://icons.pistonite.org/icon/character.zelda.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.cfa240.ffd700.69a2d5.c1fefe.png
+    weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+- presets:
+    Material:
+      text: Collect $(0)
+      comment: $(1) $(0)
+      icon: material
+    Woman:
+      text: $(0)
+      comment: say hi
+      icon: woman
+      counter: .var(women)
+- tags:
+    todo:
+      background: magenta
+    travelling:
+      color: black
+      background: yellow
+    important:
+      color: white
+      background: red
+    place:
+      color: cyan
+    women:
+      color: black
+      background: white
