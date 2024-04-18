@@ -167,9 +167,6 @@
       coord: [3777,2126.5]
       
   - BLSS to .place(Akkala)
-  - Kill black bokoblin on horseback for Steel Lizal Bow:
-      icon: weapon
-      coord: [3938.5,-1196.75]
   - Dah Hesho:
       icon: shrine
       comment: Activate shrine warp
@@ -182,7 +179,8 @@
   - Talk to Hudson:
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
-  - .important(Make night)
+  - .important(Make night):
+      notes: It might already be around night. you just want to get to Greyson at night, which is in like 5 minutes roughly
   
   - BLSS to .place(South Akkala Stable):
       notes: 5pm-ish
