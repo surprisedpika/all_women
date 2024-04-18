@@ -167,20 +167,20 @@
       coord: [3777,2126.5]
       
   - BLSS to .place(Akkala)
-  - Dah Hesho:
-      icon: shrine
-      comment: Activate shrine warp
-      coord: [3896,-1309]
-  - WB northeast
-  - _Woman<Mija>:
-      comment: pay great fairy
-      coord: [4120,-1386]
-  - WB north
   - Talk to Hudson:
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
   - .important(Make night):
       notes: It might already be around night. you just want to get to Greyson at night, which is in like 5 minutes roughly
+  - WB to fairy fountain
+  - _Woman<Mija>:
+      comment: pay great fairy
+      coord: [4120,-1386]
+  - WB to shrine
+  - Dah Hesho:
+      icon: shrine
+      comment: Activate shrine warp
+      coord: [3896,-1309]
   
   - BLSS to .place(South Akkala Stable):
       notes: 5pm-ish
