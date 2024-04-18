@@ -166,7 +166,10 @@
       comment: tech lab
       coord: [3777,2126.5]
       
-  - BLSS to .place(Akkala)
+  - BLSS to .place(Akkala):
+      movements:
+        - to: [4312,1424]
+        - to: [4504,-1024]
   - Talk to Hudson:
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
