@@ -201,6 +201,7 @@
       comment: She is a Gerudo
   
   - <S + N + S midair + N: # from ADT
+      notes: .link([See ADT Routing]https://youtu.be/BLftk3pdW7w?t=2422)
       movements:
         - to: [3202.18,-1702.60]
         - to: [3229.5,-1598]
