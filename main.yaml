@@ -419,39 +419,45 @@
       movements:
       - to: [-3814,2819]
         warp: true
-  - hop the wall
+  - hop the wall toward main square:
+      notes: 2 before bar
   - _Woman<Lorn>:
       comment: fruit vendor
       coord: [-3822.75,2877.375]
   - _Woman<Isha>:
       comment: sidequest npc outside jewelry shop
+  # might be able to get her elsewhere
   # - _Woman<Cara>:
   #     comment: back corner of jewelry shop
   - into the bar:
-      comment: barkeeper
-  - _Woman<Furosa>:
       coord: [-3856.25,2849.75]
+      notes: 8 in the bar
+  - _Woman<Furosa>:
+      comment: barkeeper
   - _Woman<Nellie>:
       comment: standing across bar with Pritana
   - _Woman<Pritana>
   - _Woman<Deltan>:
       comment: sad drunk
-  - _Woman<Yaido>:
+  - _Woman<Yaido + Sumati + Pyra>:
       comment: three women talking about a password
-  - _Woman<Sumati>
-  - _Woman<Pyra>
+      vars:
+        women: .add(2) # 1+2
   - _Woman<Jules>:
       comment: hylian in bar
   - _Woman<Rima>:
+      notes: 1 outside
       coord: [-3857,2882.25]
       comment: under tent outside
   - House next to bar:
+      notes: 2 next door
       coord: [-3874.75,2876.125]
   - _Woman<Pearle>:
       comment: child 
   - _Woman<Rotana>:
       comment: shrinequest npc at bookshelf in the same house
   - Across the street, rear entrance of Inn:
+      notes: 3 in the inn
       coord: [-3854.25,2897.875]
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
@@ -459,7 +465,8 @@
       comment: sleeping in a bed
   - _Woman<Romah>:
       comment: innkeeper
-  - exit from of Inn
+  - exit from of Inn:
+      notes: 3 in the main square before arrow shop
   - _Woman<Olu>:
       coord: [-3839.375,2893.875]
       comment: outside inn
@@ -470,13 +477,18 @@
       comment: rito
   - _Woman<Danda>:
       comment: buy arrows
+      notes: get dialog buying
       coord: [-3858,2911.6875]
   - Buy 10 fire
   - Buy 10 ice arrows
   - Buy 30 shock arrows
   - _Woman<Kalani>:
-      comment: 2 children sleeping in stall
-  - _Woman<Makure>
+      comment: sleeping child
+      notes: 2 children sleeping in stall
+  - _Woman<Makure>:
+      comment: sleeping child
+  - up the steps to the palace entrance:
+      notes: 4 at entrance
   - _Woman<Reeza>:
       coord: [-3868.125,2939.5625]
       comment: right guard
@@ -487,7 +499,8 @@
       comment: left guard
   - _Woman<Traysi>:
       comment: talking to left guard
-  - enter the palace
+  - enter the palace:
+      notes: forced dialog
   - _Woman<Riju>:
       comment: Gerudo chief
       coord: [-3889.9375,2969.1875]
