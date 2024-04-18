@@ -40,7 +40,8 @@
   # Start Rito Village
   - WB to .place(Rito Village):
       comment: Land at cooking pot, above goddess statue
-  - _Weapon<Soup Ladle>:
+  - Soup Ladle:
+      icon: weapon
       coord: [-3588.91, -1801.50]
   - _Cook:
       coord: [-3589,-1804.75]
@@ -213,12 +214,6 @@
   - WB to .place(Goron City)
   - _Woman<Ramella>:
       coord: [1678,-2440]
-  - WB up to top of goron statue head:
-      coord: [1612.5,-2543]
-      
-  - BLSS from Korok platform to .place(Hebra Mountain)
-  - _Woman<Selmie>:
-      coord: [-2940,-3152]
 
   - Warp to Dah Hesho:
       icon: shrine
@@ -242,28 +237,34 @@
       movements:
       - to: [-557,1700]
         warp: true
-  - BLSS to .place(Kakariko Village)
-  - _Woman<Nanna>:
-      coord: [1923,1004.5]
-  - _Woman<Mellie>:
-      coord: [1888.75,975.75]
-  - _Woman<Cottla>:
-      coord: [1872,956.75]
+  - BLSS to .place(Kakariko Village) at night
   - _Woman<Lasli>:
-      coord: [1847,968.75]
+      comment: in her house near the fireflies
+      coord: [1895.5,1034.5]
+  - _Woman<Nanna>:
+      comment: in the bed
+  - _Woman<Mellie>:
+      comment: sleeping in house
+      coord: [1888.75,975.75]
+  - _Woman<Koko>:
+      comment: sleeping in house
+      coord: [1870,945.5]
+  - _Woman<Cottla>
   - _Woman<Claree>:
       comment: clothing shop
       coord: [1854.5,982]
-  - _Woman<Koko>:
-      coord: [1825.75,971.25]
   - _Woman<Trissa>:
+      comment: shopkeeper
       coord: [1788.25,1027.25]
   - _Woman<Rola>:
+      comment: arrow shop
       coord: [1830.25,1042.75]
+  - WB up to Impa's house
   - _Woman<Paya>:
       coord: [1786.25,985.75]
   - _Woman<Impa>:
       coord: [1772.75,983]
+  - WB to fairy fountain
   - _Woman<Cotera>:
       comment: pay great fairy
       coord: [1976.25,845.5]
@@ -321,18 +322,14 @@
       comment: zora in the lake
       coord: [-229,2575]
 
-# TOTIME: Option 1
 - Gerudo 1:
-  - Warp to Great Plateau Tower:
-      icon: tower
+  - Warp to Keh Namut:
+      icon: shrine
       color: green
       movements:
-      - to: [-557,1700]
+      - to: [-1480,1992]
         warp: true
         
-# TOTIME: Option 2
-  # - WB chain southwest to .place(Ishto Soh Shrine)
-  
   - _Woman<Moza>:
       coord: [-1047,3567]
   - Ishto Soh:
@@ -340,12 +337,12 @@
       comment: Activate shrine warp
       coord: [-996,3568]
   
-  - BLSS to .place(Misae Suma Shrine):
+  - BLSS to .place(Ice House):
       movements:
         - to: [-1359,3854]
-        - to: [-2967,3774]
-  - _Woman<Pokki>:
-      coord: [-2967,3774]
+        - to: [-3740,2280]
+  - _Woman<Anche>:
+      coord: [-3740,2280]
   
   - BLSS to .place(Daqo Chisay Shrine)
   - Ishto Soh:
@@ -390,7 +387,6 @@
   - _Woman<Canolo>:
       coord: [-2188.5,1688]
       
-
   - Warp to Dah Hesho:
       icon: shrine
       color: blue
@@ -402,6 +398,8 @@
       comment: give wood, get mission to find Rito
       coord: [3988.5,-1597]
   - BLSS towards .place(East Akkala Stable)
+  - .important(Make night):
+      comment: To normalize Gerudo Town time
   - _Woman<Akkala Traveller 008>:
       text: Traveller
       comment: before reaching the stable
@@ -415,6 +413,85 @@
       coord: [3762,-2394]
       notes: skip if you saw Laroba earlier at South Akkala Stable
       comment: on road between .travelling(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+      
+  - Warp to Daqo Chisay:
+      icon: shrine
+      movements:
+      - to: [-3814,2819]
+        warp: true
+  - hop the wall
+  - _Woman<Lorn>:
+      comment: fruit vendor
+      coord: [-3822.75,2877.375]
+  - _Woman<Isha>:
+      comment: sidequest npc outside jewelry shop
+  # - _Woman<Cara>:
+  #     comment: back corner of jewelry shop
+  - into the bar:
+      comment: barkeeper
+  - _Woman<Furosa>:
+      coord: [-3856.25,2849.75]
+  - _Woman<Nellie>:
+      comment: standing across bar with Pritana
+  - _Woman<Pritana>
+  - _Woman<Deltan>:
+      comment: sad drunk
+  - _Woman<Yaido>:
+      comment: three women talking about a password
+  - _Woman<Sumati>
+  - _Woman<Pyra>
+  - _Woman<Jules>:
+      comment: hylian in bar
+  - _Woman<Rima>:
+      coord: [-3857,2882.25]
+      comment: under tent outside
+  - House next to bar:
+      coord: [-3874.75,2876.125]
+  - _Woman<Pearle>:
+      comment: child 
+  - _Woman<Rotana>:
+      comment: shrinequest npc at bookshelf in the same house
+  - Across the street, rear entrance of Inn:
+      coord: [-3854.25,2897.875]
+  - _Woman<Tauma>:
+      comment: hylian reading a book in side room
+  - _Woman<Melena>:
+      comment: sleeping in a bed
+  - _Woman<Romah>:
+      comment: innkeeper
+  - exit from of Inn
+  - _Woman<Olu>:
+      coord: [-3839.375,2893.875]
+      comment: outside inn
+  - _Woman<Estan>:
+      comment: meat vendor
+      coord: [-3847.1875,2903.1875]
+  - _Woman<Frita>:
+      comment: rito
+  - _Woman<Danda>:
+      comment: buy arrows
+      coord: [-3858,2911.6875]
+  - Buy 10 fire
+  - Buy 10 ice arrows
+  - Buy 30 shock arrows
+  - _Woman<Kalani>:
+      comment: 2 children sleeping in stall
+  - _Woman<Makure>
+  - _Woman<Reeza>:
+      coord: [-3868.125,2939.5625]
+      comment: right guard
+  - _Woman<Malena>:
+      comment: talking to right guard
+  - _Woman<Ploka>:
+      coord: [-3861.8125,2945.125]
+      comment: left guard
+  - _Woman<Traysi>:
+      comment: talking to left guard
+  - enter the palace
+  - _Woman<Riju>:
+      comment: Gerudo chief
+      coord: [-3889.9375,2969.1875]
+  - _Woman<Buliara>
       
 # After Naboris
   # - BLSS to Sand-Seal Rally
