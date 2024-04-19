@@ -25,6 +25,7 @@ config:
     material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.cfa240.ffd700.69a2d5.c1fefe.png
     weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
     king: https://icons.pistonite.org/icon/character.king.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
+    marker: https://icons.pistonite.org/icon/misc.frame.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
 - presets:
     Material:
       text: Collect $(0)
@@ -53,7 +54,7 @@ config:
       background: magenta
     travelling:
       color: black
-      background: yellow
+      background: palegoldenrod
     important:
       color: white
       background: red

@@ -141,9 +141,11 @@
         warp: true
   - BLSS to .place(Hateno Village):
       coord: [3309.5,2300.75]
-  - Talk to Bolson
+  - Talk to Bolson:
+      icon: marker
   - .important(Make noon)
-  - Start Tarrey Town stuff
+  - Start Tarrey Town stuff:
+      comment: talk to Bolson and Hudson
   - Mayam Agana:
       icon: shrine
       comment: Activate shrine warp
@@ -203,6 +205,7 @@
         - to: [4312,1424]
         - to: [4514,-1284]
   - Talk to Hudson:
+      icon: marker
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
   - .important(Make night):
@@ -218,7 +221,6 @@
       coord: [3896,-1309]
   
   - BLSS to .place(South Akkala Stable):
-      notes: 5pm-ish
       coord: [3150,-1695.5]
   - Watch for .travelling(Lonni) on the road:
       comment: She carries a Hunter's Shield
@@ -242,7 +244,8 @@
         - to: [3244.5,-1549.5]
   - BLSS to .place(Southern Mine):
       coord: [3279,-1571.5]
-  - Greyson:
+  - Talk to Greyson:
+      icon: marker
       coord: [1656.63, -1968.53]
   
   - WB to .place(Goron City)
@@ -259,8 +262,9 @@
       movements: 
         - to: [3896,-1309]
           warp: true
-  - WB to tarrey Town
+  - WB to Tarrey Town
   - Talk to Hudson:
+      icon: marker
       comment: give wood, get mission to find Gerudo
       coord: [3988.5,-1597]
   - _Woman<Lonni>:
@@ -437,6 +441,7 @@
   - _Woman<Calisa>:
       comment: .travelling(on road between Canyon Stable and Kara Kara)
   - Sesami:
+      icon: marker
       comment: talk to for side quest
       coord: [-2814,2246.5]
   - WBs northeast into valley
@@ -456,8 +461,9 @@
       movements: 
         - to: [3896,-1309]
           warp: true
-  - WB to tarrey Town
+  - WB to Tarrey Town
   - Talk to Hudson:
+      icon: marker
       comment: give wood, get mission to find Rito
       coord: [3988.5,-1597]
   - BLSS towards .place(East Akkala Stable)
@@ -612,9 +618,10 @@
   - Duplex Bow:
       icon: weapon
       coord: [-3510.46, 442.51, 1297.31]
-  - Fight Kohga
-  - _Segment<Thunderhelm>:
+  - Fight Kohga:
+      icon: marker
       coord: [-3451.00, 440.69, 1331.50]
+  - _Segment<Thunderhelm>
   - "":
       vars:
         segment-women: 0
@@ -652,6 +659,7 @@
       comment: guard at upper right doorway
       coord: [-3882.875,2941.125]
   - Talk to Riju:
+      icon: marker
       coord: [-3868.75,2948.625]
   - _Woman<Bertri>:
       comment: guard at upper left doorway
@@ -879,6 +887,7 @@
       - to: [-3656.5,-1756.25]
         warp: true
   - Talk to Fyson:
+      icon: marker
       coord: [-3594,-1821.375]
   - WB N. + midair:
       coord: [-3431,-2322]
@@ -899,8 +908,9 @@
       movements: 
         - to: [3896,-1309]
           warp: true
-  - WB to tarrey Town
+  - WB to Tarrey Town
   - Talk to Hudson:
+      icon: marker
       comment: give wood, get mission to find Zora
       coord: [3988.5,-1597]
   - _Segment<Pre-Zora>
@@ -917,4 +927,5 @@
           warp: true
   - BLSS to Zora's Domain
   - Talk to Dorephan and Sidon:
+      icon: marker
       coord: [3331.25,-534.5]
