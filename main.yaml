@@ -761,3 +761,77 @@
       - to: [1926,1004]
   - _Woman<Celessa>:
       comment: .travelling(on road between Dueling Peaks Stable and Kakariko)
+  
+- Ridgeland:
+  - Warp to Shae Loya:
+      icon: shrine
+      movements: 
+      - to: [-2931,-433]
+        warp: true
+  - Check for .travelling(Yammo) at the stable:
+      coord: [-2860,-556]
+  - _Woman<Ridgeland Traveller 010>:
+      text: Traveller
+      coord: [-2742,-255]
+  - Follow the road all the way to Serenne Stable looking for .travelling(Yammo):
+      movements:
+      - to: [-2318,-144]
+      - to: [-1852,-304]
+      - to: [-1564,-588] 
+      - to: [-1500,-1024]
+      - to: [-1455,-1142.5]
+      - to: [-1540,-1304]
+      - to: [-1673,-1557]
+  - _Woman<Yammo>:
+      notes: She has a donkey and an emblazened shield
+      comment: .travelling(on road between Tabantha Bridge Stable and Serenne Stable)
+  - _Woman<Zumi>:
+      comment: at serenne stable
+      coord: [-1540.5,-1797]
+  - BLSS(?)
+  - _Woman<Woodland Traveller 010>:
+      text: Traveller
+      coord: [-1061,-2315]
+  - WB chain
+  - _Woman<Juannelle>:
+      comment: at snowfield stable
+      coord: [-1642,-2568]
+
+- Hebra:
+  - Warp to Akh Vaquot:
+      icon: shrine
+      movements: 
+      - to: [-3656.5,-1756.25]
+        warp: true
+  - Talk to Fyson:
+      coord: [-3594,-1821.375]
+  - WB N. + midair:
+      coord: [-3431,-2322]
+  - WB chain to .place(Selmie's Cabin):
+      movements:
+      - to: [-3491,-2630]
+      - to: [-3154,-2812]
+  - _Woman<Selmie>:
+      comment: at Selmie's Cabin
+      coord: [-2947.5,-3143.5]
+
+  - Warp to Dah Hesho:
+      icon: shrine
+      movements: 
+        - to: [3896,-1309]
+          warp: true
+  - WB to tarrey Town
+  - Talk to Hudson:
+      comment: give wood, get mission to find Zora
+      coord: [3988.5,-1597]
+      
+- Zora:
+  - Warp to Ta'loh Naeg:
+      icon: shrine
+      color: purple
+      movements: 
+        - to: [1841.5,889.25]
+          warp: true
+  - BLSS to Zora's Domain
+  - Talk to Dorephan and Sidon:
+      coord: [3331.25,-534.5]
