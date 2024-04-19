@@ -35,6 +35,8 @@ config:
       icon: woman
       counter: .var(women)
 - tags:
+    sub:
+      color: grey
     todo:
       background: magenta
     travelling:

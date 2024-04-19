@@ -1,11 +1,16 @@
 - All Women
+- .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 - Plateau:
-  - Do Plateau:
+  - Standard Plateau route
+  - .sub(- Get cutscene outside SOR)
+  - .sub(- Tower activation after Bombs)
+  - Finish Plateau:
       coord: [-813.5,1968]
   
 - Setup:
   - BLSS to .place(Tabantha Bridge stable):
       color: red
+      notes: 2 women at stable
   - _Woman<Banji>:
       coord: [-2912.25,-547]
   - _Woman<Ena>:
@@ -27,7 +32,7 @@
   - _Woman<Kaysa>
   - _Material<Fairy,1>
   - _Material<Mighty Thistle,3>
-  - _Material<Endura Shroom,2>
+  - _Material<Endura Carrot,2>
   - WB to .place(near tower)
   - Claymore:
       icon: weapon
@@ -50,7 +55,8 @@
   - _Cook:
       text: Roast endura carrot
       comment: 1 endura carrot
-  - Make morning
+  - .important(Make morning):
+      notes: little birds will be in bed, all in one place
   - _Woman<Amali>:
       comment: green bird by cooking pot
   - Drop down to goddess statue
@@ -169,12 +175,12 @@
   - BLSS to .place(Akkala):
       movements:
         - to: [4312,1424]
-        - to: [4504,-1024]
+        - to: [4514,-1284]
   - Talk to Hudson:
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
   - .important(Make night):
-      notes: It might already be around night. you just want to get to Greyson at night, which is in like 5 minutes roughly
+      notes: It might already be around night. Get to Greyson after 9pm or as close as possible to 9pm (you'll be there in like 5 mins)
   - WB to fairy fountain
   - _Woman<Mija>:
       comment: pay great fairy
@@ -338,16 +344,23 @@
       icon: shrine
       comment: Activate shrine warp
       coord: [-996,3568]
+  - WB + midair west to decayed guardian:
+      coord: [-1225.5,3747]
+  
+  - BLSS to .place(Great Skeleton):
+      coord: [-4860,3788]
+  - _Woman<Tera>:
+      comment: pay the great fairy
+      coord: [-4860,3788]
   
   - BLSS to .place(Ice House):
       movements:
-        - to: [-1359,3854]
         - to: [-3740,2280]
   - _Woman<Anche>:
       coord: [-3740,2280]
   
   - BLSS to .place(Daqo Chisay Shrine)
-  - Ishto Soh:
+  - Daqo Chisay:
       icon: shrine
       comment: Activate shrine warp
       coord: [-3814,2819]
@@ -366,6 +379,7 @@
   - _Woman<Kachoo>:
       coord: [-3267.5,2610.5]
   - _Woman<Shaillu>
+  - _Woman<Konora>
   - _Woman<Emri>:
       comment: stall outside
       coord: [-3267.5,2610.5]
@@ -388,7 +402,8 @@
       coord: [-2163,1700]
   - _Woman<Canolo>:
       coord: [-2188.5,1688]
-      
+
+- Akkala:
   - Warp to Dah Hesho:
       icon: shrine
       color: blue
@@ -415,22 +430,32 @@
       coord: [3762,-2394]
       notes: skip if you saw Laroba earlier at South Akkala Stable
       comment: on road between .travelling(between East Akkala Stable and South Akkala Stable). She is a gerudo.
-      
+
+- Gerudo 2:
   - Warp to Daqo Chisay:
       icon: shrine
       movements:
       - to: [-3814,2819]
         warp: true
-  - hop the wall toward main square:
-      notes: 2 before bar
+  - _Woman<Dorrah>:
+      comment: 2 guards
+      coord: [-3786.25,2866.5]
+  - _Woman<Merina>
+  - _Woman<Fegran>:
+      comment: wandering near entrance
+      coord: [-3805.875,2888.25]
   - _Woman<Lorn>:
       comment: fruit vendor
       coord: [-3822.75,2877.375]
+  - _Woman<Dalia>:
+      comment: child sleeping in stall
   - _Woman<Isha>:
       comment: sidequest npc outside jewelry shop
-  # might be able to get her elsewhere
-  # - _Woman<Cara>:
-  #     comment: back corner of jewelry shop
+  - enter jewelery shop:
+      coord: [-3837.75,2866.75]
+  - _Woman<Cara>:
+      notes: you cannot jump over the counter
+      comment: back corner of jewelry shop
   - into the bar:
       coord: [-3856.25,2849.75]
       notes: 8 in the bar
@@ -467,7 +492,7 @@
       comment: sleeping in a bed
   - _Woman<Romah>:
       comment: innkeeper
-  - exit from of Inn:
+  - exit front of Inn:
       notes: 3 in the main square before arrow shop
   - _Woman<Olu>:
       coord: [-3839.375,2893.875]
@@ -477,11 +502,13 @@
       coord: [-3847.1875,2903.1875]
   - _Woman<Frita>:
       comment: rito
+  - _Woman<Nali>:
+      comment: wandering in the main square
+      coord: [-3842.625,2915.875]
   - _Woman<Danda>:
       comment: buy arrows
       notes: get dialog buying
       coord: [-3858,2911.6875]
-  - Buy 10 fire
   - Buy 10 ice arrows
   - Buy 30 shock arrows
   - _Woman<Kalani>:
@@ -503,13 +530,139 @@
       comment: talking to left guard
   - enter the palace:
       notes: forced dialog
-  - _Woman<Riju>:
-      comment: Gerudo chief
+  - _Woman<Riju + Buliara>:
+      comment: Main Quest dialog
       coord: [-3889.9375,2969.1875]
-  - _Woman<Buliara>
+      vars:
+        women: .add(1) # 1+1
+  - _Woman<Padda>:
+      comment: south courtyard with seal
+      coord: [-3848.875,2987.125]
+  - WB <N
+  - _Woman<Kohm>:
+      comment: pink woman sealing
+      coord: [-3902.875,2882.875]
+  - _Woman<Laine>:
+      comment: guard outside
+  - WB super northwest 
+
+- Kohga:
+  - Boko BTB -> Moblin BTB:
+      notes: .link([See BTB]https://www.twitch.tv/videos/1623251015)
+      movements:
+          - to: [-4132.90, 159.34, 2598.46]
+          - to: [-3778.90, 326.03, 1855.20]
+  - Clip in to .place(Yiga Hideout)
+  - Duplex Bow:
+      icon: weapon
+      coord: [-3510.46, 442.51, 1297.31]
+  - Fight Kohga
+  - Get Thunderhelm:
+      coord: [-3451.00, 440.69, 1331.50]
+      
+- Gerudo 3:
+  - Warp to Daqo Chisay:
+      icon: shrine
+      color: cornflowerblue
+      movements:
+      - to: [-3814,2819]
+        warp: true
+  - WB southwest to back courtyard
+  - _Woman<Calyban>:
+      comment: eating melon
+      coord: [-3914,2955]
+  - _Woman<Teake>:
+      comment: captain
+      coord: [-3923.25,2939.75]
+  - _Woman<Smaude>:
+      comment: sitting in the corner
+      coord: [-3927.5,2929.0625]
+  - _Woman<Marta>:
+      comment: at the wall
+      coord: [-3919.5,2918.3125]
+  - _Woman<Babi>:
+      comment: training
+      coord: [-3910.75,2913.3125]
+  - 4 in the center of the courtyard
+  - _Woman<Liana>:
+      coord: [-3890.875,2937.125]
+  - _Woman<Leena>
+  - _Woman<Barta>
+  - _Woman<Kotta>
+  - _Woman<Katta>:
+      comment: guard at upper right doorway
+      coord: [-3882.875,2941.125]
+  - Talk to Riju:
+      coord: [-3868.75,2948.625]
+  - _Woman<Bertri>:
+      comment: guard at upper left doorway
+      coord: [-3862.125,2961.125]
+  - if not already, .important(make morning):
+      comment: light the cooking pot with arrow
+      coord: [-3833.875,2945.875]
+  - jump down and enter left door past cooking pots:
+      notes: 3 inside talking
+      coord: [-3811.875,2956.375]
+  - _Woman<Pasha>
+  - _Woman<Dina>
+  - _Woman<Ashai>
+  - _Woman<Spera>:
+      comment: grain vendor
+      coord: [-3821.625,2937.375]
+  - _Woman<Ardin>:
+      comment: shroom vendor
+      notes: ignore women in the street here, they were in the bar
+      coord: [-3819.875,2925.25]
+  - Around the corner and enter door on right
+  - _Woman<Risa>:
+      comment: talking to a doll
+      coord: [-3809.375,2933.25]
+  - Secret club
+  - _Woman<Greta>:
+      notes: no need to enter, just talk to the door
+      coord: [-3788.125,2934.375]
+  - _Woman<Muava>:
+      coord: [-3770.25,2945.75]
+  - _Woman<Lashley>:
+      comment: guard
+      coord: [-3755.25,2952.25]
+  - _Woman<Frelly>:
+      comment: seal lady
+      coord: [-3757.75,2938.875]
+  - _Woman<Essa>:
+      comment: sweeping
+      coord: [-3773.5,2916.375]
+  - _Woman<Saula>:
+      comment: clothing vendor
+      coord: [-3802.375,2902]
+  
+  - WB south
+  - _Woman<Tali>:
+      coord: [-3758.5,3114.5]
+  - _Woman<Shabonne>
+  
+  - WB east
+  - _Woman<Sudrey>:
+      comment: inside outpost
+      coord: [-3433.5,3121.75]
+  - climb ladder, start Naboris at Riju
+  - sand-seal over to .place(Misae Suma Shrine)
+  - _Woman<Pokki>:
+      coord: [-2966,3773]
+  - Enter Naboris:
+      coord: [-2612,3628]
+  - _Woman<Urbosa>:
+      notes: forced dialog
+
+- Faron:
+  - Warp to Ishto Soh:
+      icon: shrine
+      color: cyan
+      movements:
+      - to: [-996,3568]
+        warp: true
+  - BLSS
+  - _Woman<Loone>:
+      coord: [128,3824]
       
 # After Naboris
-  # - BLSS to Sand-Seal Rally
-  # - _Woman<Tali>:
-  #     coord: [-3758.5,3114.5]
-  # - _Woman<Shabonne>
