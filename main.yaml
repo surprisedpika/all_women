@@ -585,7 +585,7 @@
       coord: [-3910.75,2913.3125]
   - 4 in the center of the courtyard
   - _Woman<Liana>:
-      coord: [-3890.875,2937.125]
+      coord: [-3910.5625,2928.4375]
   - _Woman<Leena>
   - _Woman<Barta>
   - _Woman<Kotta>
@@ -664,5 +664,100 @@
   - BLSS
   - _Woman<Loone>:
       coord: [128,3824]
-      
-# After Naboris
+  - WB east and north to .place(Highland Stable):
+      movements:
+        - to: [332,3836]
+        - to: [439,3681]
+  - _Woman<Phanna>:
+      coord: [515.125,3462.875]
+  - _Woman<Perosa>
+  - _Woman<Suzuna>
+  - Follow road until you find .travelling(Totsuna) and .travelling(Meeshy):
+      movements: 
+        - to: [486,3354]
+        - to: [510,3298]
+        - to: [419,3273]
+        - to: [436,3069]
+        - to: [675,3020]
+        - to: [800,3066]
+        - to: [955,2993]
+        - to: [1030,3227]
+        - to: [1397,3395]
+  - _Woman<Totsuna>:
+      comment: .travelling(on road between Highland Stable and Lakeside Stable)
+  - _Woman<Meeshy>:
+      comment: .travelling(on road between Highland Stable and Lakeside Stable)
+  - _Woman<Cima>:
+      comment: at lakeside stable
+      coord: [1540.75,3531.75]
+  - Follow road until you find .travelling(Letty):
+      movements: 
+        - to: [1712,3448]
+        - to: [1868,3346]
+        - to: [2224,3356]
+        - to: [2388,3272]
+        - to: [2480,3298]
+        - to: [2656,3212]
+  - _Woman<Letty>:
+      comment: .travelling(on road between Lakeside Stable and Lurelin Village)
+  - _Woman<Kiana>:
+      coord: [2886,3413.5]
+  - _Woman<Chessica>:
+      comment: in the inn
+      coord: [2946.5,3435.75]
+  - _Woman<Flavi>:
+      coord: [2959,3423.25]
+  - _Woman<Mubbs>:
+      comment: shopkeeper on docks
+      coord: [2957.75,3491.25]
+
+- Hateno 2:
+  - Warp to Mayam Agana:
+      icon: shrine
+      movements: 
+      - to: [3378,2218]
+        warp: true
+  - WB southwest
+  - _Woman<Hateno Traveller 006>:
+      text: Traveller
+      coord: [3092,2443]
+  - WB north
+  - Follow road looking for .travelling(Letty) and .travelling(Celessa):
+      movements:
+      - to: [3287,2136]
+  - _Woman<Nat>:
+      comment: Nat and Meghyn attacked in the forest
+      coord: [3191,2111]
+  - _Woman<Meghyn>
+  - Continue along road looking for .travelling(Letty) and .travelling(Celessa):
+      movements:
+      - to: [3146,2158]
+      - to: [3101,1996]
+      - to: [2953,1983] 
+      - to: [2766,1737]
+  - _Woman<Hateno raveller 004>:
+      text: Traveller
+      coord: [2626,1686]
+  - _Woman<Letty>:
+      coord: [2340,1828]
+      comment: .travelling(on road between Hateno and Fort Hateno)
+  - Continue along road looking for .travelling(Celessa):
+      movements:
+      - to: [2186,1808]
+      - to: [2130,1660]
+      - to: [1816,1604] 
+      - to: [1744,1920]
+  - _Woman<Celessa>:
+      comment: .travelling(on road between Hateno and Dueling Peaks Stable)
+  - _Woman<Sagessa>:
+      commment: at DP stable
+      coord: [1742.25,1943.5]
+  - Back up the road to Kakariko, look for .travelling(Brokka):
+      movements:
+      - to: [1756,1576]
+      - to: [1838,1426]
+      - to: [2088,1374] 
+      - to: [2066,1178]
+      - to: [1926,1004]
+  - _Woman<Celessa>:
+      comment: .travelling(on road between Dueling Peaks Stable and Kakariko)
