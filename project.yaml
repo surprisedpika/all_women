@@ -24,6 +24,7 @@ config:
     woman: https://icons.pistonite.org/icon/character.zelda.plus.8c5e28.ffffb5.8c5e28.fdfdfd.8c5e28.fdfdfd.png
     material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.cfa240.ffd700.69a2d5.c1fefe.png
     weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    king: https://icons.pistonite.org/icon/character.king.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
 - presets:
     Material:
       text: Collect $(0)
@@ -33,8 +34,19 @@ config:
       text: $(0)
       comment: say hi
       icon: woman
-      counter: .var(women)
+      counter: .var(segment-women)
+      vars:
+        women: .add(1)
+    Segment:
+      text: $(0) [.var(segment-women) of .var(women)]
+      counter: .var(segment)
+- splits:
+  - segment
 - tags:
+    segment:
+      color: pink
+      background: purple
+      split-type: Segment
     sub:
       color: grey
     todo:
@@ -47,6 +59,10 @@ config:
       background: red
     place:
       color: cyan
+    segment-women:
+      color: purple
+      background: pink
     women:
-      color: black
-      background: white
+      color: purple
+      background: pink
+      split-type: Women

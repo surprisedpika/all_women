@@ -1,11 +1,29 @@
 - All Women
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 - Plateau:
-  - Standard Plateau route
+  - Standard Plateau route:
+      color: grey
+      movements:
+      - to: [-1063,1785]
+      - to: [-939,1948]
+      - to: [-826,1961]
+      - to: [-445,1990]
+        icon: shrine
+      - to: [-557,1700]
+        icon: tower
+      - to: [-670,1512]
+        icon: shrine
+      - to: [-842,2273]
+      - to: [-929,2320]
+        icon: shrine
+      - to: [-983,2250]
+      - to: [-1434,1988]
+      - to: [-813.5,1968]
   - .sub(- Get cutscene outside SOR)
   - .sub(- Tower activation after Bombs)
-  - Finish Plateau:
-      coord: [-813.5,1968]
+  - .sub(- Other stuff like IST scrap and 1 handed weapon are accounted for later)
+  - _Segment<Paraglider>:
+      icon: king
   
 - Setup:
   - BLSS to .place(Tabantha Bridge stable):
@@ -109,6 +127,10 @@
   - _Woman<Ariane>:
       comment: sweepin'
       coord: [-3246,-1782]
+  - _Segment<Rito>
+  - "":
+      vars:
+        segment-women: 0
 
 - Hateno:
   - Warp to Great Plateau Tower:
@@ -171,6 +193,10 @@
   - _Woman<Purah>:
       comment: tech lab
       coord: [3777,2126.5]
+  - _Segment<Hateno>
+  - "":
+      vars:
+        segment-women: 0
       
   - BLSS to .place(Akkala):
       movements:
@@ -222,6 +248,10 @@
   - WB to .place(Goron City)
   - _Woman<Ramella>:
       coord: [1678,-2440]
+  - _Segment<Goron City>
+  - "":
+      vars:
+        segment-women: 0
 
   - Warp to Dah Hesho:
       icon: shrine
@@ -237,6 +267,10 @@
       coord: [3684,-1938]
       notes: skip if you saw Lonni earlier on your way to South Akkala Stable the first time
       comment: on road between .travelling(between South Akkala Stable and a small shelter southeast of Tarrey Town). She carries a Hunter's Shield.
+  - _Segment<Post-Goron City>
+  - "":
+      vars:
+        segment-women: 0
     
 - Kakariko:
   - Warp to Great Plateau Tower:
@@ -280,6 +314,10 @@
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5,889.25]
+  - _Segment<Kakariko>
+  - "":
+      vars:
+        segment-women: 0
       
   - BLSS to .place(Foothill Stable)
   - _Woman<Foothill Traveller 006>:
@@ -329,13 +367,17 @@
   - _Woman<Mei>:
       comment: zora in the lake
       coord: [-229,2575]
+  - _Segment<Hyrule Field>
+  - "":
+      vars:
+        segment-women: 0
 
-- Gerudo 1:
+- Kara Kara Bazaar:
   - Warp to Keh Namut:
       icon: shrine
       color: green
       movements:
-      - to: [-1480,1992]
+      - to: [-1437,1989]
         warp: true
         
   - _Woman<Moza>:
@@ -402,6 +444,10 @@
       coord: [-2163,1700]
   - _Woman<Canolo>:
       coord: [-2188.5,1688]
+  - _Segment<Kara Kara Bazaar>
+  - "":
+      vars:
+        segment-women: 0
 
 - Akkala:
   - Warp to Dah Hesho:
@@ -430,8 +476,12 @@
       coord: [3762,-2394]
       notes: skip if you saw Laroba earlier at South Akkala Stable
       comment: on road between .travelling(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+  - _Segment<Post-Kara Kara Bazaar>
+  - "":
+      vars:
+        segment-women: 0
 
-- Gerudo 2:
+- Gerudo 1:
   - Warp to Daqo Chisay:
       icon: shrine
       movements:
@@ -470,6 +520,7 @@
       comment: three women talking about a password
       vars:
         women: .add(2) # 1+2
+        segment-women: .add(2) # 1+2
   - _Woman<Jules>:
       comment: hylian in bar
   - _Woman<Rima>:
@@ -535,6 +586,7 @@
       coord: [-3889.9375,2969.1875]
       vars:
         women: .add(1) # 1+1
+        segment-women: .add(1) # 1+1
   - _Woman<Padda>:
       comment: south courtyard with seal
       coord: [-3848.875,2987.125]
@@ -545,6 +597,10 @@
   - _Woman<Laine>:
       comment: guard outside
   - WB super northwest 
+  - _Segment<Gerudo 1>
+  - "":
+      vars:
+        segment-women: 0
 
 - Kohga:
   - Boko BTB -> Moblin BTB:
@@ -557,10 +613,13 @@
       icon: weapon
       coord: [-3510.46, 442.51, 1297.31]
   - Fight Kohga
-  - Get Thunderhelm:
+  - _Segment<Thunderhelm>:
       coord: [-3451.00, 440.69, 1331.50]
+  - "":
+      vars:
+        segment-women: 0
       
-- Gerudo 3:
+- Gerudo 2:
   - Warp to Daqo Chisay:
       icon: shrine
       color: cornflowerblue
@@ -653,6 +712,10 @@
       coord: [-2612,3628]
   - _Woman<Urbosa>:
       notes: forced dialog
+  - _Segment<Gerudo 2>
+  - "":
+      vars:
+        segment-women: 0
 
 - Faron:
   - Warp to Ishto Soh:
@@ -710,6 +773,10 @@
   - _Woman<Mubbs>:
       comment: shopkeeper on docks
       coord: [2957.75,3491.25]
+  - _Segment<Faron>
+  - "":
+      vars:
+        segment-women: 0
 
 - Hateno 2:
   - Warp to Mayam Agana:
@@ -761,6 +828,10 @@
       - to: [1926,1004]
   - _Woman<Celessa>:
       comment: .travelling(on road between Dueling Peaks Stable and Kakariko)
+  - _Segment<Hateno 2>
+  - "":
+      vars:
+        segment-women: 0
   
 - Ridgeland:
   - Warp to Shae Loya:
@@ -796,6 +867,10 @@
   - _Woman<Juannelle>:
       comment: at snowfield stable
       coord: [-1642,-2568]
+  - _Segment<Ridgeland>
+  - "":
+      vars:
+        segment-women: 0
 
 - Hebra:
   - Warp to Akh Vaquot:
@@ -814,6 +889,10 @@
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5,-3143.5]
+  - _Segment<Hebra>
+  - "":
+      vars:
+        segment-women: 0
 
   - Warp to Dah Hesho:
       icon: shrine
@@ -824,6 +903,10 @@
   - Talk to Hudson:
       comment: give wood, get mission to find Zora
       coord: [3988.5,-1597]
+  - _Segment<Pre-Zora>
+  - "":
+      vars:
+        segment-women: 0
       
 - Zora:
   - Warp to Ta'loh Naeg:
