@@ -474,6 +474,11 @@
         - to: [3896,-1309]
           warp: true
   - WB to Tarrey Town
+  - Enter house near Hudson
+  - _Woman<Ruli>:
+      coord: [3968.875,-1591.25]
+  - _Woman<Hunnie>:
+      coord: [3972,-1592]
   - Talk to Hudson:
       icon: marker
       comment: give wood, get mission to find Rito
@@ -936,30 +941,15 @@
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5,-3143.5]
-  - _Segment<Hebra>
-  - "":
-      vars:
-        segment-women: 0
-
-  - Warp to Dah Hesho:
-      icon: shrine
-      color: hotpink
-      movements: 
-        - to: [3896,-1309]
-          warp: true
-  - WB to .place(Tarrey Town)
-  - Talk to Hudson:
-      icon: marker
-      comment: give wood, get mission to find Zora
-      coord: [3988.5,-1597]
   - .important(Make night)
-  - _Segment<Post-Hebra>
+  - _Segment<Hebra>
   - "":
       vars:
         segment-women: 0
       
 - Zora:
   - Warp to Ta'loh Naeg:
+      color: hotpink
       icon: shrine
       movements: 
         - to: [1841.5,889.25]
@@ -983,11 +973,8 @@
       coord: [3317.75,-528]
   - _Woman<Finley>
   - _Woman<Laruta>
-  - Talk to Kapson:
-      icon: marker
-      coord: [3326.25,-523.25]
   - _Woman<Laflat>:
-      comment: east of kapson
+      comment: east of sleeping children
       coord: [3343,-515]
   - glide down and run toward ZD entrance
   - _Woman<Dunma>:
@@ -1028,11 +1015,8 @@
           warp: true
   - WB to Tarrey Town
   - _Woman<Monari>:
+      comment: old woman
       coord: [3953.875,-1621.75]
-  - _Woman<Ruli>:
-      coord: [3968.875,-1591.25]
-  - _Woman<Hunnie>:
-      coord: [3972,-1592]
   - _Segment<Tarrey Town>
   - "":
       vars:
