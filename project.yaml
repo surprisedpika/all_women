@@ -35,9 +35,9 @@ config:
       text: $(0)
       comment: say hi
       icon: woman
-      counter: .var(segment-women)
+      counter: .var(women)
       vars:
-        women: .add(1)
+        segment-women: .add(1)
     Segment:
       text: $(0) [.var(segment-women) of .var(women)]
       counter: .var(segment)

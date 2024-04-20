@@ -323,12 +323,19 @@
   - "":
       vars:
         segment-women: 0
-      
-  - BLSS to .place(Foothill Stable)
+  
+  - BLSS toward .place(Foothill Stable)
+  - _Woman<Douma>: 
+      coord: [2132,-216]
+  - WB northeast to the fork in the road
   - _Woman<Foothill Traveller 006>:
       text: Traveller
-      comment: fork in the road
       coord: [2628,-755]
+  - probably just run up the road
+  - _Woman<Nat>:
+      comment: Nat and Meghyn attacked
+      coord: [2686.5,-929]
+  - _Woman<Meghyn>
   - _Woman<Gaile>:
       coord: [2606,-1130]
       
@@ -342,6 +349,10 @@
   - BLSS to .place(Hila Rao Shrine island)
   - _Woman<Magda>:
       coord: [816.80, 836.77]
+  - WB to bridge
+  - _Woman<Leekah>:
+      comment: attacked on bridge
+      coord: [678.875,979.375]
       
   - WB to .place(Riverside Stable)
   - _Woman<Parcy>:
@@ -479,8 +490,19 @@
   - _Woman<Nobo>:
       coord: [4248,-2750.75]
   - _Woman<Aya>
+  - WB to .place(Akkala Tech Lab)
+  - _Woman<Jerrin>:
+      coord: [4519,-3161]
+  - BLSS(?) following road:
+      movements:
+        - to: [4248,-2750.75]
+        - to: [3762,-2394]
+        - to: [3597,-2299]
+        - to: [3431,-2335]
+        - to: [3386,-2082]
+        - to: [3154,-2060]
+        - to: [3150,-1688]
   - _Woman<Laroba>:
-      coord: [3762,-2394]
       notes: skip if you saw Laroba earlier at South Akkala Stable
       comment: on road between .travelling(between East Akkala Stable and South Akkala Stable). She is a gerudo.
   - _Segment<Post-Kara Kara Bazaar>
@@ -768,6 +790,11 @@
       movements: 
         - to: [1712,3448]
         - to: [1868,3346]
+  - _Woman<Sorelia>:
+      comment: attacked just south of road
+      coord: [1954.5,3435.5]
+  - Continue on road:
+      movements:
         - to: [2224,3356]
         - to: [2388,3272]
         - to: [2480,3298]
@@ -778,8 +805,10 @@
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
       coord: [2591,3526]
-  - .place(Lurelin Village)
+  - WB east to .place(Lurelin Village)
   - _Woman<Kiana>:
+      comment: side quest npc
+      notes: sleeping 6:00 PM - 5:00 AM
       coord: [2886,3413.5]
   - _Woman<Chessica>:
       comment: in the inn
@@ -810,12 +839,6 @@
   - Follow road toward .place(Fort Hateno) looking for .travelling(Letty) and .travelling(Celessa):
       movements:
       - to: [3287,2136]
-  - _Woman<Nat>:
-      comment: Nat and Meghyn attacked in the forest
-      coord: [3191,2111]
-  - _Woman<Meghyn>
-  - Continue along road looking for .travelling(Letty) and .travelling(Celessa):
-      movements:
       - to: [3146,2158]
       - to: [3101,1996]
       - to: [2953,1983] 
@@ -866,6 +889,11 @@
       movements:
       - to: [-2318,-144]
       - to: [-1852,-304]
+  - _Woman<Chabi>:
+      comment: attacked just on the border of Scablands
+      coord: [-1854,-302]
+  - Continue on road:
+      movements:
       - to: [-1564,-588] 
       - to: [-1500,-1024]
       - to: [-1455,-1142.5]
@@ -924,6 +952,7 @@
       icon: marker
       comment: give wood, get mission to find Zora
       coord: [3988.5,-1597]
+  - .important(Make night)
   - _Segment<Post-Hebra>
   - "":
       vars:
@@ -940,3 +969,71 @@
       icon: marker
       coord: [3331.25,-534.5]
   - .sub(Equip Zora Armor)
+  - Drop down to the level below, west of the throne
+  - _Woman<Tula>:
+      comment: red zora running around in circles
+      coord: [3300.875,-516.5]
+  - _Woman<Torfeau>:
+      comment: guard
+      notes: reply 'No'
+      coord: [3314.5,-548]
+  - _Woman<Tona>:
+      comment: 3 children sleeping in one pond (other ponds contain boy zoras)
+      notes: try to avoid going in the water
+      coord: [3317.75,-528]
+  - _Woman<Finley>
+  - _Woman<Laruta>
+  - Talk to Kapson:
+      icon: marker
+      coord: [3326.25,-523.25]
+  - _Woman<Laflat>:
+      comment: east of kapson
+      coord: [3343,-515]
+  - glide down and run toward ZD entrance
+  - _Woman<Dunma>:
+      comment: guard near entrance
+      coord: [3283.25,-436.5]
+  - Talk to Muzu and Sidon:
+      icon: marker
+      coord: [3305,-475.75]
+  - _Woman<Kodah>:
+      comment: in front of the inn
+      coord: [3297,-493]
+  - _Woman<Marot>:
+      comment: in front of general store
+      coord: [3323.25,-482.25]
+  - WB to east entrance:
+      notes: careful on the railing
+  - _Woman<Gaddison>:
+      comment: guard at east entrance
+      coord: [3475.25,-484.75]
+  - WB .S to .place(East Reservoir):
+      icon: marker
+      coord: [3597.5,-340.5]
+  - Enter .place(Ruta)
+  - _Woman<Mipha>:
+      notes: forced dialog
+      coord: [3668.5,-215]
+  - _Segment<Zora>
+  - "":
+      vars:
+        segment-women: 0
+
+- Tarrey Town:
+  - Warp to Dah Hesho:
+      icon: shrine
+      color: white
+      movements: 
+        - to: [3896,-1309]
+          warp: true
+  - WB to Tarrey Town
+  - _Woman<Monari>:
+      coord: [3953.875,-1621.75]
+  - _Woman<Ruli>:
+      coord: [3968.875,-1591.25]
+  - _Woman<Hunnie>:
+      coord: [3972,-1592]
+  - _Segment<Tarrey Town>
+  - "":
+      vars:
+        segment-women: 0
