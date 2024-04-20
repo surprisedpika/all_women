@@ -27,7 +27,7 @@
   
 - Setup:
   - BLSS to .place(Tabantha Bridge stable):
-      color: red
+      color: lightcoral
       notes: 2 women at stable
   - _Woman<Banji>:
       coord: [-2912.25,-547]
@@ -123,7 +123,7 @@
       comment: little red bird
   - _Woman<Genli>:
       comment: little green bird
-  - jump off deck east and midair WB to stable
+  - jump off deck east and midair WB to .place(Rito Village Stable)
   - _Woman<Ariane>:
       comment: sweepin'
       coord: [-3246,-1782]
@@ -135,7 +135,7 @@
 - Hateno:
   - Warp to Great Plateau Tower:
       icon: tower
-      color: orange
+      color: lightsalmon
       movements:
       - to: [-557,1700]
         warp: true
@@ -150,9 +150,11 @@
       icon: shrine
       comment: Activate shrine warp
       coord: [3378,2218]
+  - WB north
   - _Woman<Tamana>:
       comment: by the chickens
       coord: [3349,2086.75]
+  - head toward the main road
   - _Woman<Sophie>:
       comment: in the clothing shop
       coord: [3361.25,2129]
@@ -161,13 +163,13 @@
       coord: [3358.25,2160]
   - _Woman<Amira>:
       comment: gossiping
-      # coord: [3390.25,2110]
   - _Woman<Nikki>:
       comment: gossiping
   - _Woman<Narah>:
       comment: child running around centrally
   - _Woman<Senna>:
       comment: outside dye shop
+      notes: cornrows?
       coord: [3401,2137.75]
   - _Woman<Clavia>:
       comment: behind dye shop
@@ -191,7 +193,7 @@
   - _Woman<Koyin>:
       comment: by the farmhouse
       coord: [3622,2096]
-  - WB east 
+  - WB east to .place(Hateno Tech Lab)
   - _Woman<Purah>:
       comment: tech lab
       coord: [3777,2126.5]
@@ -258,11 +260,11 @@
 
   - Warp to Dah Hesho:
       icon: shrine
-      color: yellow
+      color: khaki
       movements: 
         - to: [3896,-1309]
           warp: true
-  - WB to Tarrey Town
+  - WB to .place(Tarrey Town)
   - Talk to Hudson:
       icon: marker
       comment: give wood, get mission to find Gerudo
@@ -279,7 +281,6 @@
 - Kakariko:
   - Warp to Great Plateau Tower:
       icon: tower
-      color: yellow
       movements:
       - to: [-557,1700]
         warp: true
@@ -379,7 +380,7 @@
 - Kara Kara Bazaar:
   - Warp to Keh Namut:
       icon: shrine
-      color: green
+      color: lightgreen
       movements:
       - to: [-1437,1989]
         warp: true
@@ -457,7 +458,7 @@
 - Akkala:
   - Warp to Dah Hesho:
       icon: shrine
-      color: blue
+      color: deepskyblue
       movements: 
         - to: [3896,-1309]
           warp: true
@@ -466,7 +467,7 @@
       icon: marker
       comment: give wood, get mission to find Rito
       coord: [3988.5,-1597]
-  - BLSS towards .place(East Akkala Stable)
+  - BLSS .place(towards East Akkala Stable)
   - .important(Make night):
       comment: To normalize Gerudo Town time
   - _Woman<Akkala Traveller 008>:
@@ -493,6 +494,7 @@
       movements:
       - to: [-3814,2819]
         warp: true
+  - .place(main entrance square)
   - _Woman<Dorrah>:
       comment: 2 guards
       coord: [-3786.25,2866.5]
@@ -505,6 +507,7 @@
       coord: [-3822.75,2877.375]
   - _Woman<Dalia>:
       comment: child sleeping in stall
+  - go to .place(jewelery shop)
   - _Woman<Isha>:
       comment: sidequest npc outside jewelry shop
   - enter jewelery shop:
@@ -512,7 +515,7 @@
   - _Woman<Cara>:
       notes: you cannot jump over the counter
       comment: back corner of jewelry shop
-  - into the bar:
+  - into the .place(bar):
       coord: [-3856.25,2849.75]
       notes: 8 in the bar
   - _Woman<Furosa>:
@@ -529,19 +532,17 @@
         segment-women: .add(2) # 1+2
   - _Woman<Jules>:
       comment: hylian in bar
+  - street .place(outside bar)
   - _Woman<Rima>:
-      notes: 1 outside
       coord: [-3857,2882.25]
       comment: under tent outside
-  - House next to bar:
-      notes: 2 next door
+  - enter the .place(House next to bar):
       coord: [-3874.75,2876.125]
   - _Woman<Pearle>:
       comment: child 
   - _Woman<Rotana>:
       comment: shrinequest npc at bookshelf in the same house
-  - Across the street, rear entrance of Inn:
-      notes: 3 in the inn
+  - Across the street, rear entrance of .place(Inn):
       coord: [-3854.25,2897.875]
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
@@ -549,8 +550,7 @@
       comment: sleeping in a bed
   - _Woman<Romah>:
       comment: innkeeper
-  - exit front of Inn:
-      notes: 3 in the main square before arrow shop
+  - exit .place(front of Inn)
   - _Woman<Olu>:
       coord: [-3839.375,2893.875]
       comment: outside inn
@@ -562,19 +562,21 @@
   - _Woman<Nali>:
       comment: wandering in the main square
       coord: [-3842.625,2915.875]
+  - .place(arrow shop)
   - _Woman<Danda>:
       comment: buy arrows
       notes: get dialog buying
       coord: [-3858,2911.6875]
-  - Buy 10 ice arrows
-  - Buy 30 shock arrows
+  - Shopping:
+      icon: marker
+  - .sub(- Buy 10 ice arrows)
+  - .sub(- Buy 30 shock arrows)
   - _Woman<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall
   - _Woman<Makure>:
       comment: sleeping child
-  - up the steps to the palace entrance:
-      notes: 4 at entrance
+  - up the steps to the .place(palace entrance)
   - _Woman<Reeza>:
       coord: [-3868.125,2939.5625]
       comment: right guard
@@ -585,7 +587,7 @@
       comment: left guard
   - _Woman<Traysi>:
       comment: talking to left guard
-  - enter the palace:
+  - enter the .place(palace):
       notes: forced dialog
   - _Woman<Riju + Buliara>:
       comment: Main Quest dialog
@@ -596,7 +598,7 @@
   - _Woman<Padda>:
       comment: south courtyard with seal
       coord: [-3848.875,2987.125]
-  - WB <N
+  - WB <N to .place(west entrance seal rental)
   - _Woman<Kohm>:
       comment: pink woman sealing
       coord: [-3902.875,2882.875]
@@ -633,7 +635,7 @@
       movements:
       - to: [-3814,2819]
         warp: true
-  - WB southwest to back courtyard
+  - WB southwest to .place(back courtyard)
   - _Woman<Calyban>:
       comment: eating melon
       coord: [-3914,2955]
@@ -649,12 +651,13 @@
   - _Woman<Babi>:
       comment: training
       coord: [-3910.75,2913.3125]
-  - 4 in the center of the courtyard
   - _Woman<Liana>:
+      comment: group of 4 women
       coord: [-3910.5625,2928.4375]
   - _Woman<Leena>
   - _Woman<Barta>
   - _Woman<Kotta>
+  - enter the palace and turn left .place(up the stairs)
   - _Woman<Katta>:
       comment: guard at upper right doorway
       coord: [-3882.875,2941.125]
@@ -667,8 +670,7 @@
   - if not already, .important(make morning):
       comment: light the cooking pot with arrow
       coord: [-3833.875,2945.875]
-  - jump down and enter left door past cooking pots:
-      notes: 3 inside talking
+  - jump down and enter left .place(door past cooking pots):
       coord: [-3811.875,2956.375]
   - _Woman<Pasha>
   - _Woman<Dina>
@@ -680,14 +682,15 @@
       comment: shroom vendor
       notes: ignore women in the street here, they were in the bar
       coord: [-3819.875,2925.25]
-  - Around the corner and enter door on right
+  - Around the corner and enter .place(door on right)
   - _Woman<Risa>:
       comment: talking to a doll
       coord: [-3809.375,2933.25]
-  - Secret club
+  - .place(Secret club)
   - _Woman<Greta>:
       notes: no need to enter, just talk to the door
       coord: [-3788.125,2934.375]
+  - Near the .place(east entrance seal rental)
   - _Woman<Muava>:
       coord: [-3770.25,2945.75]
   - _Woman<Lashley>:
@@ -703,12 +706,12 @@
       comment: clothing vendor
       coord: [-3802.375,2902]
   
-  - WB south
+  - WB south to .place(Sand-Seal Rally)
   - _Woman<Tali>:
       coord: [-3758.5,3114.5]
   - _Woman<Shabonne>
   
-  - WB east
+  - WB east to .place(outpost)
   - _Woman<Sudrey>:
       comment: inside outpost
       coord: [-3433.5,3121.75]
@@ -716,7 +719,7 @@
   - sand-seal over to .place(Misae Suma Shrine)
   - _Woman<Pokki>:
       coord: [-2966,3773]
-  - Enter Naboris:
+  - Enter .place(Naboris):
       coord: [-2612,3628]
   - _Woman<Urbosa>:
       notes: forced dialog
@@ -728,7 +731,7 @@
 - Faron:
   - Warp to Ishto Soh:
       icon: shrine
-      color: cyan
+      color: paleturquoise
       movements:
       - to: [-996,3568]
         warp: true
@@ -743,7 +746,7 @@
       coord: [515.125,3462.875]
   - _Woman<Perosa>
   - _Woman<Suzuna>
-  - Follow road until you find .travelling(Totsuna) and .travelling(Meeshy):
+  - Follow road toward .place(Lakeside Stable) until you find .travelling(Totsuna) and .travelling(Meeshy):
       movements: 
         - to: [486,3354]
         - to: [510,3298]
@@ -761,7 +764,7 @@
   - _Woman<Cima>:
       comment: at lakeside stable
       coord: [1540.75,3531.75]
-  - Follow road until you find .travelling(Letty):
+  - Follow road toward .place(Lurelin Village) until you find .travelling(Letty):
       movements: 
         - to: [1712,3448]
         - to: [1868,3346]
@@ -771,16 +774,23 @@
         - to: [2656,3212]
   - _Woman<Letty>:
       comment: .travelling(on road between Lakeside Stable and Lurelin Village)
+  - WB up to to the top of .place(Tuft Mountain)
+  - _Woman<Perda>:
+      comment: Gerudo by the heart pond
+      coord: [2591,3526]
+  - .place(Lurelin Village)
   - _Woman<Kiana>:
       coord: [2886,3413.5]
   - _Woman<Chessica>:
       comment: in the inn
       coord: [2946.5,3435.75]
-  - _Woman<Flavi>:
-      coord: [2959,3423.25]
   - _Woman<Mubbs>:
       comment: shopkeeper on docks
       coord: [2957.75,3491.25]
+  - _Woman<Flavi>:
+      comment: east of town during the day, looking out at Eventide
+      notes: .todo(need to confirm)
+      coord: [3130,3551]
   - _Segment<Faron>
   - "":
       vars:
@@ -797,7 +807,7 @@
       text: Traveller
       coord: [3092,2443]
   - WB north
-  - Follow road looking for .travelling(Letty) and .travelling(Celessa):
+  - Follow road toward .place(Fort Hateno) looking for .travelling(Letty) and .travelling(Celessa):
       movements:
       - to: [3287,2136]
   - _Woman<Nat>:
@@ -810,13 +820,13 @@
       - to: [3101,1996]
       - to: [2953,1983] 
       - to: [2766,1737]
-  - _Woman<Hateno raveller 004>:
+  - _Woman<Hateno Traveller 004>:
       text: Traveller
       coord: [2626,1686]
   - _Woman<Letty>:
       coord: [2340,1828]
       comment: .travelling(on road between Hateno and Fort Hateno)
-  - Continue along road looking for .travelling(Celessa):
+  - Continue along road toward .place(Dueling Peaks Stable) looking for .travelling(Celessa):
       movements:
       - to: [2186,1808]
       - to: [2130,1660]
@@ -827,7 +837,7 @@
   - _Woman<Sagessa>:
       commment: at DP stable
       coord: [1742.25,1943.5]
-  - Back up the road to Kakariko, look for .travelling(Brokka):
+  - Back up the road to .place(Kakariko), look for .travelling(Brokka):
       movements:
       - to: [1756,1576]
       - to: [1838,1426]
@@ -852,7 +862,7 @@
   - _Woman<Ridgeland Traveller 010>:
       text: Traveller
       coord: [-2742,-255]
-  - Follow the road all the way to Serenne Stable looking for .travelling(Yammo):
+  - Follow the road all the way to .place(Serenne Stable) looking for .travelling(Yammo):
       movements:
       - to: [-2318,-144]
       - to: [-1852,-304]
@@ -871,7 +881,7 @@
   - _Woman<Woodland Traveller 010>:
       text: Traveller
       coord: [-1061,-2315]
-  - WB chain
+  - WB chain to .place(Snowfield Stable)
   - _Woman<Juannelle>:
       comment: at snowfield stable
       coord: [-1642,-2568]
@@ -905,15 +915,16 @@
 
   - Warp to Dah Hesho:
       icon: shrine
+      color: hotpink
       movements: 
         - to: [3896,-1309]
           warp: true
-  - WB to Tarrey Town
+  - WB to .place(Tarrey Town)
   - Talk to Hudson:
       icon: marker
       comment: give wood, get mission to find Zora
       coord: [3988.5,-1597]
-  - _Segment<Pre-Zora>
+  - _Segment<Post-Hebra>
   - "":
       vars:
         segment-women: 0
@@ -921,11 +932,11 @@
 - Zora:
   - Warp to Ta'loh Naeg:
       icon: shrine
-      color: purple
       movements: 
         - to: [1841.5,889.25]
           warp: true
-  - BLSS to Zora's Domain
+  - BLSS to .place(Zora's Domain)
   - Talk to Dorephan and Sidon:
       icon: marker
       coord: [3331.25,-534.5]
+  - .sub(Equip Zora Armor)
