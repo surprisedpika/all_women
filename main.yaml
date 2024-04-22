@@ -1,10 +1,10 @@
 - All Women
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
+- .road(Road NPCs are labelled like this in the route). They spawn anywhere along their road at any time of day and their specific position is random. They are routed in a way that expects you may travel the entire road to find them. If you see one, do not turn the camera away as this has caused them to despawn in my testing. They can also be at their destination/origin town or stable. They will be the most challenging part of this run
 - Plateau:
   - Standard Plateau route:
       color: grey
       movements:
-      - to: [-1063,1785]
       - to: [-939,1948]
       - to: [-826,1961]
       - to: [-445,1990]
@@ -19,33 +19,40 @@
       - to: [-983,2250]
       - to: [-1434,1988]
       - to: [-813.5,1968]
-  - .sub(- Get cutscene outside SOR)
+  - .sub(- Skip cutscene outside SOR)
+  - .sub(- Get some extra peppers and shrooms for early game health)
   - .sub(- Tower activation after Bombs)
   - .sub(- Other stuff like IST scrap and 1 handed weapon are accounted for later)
+  - _Woman<Zelda>: 
+      comment: she talks to you in your mind, we count that
   - _Segment<Paraglider>:
       icon: king
   
 - Setup:
   - BLSS to .place(Tabantha Bridge stable):
+      comment: step up on roof of temple
       color: lightcoral
-      notes: 2 women at stable
+  - inside stable
   - _Woman<Banji>:
+      comment: standing by bed
       coord: [-2912.25,-547]
   - _Woman<Ena>:
+      comment: little girl sleeping
       coord: [-2911.5,-557]
-  - _Material<Wood,1>
-  - _Material<Spicy Pepper,3>
-  - _Material<Wildberries,3>
   - Tabantha money man:
       comment: rob of 500 rupees
       coord: [-2924,-560.5]
+  - _Material<Wildberries,3>
+  - _Material<Spicy Pepper,3>
+  - _Material<Wood,1>
+  - WB south from peppers
+  - _Material<Rushroom>:
+      coord: [-2924,-385]
   - Shae Loya:
       icon: shrine
       comment: Activate shrine warp
       coord: [-2935,-434]
-  - _Material<Rushroom>:
-      coord: [-2924,-385]
-  - WBs to .place(Fairy Fountain):
+  - WB <W superlaunch to .place(Fairy Fountain):
       coord: [-3538,-748]
   - _Woman<Kaysa>
   - _Material<Fairy,1>
@@ -63,7 +70,7 @@
   # Start Rito Village
   - WB to .place(Rito Village):
       comment: Land at cooking pot, above goddess statue
-  - Soup Ladle:
+  - Torch:
       icon: weapon
       coord: [-3588.91, -1801.50]
   - _Cook:
@@ -73,8 +80,6 @@
   - _Cook:
       text: Roast endura carrot
       comment: 1 endura carrot
-  - .important(Make morning):
-      notes: little birds will be in bed, all in one place
   - _Woman<Amali>:
       comment: green bird by cooking pot
   - Drop down to goddess statue
@@ -91,10 +96,11 @@
   - _Woman<Misa>:
       comment: Shopkeeper
   - Do IST:
-      comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA51SQW7jMAy86xUEcu0hTYsFcuhLFj0wFmMTlUWVkuP696VkO9nFXoo9iWN5ODMiOXKBZ8iJUH%2FT58Tp3WAXcBlFycqAPtTzIvN%2BfzoCqj6w0Qem4Ff8BIGv9PZ6PNabK7Iuds4iHl5Mh7sFEqVEanDm4C%2BkypQNlYFzCVY%2Bw4C5LECBv1gNqiBQhK5KBSzVTx%2FYk7oDXJTwA37ZhZQMHKHMApmsnrkMIFMVyp1igtGoyhiy8yrJmmyK1d%2FmZGmP8TDp1vYva3vXWp7uvNMfvNPfPKs%2FpvSzf%2F9X41BzgqlwvFEsYn9cRY1JkPFGa0ob3FqsQ9qjt4nv83Vtcvexu8Y%2BQG%2FdI%2FVY%2BEYwdjLFAhh9nT7GnqCxRlOGIk1VuR8KZJuMUxrFWBiCeZJNtqJ9CI8vM2GSmPcne3i7%2B6lGao56bjGmuHpeyWa2E9UpFTagFAS9y4NIXe62rHumpnpfBHONlsk2faOTB4nQ40geC0JuuRao%2FepuJWPbw%2F8bhqzNvqW7volJpKf2jEvdw9Hg4jIZ8Xw%2B1%2F9zFaToJ8VvAtz3qooDAAA%3D)
+      comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA51SvW7jMAze9RQEsnZI06JAhnuS4gbGYmyisqij5Pj89kfJdtKiy6GT%2BFn%2BfiiSIxd4hpwI9Z3%2BTJx%2BG%2BwCLqMoWRnQh3peZN7vT0dA1Qc2%2BsAU%2FIqfIPCVfr0ej%2FXmiqyLnbOIhxfz4W6BRCmRGpw5%2BAupMmVDZeBcgpXPMGAuC1Dgv6wGVRAoQletApaapw%2FsSd0BLkr4AW92ISUDRyizQCarZy4DyFSNcqeYYDSqMobsvEoykc2x5tuSLO0xHiHdKv%2ByyrsmebrzTp94p688qz%2Bm9H%2F%2F%2FtTjUPsEc%2BF4o1jE%2FriKGpMg443WLm1wa7EOaW%2B9TXyfr2uTu4%2FdNfYBelOP1GPhG8HYyRQLYPR1%2Bhh7gsYazRmKNFflfiiQbTJOaRRjYQiWSTbbivYhPL7MhEli3p%2Fske2epwapfdRza2OKa%2BaVbGE7UZ1SYQNKQdC7PIjU5W7LuvfUXO%2BLYKnRerJN3%2BjkQSL0OJLHgpBbXwtUvbpbydj28N%2BbIZPZt7SBLxu8JzJ7ifTUHnapmzkaXFwmkzqfz1Uh1wgU%2FaT4D9rDixScAwAA)
       notes: scrap = pepper x3, mighty thistle x3, wildberries x3
   - .important(Sell all roasted endura carrots)
-  - run past clothing shop, quick height WB south to shrine
+  - run past clothing shop, quick height WB south to shrine:
+      comment: immediately pump glider
   - Akh Vaquot:
       icon: shrine
       comment: Activate shrine warp
@@ -133,14 +139,22 @@
         segment-women: 0
 
 - Hateno:
-  - Warp to Great Plateau Tower:
-      icon: tower
+  - Warp to Keh Namut:
+      icon: shrine
       color: lightsalmon
       movements:
-      - to: [-557,1700]
+      - to: [-1437,1989]
         warp: true
+  - WB northeast to .place(SoR):
+      icon: marker
+      comment: get cliff cutscene
+      coord: [-1063,1785]
   - BLSS to .place(Hateno Village):
-      coord: [3309.5,2300.75]
+      notes: knock down tree with mushroom on it, for good step-up 
+      movements:
+      - to: [1026,1816]
+      - to: [1661,2043.5]
+      - to: [3309.5,2300.75]
   - Talk to Bolson:
       icon: marker
   - .important(Make noon)
@@ -161,10 +175,11 @@
   - _Woman<Ivee>:
       comment: outside general store
       coord: [3358.25,2160]
-  - _Woman<Amira>:
+  - _Woman<Amira + Nikki>:
       comment: gossiping
-  - _Woman<Nikki>:
-      comment: gossiping
+      vars:
+        women: .add(1) # 1+1
+        segment-women: .add(1) # 1+1
   - _Woman<Narah>:
       comment: child running around centrally
   - _Woman<Senna>:
@@ -177,8 +192,6 @@
   - _Woman<Aster>:
       comment: child running around outside inn
       coord: [3426.5,2118.75]
-  - _Woman<Karin>:
-      comment: child walking outside inn
   - _Woman<Uma>:
       comment: old
       coord: [3458,2129.5]
@@ -186,7 +199,9 @@
       comment: Innkeeper
       notes: stand on the counter
       coord: [3467.25,2092.25]
-  - exit inn and WB east 
+  - _Woman<Karin>:
+      comment: walking on the bridge
+  - WB east 
   - _Woman<Ralera>:
       comment: sitting under tree
       coord: [3580.5,2118.5]
@@ -210,9 +225,8 @@
       icon: marker
       comment: give wood, get mission to find Goron
       coord: [3988.5,-1597]
-  - .important(Make night):
-      notes: It might already be around night. Get to Greyson after 9pm or as close as possible to 9pm (you'll be there in like 5 mins)
-  - WB to fairy fountain
+  - .important(Make night)
+  - WB <S to fairy fountain
   - _Woman<Mija>:
       comment: pay great fairy
       coord: [4120,-1386]
@@ -224,17 +238,17 @@
   
   - BLSS to .place(South Akkala Stable):
       coord: [3150,-1695.5]
-  - Watch for .travelling(Lonni) on the road:
+  - Watch for .road(Lonni) on the road:
       comment: She carries a Hunter's Shield
-  - _Woman<Kaifa>:
-      comment: sheep pen
+  - _Woman<Gleema>:
+      comment: child
   - _Woman<Tenne>:
       comment: horse customization
   - _Woman<Jana>:
-      comment: outside
-  - _Woman<Gleema>:
-      comment: child
-  - Watch for .travelling(Laroba) at stable, or on road north of stable:
+      comment: sitting under tree
+  - _Woman<Kaifa>:
+      comment: sheep pen
+  - Watch for .road(Laroba) at stable, or on road north of stable:
       comment: She is a Gerudo
   
   - <S + N + S midair + N: # from ADT
@@ -250,8 +264,10 @@
       icon: marker
       coord: [1656.63, -1968.53]
   
-  - WB to .place(Goron City)
+  - WB N to .place(Goron City):
+      notes: unequip bow before landing
   - _Woman<Ramella>:
+      comment: sleeping in the inn
       coord: [1678,-2440]
   - _Segment<Goron City>
   - "":
@@ -272,7 +288,7 @@
   - _Woman<Lonni>:
       coord: [3684,-1938]
       notes: skip if you saw Lonni earlier on your way to South Akkala Stable the first time
-      comment: on road between .travelling(between South Akkala Stable and a small shelter southeast of Tarrey Town). She carries a Hunter's Shield.
+      comment: on road between .road(between South Akkala Stable and a small shelter southeast of Tarrey Town). She carries a Hunter's Shield.
   - _Segment<Post-Goron City>
   - "":
       vars:
@@ -284,37 +300,50 @@
       movements:
       - to: [-557,1700]
         warp: true
-  - BLSS to .place(Kakariko Village) at night
+  - BLSS to .place(Kakariko Village):
+      comment: 3am and 5am
+      notes: read notes to adjust timing up to 8am (sit at campfire if needed)
+  - _Woman<Impa>:
+      notes: must complete "Seek Out Impa" for Yiga spawns
+      comment: talk twice, accept prompt
+      coord: [1772.75,983]
+  - _Woman<Paya>:
+      notes: faster to talk to her after Impa if you can get there before she loads
+      coord: [1786.25,985.75]
+  - _Woman<Rola>:
+      comment: arrow shop
+      coord: [1830.25,1042.75]
+  - _Woman<Trissa>:
+      comment: shopkeeper
+      coord: [1788.25,1027.25]
+  - WB east to entrance
+  - _Woman<Nanna>:
+      notes: in bed before 3am (Lasli's house)
+      comment: at east entrance by the fire
+      coord: [1923.5,1003.5]
   - _Woman<Lasli>:
       comment: in her house near the fireflies
+      notes: if you get here after 5:15, she is outside clothing shop
       coord: [1895.5,1034.5]
-  - _Woman<Nanna>:
-      comment: in the bed
   - _Woman<Mellie>:
       comment: sleeping in house
+      notes: wakes up at 6am and stands by the plum garden
       coord: [1888.75,975.75]
   - _Woman<Koko>:
-      comment: sleeping in house
+      comment: sleeping in house with sister .important(until 5am)
+      notes: if you miss them, kottla is at the shrine and koko is by the grave
       coord: [1870,945.5]
   - _Woman<Cottla>
   - _Woman<Claree>:
       comment: clothing shop
       coord: [1854.5,982]
-  - _Woman<Trissa>:
-      comment: shopkeeper
-      coord: [1788.25,1027.25]
-  - _Woman<Rola>:
-      comment: arrow shop
-      coord: [1830.25,1042.75]
-  - WB up to Impa's house
-  - _Woman<Paya>:
-      coord: [1786.25,985.75]
-  - _Woman<Impa>:
-      coord: [1772.75,983]
-  - WB to fairy fountain
+  - WB <E up to fairy fountain:
+      movements:
+      - to: [1841.25,964.75]
   - _Woman<Cotera>:
       comment: pay great fairy
       coord: [1976.25,845.5]
+  - WB to shrine
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
@@ -324,27 +353,37 @@
       vars:
         segment-women: 0
   
-  - BLSS toward .place(Foothill Stable)
-  - _Woman<Douma>: 
-      coord: [2132,-216]
-  - WB northeast to the fork in the road
-  - _Woman<Foothill Traveller 006>:
-      text: Traveller
-      coord: [2628,-755]
-  - probably just run up the road
+  - BLSS to .place(Foothill Stable)
+  - _Woman<Gaile>:
+      comment: outside stable
+      coord: [2606,-1130]
+  - Keep an eye our for .road(Karth (Gerudo\)) along the road to Foothill Stable
   - _Woman<Nat>:
       comment: Nat and Meghyn attacked
       coord: [2686.5,-929]
   - _Woman<Meghyn>
-  - _Woman<Gaile>:
-      coord: [2606,-1130]
+  - _Woman<Foothill Traveller 006>:
+      text: Traveller
+      coord: [2628,-755]
+  - _Woman<Douma>: 
+      coord: [2132,-216]
+  - Follow the road continuing to look for .road(Karth):
+      movements:
+      - to: [1812,-382]
+      - to: [1594,-456]
+  - _Woman<Karth>:
+      comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
       
   - BLSS to .place(Woodland Stable)
   - _Woman<Shamae>:
+      comment: side quest little girl 
       coord: [1088,-1130]
   - _Woman<Breen>:
       comment: horse customization
       coord: [1079.25,-1131.125]
+  - WB north to tree, use stump for step-up:
+      movements:
+      - to: [1168.5,-1286]
       
   - BLSS to .place(Hila Rao Shrine island)
   - _Woman<Magda>:
@@ -357,7 +396,10 @@
   - WB to .place(Riverside Stable)
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
-  - WB to higher ground somewhere and BLSS (?) to .place(Outskirt Stable)
+  - WB north to trees on hill and BLSS (use stump) to .place(Outskirt Stable):
+      movements:
+      - to: [193,869]
+      - to: [-1266,1023]
   
   - _Woman<Canni>:
       coord: [-1451.55, 1250.47]
@@ -367,7 +409,10 @@
       comment: under tree, 'my hero' lady
       coord: [-1400.00, 1280.00]
       
-  - WBs southeast + east (?)
+  - BLSS from stump, steer around north of colliseum:
+      movements:
+      - to: [-1227,1008]
+      - to: [-1005.5,1087]
   - _Woman<Hyrule Field Traveller 004>:
       text: Traveller
       comment: by the fork in the road
@@ -377,6 +422,7 @@
       comment: attacked npc
       coord: [-543.54, 1462.12]
   - _Woman<Hyrule Field Traveller 008>:
+      comment: south of big ol' rock
       text: Traveller
       coord: [-225,1969]
       
@@ -406,6 +452,7 @@
       coord: [-1225.5,3747]
   
   - BLSS to .place(Great Skeleton):
+      comment: straight west
       coord: [-4860,3788]
   - _Woman<Tera>:
       comment: pay the great fairy
@@ -425,11 +472,13 @@
   - Talk to the nerd outside the shrine
   
   - WB to .place(Kara Kara Bazaar)
+  - Follow road looking for .road(Kyra) and .road(Lukan)
   - _Woman<Kyra>:
-      comment: .travelling(on road between Kara Kara and Gerudo Town)
+      comment: .road(on road between Kara Kara and Gerudo Town)
   - _Woman<Vilia>:
       comment: buy clothes
       coord: [-3257.5,2611.25]
+  - .important(Remove 1 article of clothing)
   - _Woman<Rhondson>:
       comment: send to tarrey town
       coord: [-3269,2583]
@@ -442,16 +491,17 @@
       comment: stall outside
       coord: [-3267.5,2610.5]
   - _Woman<Lukan>:
-      comment: .travelling(on road between Canyon Stable and Gerudo Town)
+      comment: .road(on road between Canyon Stable and Gerudo Town)
   - _Woman<Maike>:
       comment: other stall around pond
       coord: [-3241,2522.5]
   - _Woman<Ripp>:
       comment: guard
       coord: [-3208.75,2530]
+  - .important(Replace article of clothing)
   - WB to .place(Canyon stable)
   - _Woman<Calisa>:
-      comment: .travelling(on road between Canyon Stable and Kara Kara)
+      comment: .road(on road between Canyon Stable and Kara Kara)
   - Sesami:
       icon: marker
       comment: talk to for side quest
@@ -469,7 +519,7 @@
 - Akkala:
   - Warp to Dah Hesho:
       icon: shrine
-      color: deepskyblue
+      color: dodgerblue
       movements: 
         - to: [3896,-1309]
           warp: true
@@ -509,7 +559,7 @@
         - to: [3150,-1688]
   - _Woman<Laroba>:
       notes: skip if you saw Laroba earlier at South Akkala Stable
-      comment: on road between .travelling(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+      comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo.
   - _Segment<Post-Kara Kara Bazaar>
   - "":
       vars:
@@ -573,8 +623,6 @@
       coord: [-3854.25,2897.875]
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
-  - _Woman<Melena>:
-      comment: sleeping in a bed
   - _Woman<Romah>:
       comment: innkeeper
   - exit .place(front of Inn)
@@ -608,7 +656,7 @@
       coord: [-3868.125,2939.5625]
       comment: right guard
   - _Woman<Malena>:
-      comment: talking to right guard
+      comment: talking to right guard (might be walking to inn or sleeping in inn)
   - _Woman<Ploka>:
       coord: [-3861.8125,2945.125]
       comment: left guard
@@ -658,7 +706,7 @@
 - Gerudo 2:
   - Warp to Daqo Chisay:
       icon: shrine
-      color: cornflowerblue
+      color: paleturquoise
       movements:
       - to: [-3814,2819]
         warp: true
@@ -758,7 +806,7 @@
 - Faron:
   - Warp to Ishto Soh:
       icon: shrine
-      color: paleturquoise
+      color: plum
       movements:
       - to: [-996,3568]
         warp: true
@@ -773,7 +821,7 @@
       coord: [515.125,3462.875]
   - _Woman<Perosa>
   - _Woman<Suzuna>
-  - Follow road toward .place(Lakeside Stable) until you find .travelling(Totsuna) and .travelling(Meeshy):
+  - Follow road toward .place(Lakeside Stable) until you find .road(Totsuna) and .road(Meeshy):
       movements: 
         - to: [486,3354]
         - to: [510,3298]
@@ -785,13 +833,13 @@
         - to: [1030,3227]
         - to: [1397,3395]
   - _Woman<Totsuna>:
-      comment: .travelling(on road between Highland Stable and Lakeside Stable)
+      comment: .road(on road between Highland Stable and Lakeside Stable)
   - _Woman<Meeshy>:
-      comment: .travelling(on road between Highland Stable and Lakeside Stable)
+      comment: .road(on road between Highland Stable and Lakeside Stable)
   - _Woman<Cima>:
       comment: at lakeside stable
       coord: [1540.75,3531.75]
-  - Follow road toward .place(Lurelin Village) until you find .travelling(Letty):
+  - Follow road toward .place(Lurelin Village) until you find .road(Letty):
       movements: 
         - to: [1712,3448]
         - to: [1868,3346]
@@ -805,7 +853,7 @@
         - to: [2480,3298]
         - to: [2656,3212]
   - _Woman<Letty>:
-      comment: .travelling(on road between Lakeside Stable and Lurelin Village)
+      comment: .road(on road between Lakeside Stable and Lurelin Village)
   - WB up to to the top of .place(Tuft Mountain)
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
@@ -841,7 +889,7 @@
       text: Traveller
       coord: [3092,2443]
   - WB north
-  - Follow road toward .place(Fort Hateno) looking for .travelling(Letty) and .travelling(Celessa):
+  - Follow road toward .place(Fort Hateno) looking for .road(Letty) , .road(Toma) and .road(Celessa):
       movements:
       - to: [3287,2136]
       - to: [3146,2158]
@@ -851,21 +899,24 @@
   - _Woman<Hateno Traveller 004>:
       text: Traveller
       coord: [2626,1686]
+  - _Woman<Toma>:
+      coord: [2340,1828]
+      comment: .road(on road between Hateno and Fort Hateno) has Horse
   - _Woman<Letty>:
       coord: [2340,1828]
-      comment: .travelling(on road between Hateno and Fort Hateno)
-  - Continue along road toward .place(Dueling Peaks Stable) looking for .travelling(Celessa):
+      comment: .road(on road between Hateno and Fort Hateno) blonde hair carries a Hunter's Shield
+  - Continue along road toward .place(Dueling Peaks Stable) looking for .road(Celessa):
       movements:
       - to: [2186,1808]
       - to: [2130,1660]
       - to: [1816,1604] 
       - to: [1744,1920]
   - _Woman<Celessa>:
-      comment: .travelling(on road between Hateno and Dueling Peaks Stable)
+      comment: .road(on road between Hateno and Dueling Peaks Stable)
   - _Woman<Sagessa>:
       commment: at DP stable
       coord: [1742.25,1943.5]
-  - Back up the road to .place(Kakariko), look for .travelling(Brokka):
+  - Back up the road to .place(Kakariko), look for .road(Brokka):
       movements:
       - to: [1756,1576]
       - to: [1838,1426]
@@ -873,7 +924,7 @@
       - to: [2066,1178]
       - to: [1926,1004]
   - _Woman<Celessa>:
-      comment: .travelling(on road between Dueling Peaks Stable and Kakariko)
+      comment: .road(on road between Dueling Peaks Stable and Kakariko)
   - _Segment<Hateno 2>
   - "":
       vars:
@@ -883,14 +934,14 @@
   - Warp to Shae Loya:
       icon: shrine
       movements: 
-      - to: [-2931,-433]
+      - to: [-2935,-434]
         warp: true
-  - Check for .travelling(Yammo) at the stable:
+  - Check for .road(Yammo) at the stable:
       coord: [-2860,-556]
   - _Woman<Ridgeland Traveller 010>:
       text: Traveller
       coord: [-2742,-255]
-  - Follow the road all the way to .place(Serenne Stable) looking for .travelling(Yammo):
+  - Follow the road all the way to .place(Serenne Stable) looking for .road(Yammo):
       movements:
       - to: [-2318,-144]
       - to: [-1852,-304]
@@ -906,7 +957,7 @@
       - to: [-1673,-1557]
   - _Woman<Yammo>:
       notes: She has a donkey and an emblazened shield
-      comment: .travelling(on road between Tabantha Bridge Stable and Serenne Stable)
+      comment: .road(on road between Tabantha Bridge Stable and Serenne Stable)
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5,-1797]
@@ -1021,3 +1072,4 @@
   - "":
       vars:
         segment-women: 0
+        

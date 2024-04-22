@@ -52,7 +52,7 @@ config:
       color: grey
     todo:
       background: magenta
-    travelling:
+    road:
       color: black
       background: palegoldenrod
     important:
