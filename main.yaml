@@ -1,7 +1,7 @@
 - All Women
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 - .road(Road NPCs are labelled like this in the route). They spawn anywhere along their road at any time of day and their specific position is random. They are routed in a way that expects you may travel the entire road to find them. If you see one, do not turn the camera away as this has caused them to despawn in my testing. They can also be at their destination/origin town or stable. They will be the most challenging part of this run.
-- "Horses: There are horses and sand seals routed in three sections where there are 3+ Road NPCs on consecutive roads, being on a mount will decrease likelihood you may miss them (the horses are optional by advised. In my testing I wasted a lot of time backtracking from missing Road NPCs when windbombing over the roads)"
+- "Horses: There are horses and sand seals routed in three sections where there are 3+ Road NPCs on consecutive roads, being on a mount will decrease likelihood you may miss them (the horses are optional but advised. In my testing I wasted a lot of time backtracking from missing Road NPCs when windbombing over the roads)"
 
 - use: ./segments/plateau.yaml # grey
 - use: ./segments/rito.yaml # red
