@@ -1,0 +1,99 @@
+Gerudo 2:
+  - Warp to Daqo Chisay:
+      icon: shrine
+      color: paleturquoise
+      movements:
+        - to: [-3814, 2819]
+          warp: true
+  - WB southwest to .place(back courtyard)
+  - _Woman<Calyban>:
+      comment: eating melon
+      coord: [-3914, 2955]
+  - _Woman<Teake>:
+      comment: captain
+      coord: [-3923.25, 2939.75]
+  - _Woman<Smaude>:
+      comment: sitting in the corner
+      coord: [-3927.5, 2929.0625]
+  - _Woman<Marta>:
+      comment: at the wall
+      coord: [-3919.5, 2918.3125]
+  - _Woman<Babi>:
+      comment: training
+      coord: [-3910.75, 2913.3125]
+  - _Woman<Liana>:
+      comment: group of 4 women
+      coord: [-3910.5625, 2928.4375]
+  - _Woman<Leena>
+  - _Woman<Barta>
+  - _Woman<Kotta>
+  - enter the palace and turn left .place(up the stairs)
+  - _Woman<Katta>:
+      comment: guard at upper right doorway
+      coord: [-3882.875, 2941.125]
+  - Talk to Riju:
+      icon: marker
+      coord: [-3868.75, 2948.625]
+  - _Woman<Bertri>:
+      comment: guard at upper left doorway
+      coord: [-3862.125, 2961.125]
+  - if not already, .important(make morning):
+      comment: light the cooking pot with arrow
+      coord: [-3833.875, 2945.875]
+  - jump down and enter left .place(door past cooking pots):
+      coord: [-3811.875, 2956.375]
+  - _Woman<Pasha>
+  - _Woman<Dina>
+  - _Woman<Ashai>
+  - _Woman<Spera>:
+      comment: grain vendor
+      coord: [-3821.625, 2937.375]
+  - _Woman<Ardin>:
+      comment: shroom vendor
+      notes: ignore women in the street here, they were in the bar
+      coord: [-3819.875, 2925.25]
+  - Around the corner and enter .place(door on right)
+  - _Woman<Risa>:
+      comment: talking to a doll
+      coord: [-3809.375, 2933.25]
+  - .place(Secret club)
+  - _Woman<Greta>:
+      notes: no need to enter, just talk to the door
+      coord: [-3788.125, 2934.375]
+  - Near the .place(east entrance seal rental)
+  - _Woman<Muava>:
+      coord: [-3770.25, 2945.75]
+  - _Woman<Lashley>:
+      comment: guard
+      coord: [-3755.25, 2952.25]
+  - _Woman<Frelly>:
+      comment: seal lady
+      coord: [-3757.75, 2938.875]
+  - _Woman<Essa>:
+      comment: sweeping
+      coord: [-3773.5, 2916.375]
+  - _Woman<Saula>:
+      comment: clothing vendor
+      coord: [-3802.375, 2902]
+
+  - WB south to .place(Sand-Seal Rally)
+  - _Woman<Tali>:
+      coord: [-3758.5, 3114.5]
+  - _Woman<Shabonne>
+
+  - WB east to .place(outpost)
+  - _Woman<Sudrey>:
+      comment: inside outpost
+      coord: [-3433.5, 3121.75]
+  - climb ladder, start Naboris at Riju
+  - sand-seal over to .place(Misae Suma Shrine)
+  - _Woman<Pokki>:
+      coord: [-2966, 3773]
+  - Enter .place(Naboris):
+      coord: [-2612, 3628]
+  - _Woman<Urbosa>:
+      notes: forced dialog
+  - _Segment<Gerudo 2>
+  - "":
+      vars:
+        segment-women: 0

@@ -1,0 +1,26 @@
+- Plateau:
+    - Standard Plateau route:
+        color: grey
+        movements:
+          - to: [-939, 1948]
+          - to: [-826, 1961]
+          - to: [-445, 1990]
+            icon: shrine
+          - to: [-557, 1700]
+            icon: tower
+          - to: [-670, 1512]
+            icon: shrine
+          - to: [-842, 2273]
+          - to: [-929, 2320]
+            icon: shrine
+          - to: [-983, 2250]
+          - to: [-1434, 1988]
+          - to: [-813.5, 1968]
+    - .sub(- Skip cutscene outside SOR)
+    - .sub(- Get some extra peppers and shrooms for early game health)
+    - .sub(- Tower activation after Bombs)
+    - .sub(- Other stuff like IST scrap and 1 handed weapon are accounted for later)
+    - _Woman<Zelda>:
+        comment: she talks to you in your mind, we count that
+    - _Segment<Paraglider>:
+        icon: king

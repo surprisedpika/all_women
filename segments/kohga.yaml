@@ -1,0 +1,17 @@
+Kohga:
+  - Boko BTB -> Moblin BTB:
+      notes: .link([See BTB]https://www.twitch.tv/videos/1623251015)
+      movements:
+        - to: [-4132.90, 159.34, 2598.46]
+        - to: [-3778.90, 326.03, 1855.20]
+  - Clip in to .place(Yiga Hideout)
+  - Duplex Bow:
+      icon: weapon
+      coord: [-3510.46, 442.51, 1297.31]
+  - Fight Kohga:
+      icon: marker
+      coord: [-3451.00, 440.69, 1331.50]
+  - _Segment<Thunderhelm>
+  - "":
+      vars:
+        segment-women: 0

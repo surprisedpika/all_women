@@ -1,0 +1,77 @@
+Faron:
+  - Warp to Ishto Soh:
+      icon: shrine
+      color: plum
+      movements:
+        - to: [-996, 3568]
+          warp: true
+  - BLSS
+  - _Woman<`Loone`>:
+      coord: [128, 3824]
+  - WB east and north to .place(Highland Stable):
+      movements:
+        - to: [332, 3836]
+        - to: [439, 3681]
+  - ? Get a horse for the road to .place(Lurelin). There are 3 .road(Road NPCs) and a horse will increase the likelihood of finding them on your way
+    : icon: marker
+      coord: [377, 3435]
+  - _Woman<Phanna>:
+      coord: [515.125, 3462.875]
+  - _Woman<Perosa>
+  - _Woman<Suzuna>
+  - ? Follow road toward .place(Lakeside Stable) until you find .road(Totsuna) and .road(Meeshy)
+    : movements:
+        - to: [486, 3354]
+        - to: [510, 3298]
+        - to: [419, 3273]
+        - to: [436, 3069]
+        - to: [675, 3020]
+        - to: [800, 3066]
+        - to: [955, 2993]
+        - to: [1030, 3227]
+        - to: [1397, 3395]
+  - _Woman<Totsuna>:
+      comment: .road(on road between Highland Stable and Lakeside Stable)
+  - _Woman<Meeshy>:
+      comment: .road(on road between Highland Stable and Lakeside Stable)
+  - _Woman<Cima>:
+      comment: at lakeside stable
+      coord: [1540.75, 3531.75]
+  - Follow road toward .place(Lurelin Village) until you find .road(Letty):
+      movements:
+        - to: [1712, 3448]
+        - to: [1868, 3346]
+  - _Woman<Sorelia>:
+      comment: attacked just south of road
+      coord: [1954.5, 3435.5]
+  - Continue on road:
+      movements:
+        - to: [2224, 3356]
+        - to: [2388, 3272]
+        - to: [2480, 3298]
+        - to: [2656, 3212]
+  - _Woman<Letty>:
+      comment: .road(on road between Lakeside Stable and Lurelin Village)
+  - WB up to to the top of .place(Tuft Mountain)
+  - _Woman<Perda>:
+      comment: Gerudo by the heart pond
+      coord: [2591, 3526]
+  - WB east to .place(Lurelin Village)
+  - _Woman<Kiana>:
+      comment: side quest npc
+      notes: sleeping 6:00 PM - 5:00 AM
+      coord: [2886, 3413.5]
+  - _Woman<Chessica>:
+      comment: in the inn
+      coord: [2946.5, 3435.75]
+  - _Woman<Mubbs>:
+      comment: shopkeeper on docks
+      coord: [2957.75, 3491.25]
+  - _Woman<Flavi>:
+      comment: east of town during the day, looking out at Eventide
+      notes: .todo(need to confirm)
+      coord: [3130, 3551]
+  - _Segment<Faron>
+  - "":
+      vars:
+        segment-women: 0

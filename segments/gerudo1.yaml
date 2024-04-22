@@ -1,0 +1,120 @@
+Gerudo 1:
+  - Warp to Daqo Chisay:
+      icon: shrine
+      color: dodgerblue
+      movements:
+        - to: [-3814, 2819]
+          warp: true
+  - .place(main entrance square)
+  - _Woman<Dorrah>:
+      comment: 2 guards
+      coord: [-3786.25, 2866.5]
+  - _Woman<Merina>
+  - _Woman<Fegran>:
+      comment: wandering near entrance
+      coord: [-3805.875, 2888.25]
+  - _Woman<Lorn>:
+      comment: fruit vendor
+      coord: [-3822.75, 2877.375]
+  - _Woman<Dalia>:
+      comment: child sleeping in stall
+  - go to .place(jewelery shop)
+  - _Woman<Isha>:
+      comment: sidequest npc outside jewelry shop
+  - enter jewelery shop:
+      coord: [-3837.75, 2866.75]
+  - _Woman<Cara>:
+      notes: you cannot jump over the counter
+      comment: back corner of jewelry shop
+  - into the .place(bar):
+      coord: [-3856.25, 2849.75]
+      notes: 8 in the bar
+  - _Woman<Furosa>:
+      comment: barkeeper
+  - _Woman<Nellie>:
+      comment: standing across bar with Pritana
+  - _Woman<Pritana>
+  - _Woman<Deltan>:
+      comment: sad drunk
+  - _Woman<Yaido + Sumati + Pyra>:
+      comment: three women talking about a password
+      vars:
+        women: .add(2) # 1+2
+        segment-women: .add(2) # 1+2
+  - _Woman<Jules>:
+      comment: hylian in bar
+  - street .place(outside bar)
+  - _Woman<Rima>:
+      coord: [-3857, 2882.25]
+      comment: under tent outside
+  - enter the .place(House next to bar):
+      coord: [-3874.75, 2876.125]
+  - _Woman<Pearle>:
+      comment: child
+  - _Woman<Rotana>:
+      comment: shrinequest npc at bookshelf in the same house
+  - Across the street, rear entrance of .place(Inn):
+      coord: [-3854.25, 2897.875]
+  - _Woman<Tauma>:
+      comment: hylian reading a book in side room
+  - _Woman<Romah>:
+      comment: innkeeper
+  - exit .place(front of Inn)
+  - _Woman<Olu>:
+      coord: [-3839.375, 2893.875]
+      comment: outside inn
+  - _Woman<Estan>:
+      comment: meat vendor
+      coord: [-3847.1875, 2903.1875]
+  - _Woman<Frita>:
+      comment: rito
+  - _Woman<Nali>:
+      comment: wandering in the main square
+      coord: [-3842.625, 2915.875]
+  - .place(arrow shop)
+  - _Woman<Danda>:
+      comment: buy arrows
+      notes: get dialog buying
+      coord: [-3858, 2911.6875]
+  - Shopping:
+      icon: marker
+  - .sub(- Buy 10 ice arrows)
+  - .sub(- Buy 30 shock arrows)
+  - _Woman<Kalani>:
+      comment: sleeping child
+      notes: 2 children sleeping in stall
+  - _Woman<Makure>:
+      comment: sleeping child
+  - up the steps to the .place(palace entrance)
+  - _Woman<Reeza>:
+      coord: [-3868.125, 2939.5625]
+      comment: right guard
+  - _Woman<Malena>:
+      comment: talking to right guard (might be walking to inn or sleeping in inn)
+  - _Woman<Ploka>:
+      coord: [-3861.8125, 2945.125]
+      comment: left guard
+  - _Woman<Traysi>:
+      comment: talking to left guard
+  - enter the .place(palace):
+      notes: forced dialog
+  - _Woman<Riju + Buliara>:
+      comment: Main Quest dialog
+      coord: [-3889.9375, 2969.1875]
+      vars:
+        women: .add(1) # 1+1
+        segment-women: .add(1) # 1+1
+  - _Woman<Padda>:
+      comment: south courtyard with seal
+      coord: [-3848.875, 2987.125]
+  - WB <N to .place(west entrance seal rental)
+  - _Woman<Kohm>:
+      comment: pink woman sealing
+      coord: [-3902.875, 2882.875]
+  - _Woman<Laine>:
+      comment: guard outside
+  - WB super northwest
+  - _Segment<Gerudo 1>
+  - "":
+      vars:
+        segment-women: 0

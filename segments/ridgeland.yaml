@@ -1,0 +1,43 @@
+Ridgeland:
+  - Warp to Shae Loya:
+      icon: shrine
+      movements:
+        - to: [-2935, -434]
+          warp: true
+  - Check for .road(Yammo) at the stable:
+      coord: [-2860, -556]
+  - _Woman<Ridgeland Traveller 010>:
+      text: Traveller
+      coord: [-2742, -255]
+  - ? Follow the road all the way to .place(Serenne Stable) looking for .road(Yammo)
+    : movements:
+        - to: [-2318, -144]
+        - to: [-1852, -304]
+  - _Woman<Chabi>:
+      comment: attacked just on the border of Scablands
+      coord: [-1854, -302]
+  - Continue on road:
+      movements:
+        - to: [-1564, -588]
+        - to: [-1500, -1024]
+        - to: [-1455, -1142.5]
+        - to: [-1540, -1304]
+        - to: [-1673, -1557]
+  - _Woman<Yammo>:
+      notes: She has a donkey and an emblazened shield
+      comment: .road(on road between Tabantha Bridge Stable and Serenne Stable)
+  - _Woman<Zumi>:
+      comment: at serenne stable
+      coord: [-1540.5, -1797]
+  - BLSS(?)
+  - _Woman<Woodland Traveller 010>:
+      text: Traveller
+      coord: [-1061, -2315]
+  - WB chain to .place(Snowfield Stable)
+  - _Woman<Juannelle>:
+      comment: at snowfield stable
+      coord: [-1642, -2568]
+  - _Segment<Ridgeland>
+  - "":
+      vars:
+        segment-women: 0

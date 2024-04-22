@@ -1,0 +1,23 @@
+Hebra:
+  - Warp to Akh Vaquot:
+      icon: shrine
+      movements:
+        - to: [-3656.5, -1756.25]
+          warp: true
+  - Talk to Fyson:
+      icon: marker
+      coord: [-3594, -1821.375]
+  - WB N. + midair:
+      coord: [-3431, -2322]
+  - WB chain to .place(Selmie's Cabin):
+      movements:
+        - to: [-3491, -2630]
+        - to: [-3154, -2812]
+  - _Woman<Selmie>:
+      comment: at Selmie's Cabin
+      coord: [-2947.5, -3143.5]
+  - .important(Make night)
+  - _Segment<Hebra>
+  - "":
+      vars:
+        segment-women: 0

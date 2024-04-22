@@ -1,0 +1,109 @@
+Hateno:
+  - Down the road to .place(Dueling Peaks Stable), look for .road(Brokka):
+      movements:
+        - to: [1926, 1004]
+        - to: [2066, 1178]
+        - to: [2088, 1374]
+        - to: [1838, 1426]
+        - to: [1756, 1576]
+  - _Woman<Brokka>:
+      comment: .road(on road between Kakariko and Dueling Peaks Stable)
+  - Continue along road toward .place(Dueling Peaks Stable) looking for .road(Celessa)
+  - _Woman<Sagessa>:
+      comment: at DP stable
+      coord: [1742.25, 1943.5]
+  - ? Get a horse, ride it along the road. There are 4 .road(Road NPCs) and a horse will increase the likelihood of finding them on your way to Hateno
+    : icon: marker
+      movements:
+        - to: [1807, 1656]
+        - to: [1918, 1708]
+  - _Woman<Celessa>:
+      comment: .road(on road between Dueling Peaks Stable and Hateno)
+      movements:
+        - to: [2130, 1660]
+        - to: [2186, 1808]
+  - Follow road toward .place(Hateno Village) looking for .road(Letty) , .road(Toma) and .road(Celessa)
+  - _Woman<Hateno Traveller 004>:
+      comment: yiga assassin
+      text: Traveller
+      coord: [2626, 1686]
+  - _Woman<Toma>:
+      comment: .road(on road between Hateno and Fort Hateno) has Horse
+      movements:
+        - to: [2766, 1737]
+        - to: [2953, 1983]
+        - to: [3101, 1996]
+        - to: [3146, 2158]
+        # - to: [3287, 2136]
+  - _Woman<Letty>:
+      comment: .road(on road between Hateno and Fort Hateno) blonde hair carries a Hunter's Shield
+  - WB
+  - _Woman<Hateno Traveller 006>:
+      text: Traveller
+      coord: [3092, 2443]
+  - WB <E
+
+  - Talk to Bolson:
+      icon: marker
+      coord: [3309, 2302]
+  - .important(Make noon)
+  - Start Tarrey Town stuff:
+      comment: talk to Bolson and Hudson
+  - WB north
+  - _Woman<Tamana>:
+      comment: by the chickens
+      coord: [3349, 2086.75]
+  - head toward the main road
+  - _Woman<Sophie>:
+      comment: in the clothing shop
+      coord: [3361.25, 2129]
+  - _Woman<Ivee>:
+      comment: outside general store
+      coord: [3358.25, 2160]
+  - _Woman<Amira + Nikki>:
+      comment: gossiping
+      vars:
+        women: .add(1) # 1+1
+        segment-women: .add(1) # 1+1
+  - _Woman<Narah>:
+      comment: child running around centrally
+  - _Woman<Senna>:
+      comment: outside dye shop
+      notes: cornrows?
+      coord: [3401, 2137.75]
+  - _Woman<Clavia>:
+      comment: behind dye shop
+      coord: [3426.25, 2162.75]
+  - _Woman<Aster>:
+      comment: child running around outside inn
+      coord: [3426.5, 2118.75]
+  - _Woman<Uma>:
+      comment: old
+      coord: [3458, 2129.5]
+  - _Woman<Prima>:
+      comment: Innkeeper
+      notes: stand on the counter
+      coord: [3467.25, 2092.25]
+  - _Woman<Karin>:
+      comment: walking on the bridge
+  - WB east
+  - _Woman<Ralera>:
+      comment: sitting under tree
+      coord: [3580.5, 2118.5]
+  - _Woman<Koyin>:
+      comment: by the farmhouse
+      coord: [3622, 2096]
+  - WB W> back to .place(Ancient Furnace):
+      icon: marker
+      coord: [3436, 1978]
+  - Weapon smuggle and WB to .place(Hateno Tech Lab):
+      coord: [3639.5, 2094.5]
+  - _Woman<Purah>:
+      comment: tech lab
+      coord: [3777, 2126.5]
+  - Talk to Purah until she gives you Camera:
+      notes: you do not need to take her picture
+  - _Segment<Hateno>
+  - "":
+      vars:
+        segment-women: 0

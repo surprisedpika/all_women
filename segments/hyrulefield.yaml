@@ -1,0 +1,81 @@
+Hyrule Field:
+  - WB south and west to .place(Foothill Stable)
+  - _Woman<Gaile>:
+      comment: outside stable
+      coord: [2606, -1130]
+  - Keep an eye our for .road(Karth (Gerudo\)) along the road to Foothill Stable
+  - _Woman<Nat>:
+      comment: Nat and Meghyn attacked
+      coord: [2686.5, -929]
+  - _Woman<Meghyn>
+  - _Woman<Foothill Traveller 006>:
+      text: Traveller
+      coord: [2628, -755]
+  - _Woman<Douma>:
+      coord: [2132, -216]
+  - Follow the road continuing to look for .road(Karth):
+      movements:
+        - to: [1812, -382]
+        - to: [1594, -456]
+  - _Woman<Karth>:
+      comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
+
+  - BLSS to .place(Woodland Stable)
+  - _Woman<Shamae>:
+      comment: side quest little girl
+      coord: [1088, -1130]
+  - _Woman<Breen>:
+      comment: horse customization
+      coord: [1079.25, -1131.125]
+  - WB north to tree, use stump for step-up:
+      movements:
+        - to: [1168.5, -1286]
+
+  - BLSS to .place(Hila Rao Shrine island)
+  - _Woman<Magda>:
+      coord: [816.80, 836.77]
+  - WB to bridge
+  - _Woman<Leekah>:
+      comment: attacked on bridge
+      coord: [678.875, 979.375]
+
+  - WB to .place(Riverside Stable)
+  - _Woman<Parcy>:
+      coord: [345.00, 1091.50]
+  - WB north to trees on hill and BLSS (use stump) to .place(Outskirt Stable):
+      movements:
+        - to: [193, 869]
+        - to: [-1266, 1023]
+
+  - _Woman<Canni>:
+      coord: [-1451.55, 1250.47]
+  - _Woman<Haite>
+  - _Woman<Myti>
+  - _Woman<Aliza>:
+      comment: under tree, 'my hero' lady
+      coord: [-1400.00, 1280.00]
+
+  - BLSS from stump, steer around north of colliseum:
+      movements:
+        - to: [-1227, 1008]
+        - to: [-1005.5, 1087]
+  - _Woman<Hyrule Field Traveller 004>:
+      text: Traveller
+      comment: by the fork in the road
+      coord: [-868.02, 1441.20]
+  - WB east
+  - _Woman<Mina>:
+      comment: attacked npc
+      coord: [-543.54, 1462.12]
+  - _Woman<Hyrule Field Traveller 008>:
+      comment: south of big ol' rock
+      text: Traveller
+      coord: [-225, 1969]
+
+  - _Woman<Mei>:
+      comment: zora in the lake
+      coord: [-229, 2575]
+  - _Segment<Hyrule Field>
+  - "":
+      vars:
+        segment-women: 0

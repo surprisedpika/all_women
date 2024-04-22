@@ -1,0 +1,45 @@
+Akkala 1:
+  - Warp to Dah Hesho:
+      icon: shrine
+      color: khaki
+      movements:
+        - to: [3896, -1309]
+          warp: true
+  - WB to .place(Tarrey Town)
+  - Talk to Hudson:
+      icon: marker
+      comment: give wood, get mission to find Gerudo
+      coord: [3988.5, -1597]
+  - BLSS .place(towards East Akkala Stable)
+  - _Woman<Akkala Traveller 008>:
+      text: Traveller
+      comment: before reaching the stable
+      coord: [4298, -2524]
+
+  - WB to .place(East Akkala Stable)
+  - _Woman<Nobo>:
+      coord: [4248, -2750.75]
+  - _Woman<Aya>
+  - Follow road looking for .road(Laroba):
+      movements:
+        - to: [4248, -2750.75]
+        - to: [3762, -2394]
+        - to: [3597, -2299]
+        - to: [3431, -2335]
+        - to: [3386, -2082]
+        - to: [3154, -2060]
+        - to: [3150, -1688]
+  - _Woman<Laroba>:
+      comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+  - _Woman<Kaifa>:
+      comment: sheep pen
+  - _Woman<Jana>:
+      comment: sitting under tree
+  - _Woman<Gleema>:
+      comment: child
+  - _Woman<Tenne>:
+      comment: horse customization
+  - _Segment<Akkala 1>
+  - "":
+      vars:
+        segment-women: 0
