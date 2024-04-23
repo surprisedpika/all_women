@@ -31,8 +31,6 @@ Hateno:
         - to: [3101, 1996]
         - to: [3146, 2158]
         # - to: [3287, 2136]
-  - _Woman<Letty>:
-      comment: .road(on road between Hateno and Fort Hateno) blonde hair carries a Hunter's Shield
   - WB
   - _Woman<Hateno Traveller 006>:
       text: Traveller
@@ -82,6 +80,7 @@ Hateno:
       coord: [3467.25, 2092.25]
   - _Woman<Karin>:
       comment: walking on the bridge
+      coord: [3476.5, 2139.5]
   - WB east
   - _Woman<Ralera>:
       comment: sitting under tree

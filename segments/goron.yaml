@@ -3,7 +3,8 @@ Goron City:
       notes: .todo(Compare this movement to windbombs from stable in Akkala1 branch. I just want to see if it's maybe better to use the height from the Hateno)
       movements:
         - to: [4312, 1424]
-        - to: [4514, -1284]
+        - to: [4768, -560]
+        - to: [4796, -1432]
   - _Woman<Jerrin>:
       coord: [4519, -3161]
   - BLSS to .place(Tarrey Town)

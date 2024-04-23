@@ -1,62 +1,64 @@
 Kakariko:
-    - Warp to Keh Namut:
-          icon: shrine
-          color: lightsalmon
-          movements:
-              - to: [-1437, 1989]
-                warp: true
-    - WB northeast to .place(SoR):
-          icon: marker
-          comment: get cliff cutscene
-          coord: [-1063, 1785]
-    - BLSS to .place(Kakariko Village):
-          comment: before 8am
-          movements:
-              - to: [1688, 775]
-    - _Woman<Cottla>:
-          comment: standing at shrine
-          coord: [1840.75, 915.75]
-    - Taloh Naeg:
-          icon: shrine
-          comment: Activate shrine warp
-          coord: [1841.5, 889.25]
-    - _Woman<Cotera>:
-          comment: pay great fairy
-          coord: [1976.25, 845.5]
-    - WB west
-    - _Woman<Koko>:
-          comment: at the grave
-          coord: [1788.25, 856]
-    - WB south
-    - _Woman<Impa>:
-          notes: must complete "Seek Out Impa" for Yiga spawns
-          comment: talk twice, accept prompt
-          coord: [1772.75, 983]
-    - _Woman<Paya>:
-          notes: faster to talk to her after Impa if you can get there before she loads
-          coord: [1786.25, 985.75]
-    - _Woman<Trissa>:
-          comment: shopkeeper
-          coord: [1788.25, 1027.25]
-    - _Woman<Rola>:
-          comment: arrow shop
-          coord: [1830.25, 1042.75]
-    - _Woman<Mellie>:
-          comment: standing watch over plum garden
-          coord: [1872.5, 1013]
-    - _Woman<Lasli>:
-          comment: outside clothing shop
-          coord: [1846.75, 969.25]
-    - _Woman<Claree>:
-          comment: clothing shop
-          coord: [1854.5, 982]
-    - WB east to entrance
-    - _Woman<Nanna>:
-          notes: in bed before 3am (Lasli's house)
-          comment: at east entrance by the fire
-          coord: [1923.5, 1003.5]
-    - WB to shrine
-    - _Segment<Kakariko>
-    - "":
-          vars:
-              segment-women: 0
+  - Warp to Keh Namut:
+      icon: shrine
+      color: lightsalmon
+      movements:
+        - to: [-1437, 1989]
+          warp: true
+  - WB northeast to .place(SoR):
+      icon: marker
+      comment: get cliff cutscene
+      coord: [-1063, 1785]
+  - BLSS to .place(Kakariko Village):
+      comment: before 8am
+      movements:
+        - to: [1688, 775]
+  - _Woman<Koko>:
+      comment: at the grave
+      coord: [1788.25, 856]
+  - WB south
+  - _Woman<Impa>:
+      notes: must complete "Seek Out Impa" for Yiga spawns
+      comment: talk twice, accept prompt
+      coord: [1772.75, 983]
+  - _Woman<Paya>:
+      notes: faster to talk to her after Impa if you can get there before she loads
+      coord: [1786.25, 985.75]
+  - _Woman<Trissa>:
+      comment: shopkeeper
+      coord: [1788.25, 1027.25]
+  - _Woman<Rola>:
+      comment: arrow shop
+      coord: [1830.25, 1042.75]
+  - _Woman<Mellie>:
+      comment: standing watch over plum garden
+      coord: [1872.5, 1013]
+  - _Woman<Lasli>:
+      comment: outside clothing shop
+      coord: [1846.75, 969.25]
+  - _Woman<Claree>:
+      comment: clothing shop
+      coord: [1854.5, 982]
+  - WB east:
+      coord: [1838.75, 964.5]
+  - _Woman<Cotera>:
+      comment: pay great fairy
+      coord: [1976.25, 845.5]
+  - Taloh Naeg:
+      icon: shrine
+      comment: Activate shrine warp
+      coord: [1841.5, 889.25]
+  - _Woman<Cottla>:
+      comment: standing at shrine
+      coord: [1840.75, 915.75]
+  - WB south
+  - WB east to entrance
+  - _Woman<Nanna>:
+      notes: in bed before 3am (Lasli's house)
+      comment: at east entrance by the fire
+      coord: [1923.5, 1003.5]
+  - WB to shrine
+  - _Segment<Kakariko>
+  - "":
+      vars:
+        segment-women: 0

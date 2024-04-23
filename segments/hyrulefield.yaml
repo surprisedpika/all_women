@@ -13,11 +13,11 @@ Hyrule Field:
       coord: [2628, -755]
   - _Woman<Douma>:
       coord: [2132, -216]
-  - Follow the road continuing to look for .road(Karth):
+  - Follow the road continuing to look for .road(Karsh):
       movements:
         - to: [1812, -382]
         - to: [1594, -456]
-  - _Woman<Karth>:
+  - _Woman<Karsh>:
       comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
 
   - BLSS to .place(Woodland Stable)

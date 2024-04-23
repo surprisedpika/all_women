@@ -5,6 +5,8 @@ Zora:
       movements:
         - to: [1841.5, 889.25]
           warp: true
+  - WB to stump:
+      coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain)
   - Talk to Dorephan and Sidon:
       icon: marker
