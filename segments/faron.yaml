@@ -6,25 +6,28 @@ Faron:
         - to: [-996, 3568]
           warp: true
   - BLSS
-  - _Woman<`Loone`>:
+  - _Woman<Loone>:
       coord: [128, 3824]
   - WB east and north to .place(Highland Stable):
       movements:
         - to: [332, 3836]
         - to: [439, 3681]
-  - ? Get a horse for the road to .place(Lurelin). There are 3 .road(Road NPCs) and a horse will increase the likelihood of finding them on your way
-    : icon: marker
-      coord: [377, 3435]
   - _Woman<Phanna>:
+      comment: horse customization
       coord: [515.125, 3462.875]
-  - _Woman<Perosa>
-  - _Woman<Suzuna>
-  - ? Follow road toward .place(Lakeside Stable) until you find .road(Totsuna) and .road(Meeshy)
-    : movements:
+  - _Woman<Perosa>:
+      comment: beside Phanna during the day, inside at night or in rain
+  - ? "Follow road toward .place(Lakeside Stable) until you find .road(Totsuna) and .road(Meeshy)"
+    : notes: Windbomb over the horseback bokoblins and any other road segments patrolled by monsters
+      movements:
         - to: [486, 3354]
         - to: [510, 3298]
         - to: [419, 3273]
-        - to: [436, 3069]
+  - _Woman<Suzuna>:
+      coord: [436, 3069]
+  - Continue along road looking for .road(Totsuna) and .road(Meeshy):
+      notes: ignore Meghyn and Nat, attacked on the south side of the road past the second bridge
+      movements:
         - to: [675, 3020]
         - to: [800, 3066]
         - to: [955, 2993]
@@ -69,7 +72,6 @@ Faron:
       coord: [2957.75, 3491.25]
   - _Woman<Flavi>:
       comment: east of town during the day, looking out at Eventide
-      notes: .todo(need to confirm)
       coord: [3130, 3551]
   - _Segment<Faron>
   - "":

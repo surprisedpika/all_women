@@ -78,8 +78,10 @@ Gerudo 1:
       coord: [-3858, 2911.6875]
   - Shopping:
       icon: marker
-  - .sub(- Buy 10 ice arrows)
-  - .sub(- Buy 30 shock arrows)
+  - .sub(- Buy 10 ice arrows):
+      comment: for BTBs and horse
+  - .sub(- Buy 20 shock arrows):
+      comment: dont use them
   - _Woman<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall

@@ -23,6 +23,7 @@ Kara Kara Bazaar:
       coord: [-4860, 3788]
 
   - BLSS to .place(Ice House):
+      comment: northeast
       movements:
         - to: [-3740, 2280]
   - _Woman<Anche>:
@@ -35,40 +36,40 @@ Kara Kara Bazaar:
       coord: [-3814, 2819]
   - Talk to the nerd outside the shrine
   - Grab a Sand Seal:
+      comment: sand seal recommended on this road due to frequent stopping along the flat desert
       icon: marker
       coord: [-3728.5, 2870.5]
 
   - Follow road looking for .road(Kyra) and .road(Lukan)
   - _Woman<Kyra>:
-      comment: .road(on road between Kara Kara and Gerudo Town)
-  - Park the sand seal on north side of KKB and WB up to Vilia:
-      coord: [-3293.5, 2496]
-  - _Woman<Vilia>:
-      comment: buy clothes
-      coord: [-3257.5, 2611.25]
-  - .important(Remove 1 article of clothing)
-  - Drop down and enter building
+      comment: .road(on road between Kara Kara and Gerudo Town) usually running
+  - _Woman<Rhondson>:
+      comment: send to tarrey town
+      coord: [-3269, 2583]
+  - _Woman<Ripp>:
+      comment: guard, walking around the pond, starts at the sound end by the building
+      coord: [-3245.375, 2580.5]
+  - Enter building
   - _Woman<Kachoo>:
       coord: [-3267.5, 2610.5]
   - _Woman<Shaillu>
   - _Woman<Konora>
-  - _Woman<Rhondson>:
-      comment: send to tarrey town
-      coord: [-3269, 2583]
   - _Woman<Emri>:
       comment: stall outside
       coord: [-3278, 2564.5]
-  - _Woman<Lukan>:
-      comment: .road(on road between Canyon Stable and Gerudo Town)
   - _Woman<Maike>:
       comment: other stall around pond
       coord: [-3241, 2522.5]
-  - _Woman<Ripp>:
-      comment: guard
-      coord: [-3208.75, 2530]
-  - .important(Replace article of clothing)
-  - Get your sand seal and continue on road:
-      coord: [-3293.5, 2496]
+  - WB to top of building:
+      notes: detonate stray square bomb
+  - _Woman<Vilia>:
+      comment: buy clothes
+      coord: [-3257.5, 2611.25]
+  - Get a sand seal and continue on road:
+      coord: [-3387.375, 2566.75]
+  - _Woman<Lukan>:
+      notes: sometimes sitting on the rocks right at the edge of the desert
+      comment: .road(on road between Canyon Stable and Gerudo Town)
   - _Woman<Calisa>:
       comment: .road(on road between Canyon Stable and Kara Kara)
   - Sesami:

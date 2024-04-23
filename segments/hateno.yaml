@@ -12,14 +12,10 @@ Hateno:
   - _Woman<Sagessa>:
       comment: at DP stable
       coord: [1742.25, 1943.5]
-  - ? Get a horse, ride it along the road. There are 4 .road(Road NPCs) and a horse will increase the likelihood of finding them on your way to Hateno
-    : icon: marker
-      movements:
-        - to: [1807, 1656]
-        - to: [1918, 1708]
   - _Woman<Celessa>:
       comment: .road(on road between Dueling Peaks Stable and Hateno)
       movements:
+        - to: [1807, 1656]
         - to: [2130, 1660]
         - to: [2186, 1808]
   - Follow road toward .place(Hateno Village) looking for .road(Letty) , .road(Toma) and .road(Celessa)
