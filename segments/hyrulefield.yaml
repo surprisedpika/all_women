@@ -3,7 +3,7 @@ Hyrule Field:
   - _Woman<Gaile>:
       comment: outside stable
       coord: [2606, -1130]
-  - Keep an eye our for .road(Karth (Gerudo\)) along the road to Foothill Stable
+  - Keep an eye our for .road(Karsh (Gerudo\)) along the road to Foothill Stable
   - _Woman<Nat>:
       comment: Nat and Meghyn attacked
       coord: [2686.5, -929]
@@ -11,13 +11,12 @@ Hyrule Field:
   - _Woman<Foothill Traveller 006>:
       text: Traveller
       coord: [2628, -755]
+  - _Fire<Morning>:
+      coord: [2141, -223]
   - _Woman<Douma>:
       coord: [2132, -216]
-  - Follow the road continuing to look for .road(Karsh):
-      movements:
-        - to: [1812, -382]
-        - to: [1594, -456]
   - _Woman<Karsh>:
+      coord: [2056, -209]
       comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
 
   - BLSS to .place(Woodland Stable)

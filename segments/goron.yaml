@@ -1,28 +1,4 @@
 Goron City:
-  - BLSS to .place(Akkala Tech Lab):
-      notes: .todo(Compare this movement to windbombs from stable in Akkala1 branch. I just want to see if it's maybe better to use the height from the Hateno)
-      movements:
-        - to: [4312, 1424]
-        - to: [4768, -560]
-        - to: [4796, -1432]
-  - _Woman<Jerrin>:
-      coord: [4519, -3161]
-  - BLSS to .place(Tarrey Town)
-  - Talk to Hudson:
-      icon: marker
-      comment: give wood, get mission to find Goron
-      coord: [3988.5, -1597]
-  - .important(Make night)
-  - WB <S to fairy fountain
-  - _Woman<Mija>:
-      comment: pay great fairy
-      coord: [4120, -1386]
-  - WB to shrine
-  - Dah Hesho:
-      icon: shrine
-      comment: Activate shrine warp
-      coord: [3896, -1309]
-
   - W + W midair + N + W:
       movements:
         - to: [3432, -1375]

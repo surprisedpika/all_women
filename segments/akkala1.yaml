@@ -1,15 +1,11 @@
 Akkala 1:
-  - Warp to Dah Hesho:
-      icon: shrine
-      color: khaki
+  - BLSS to .place(Akkala Tech Lab):
       movements:
-        - to: [3896, -1309]
-          warp: true
-  - WB to .place(Tarrey Town)
-  - Talk to Hudson:
-      icon: marker
-      comment: give wood, get mission to find Gerudo
-      coord: [3988.5, -1597]
+        - to: [4312, 1424]
+        - to: [4768, -560]
+        - to: [4796, -1432]
+  - _Woman<Jerrin>:
+      coord: [4519, -3161]
   - BLSS .place(towards East Akkala Stable)
   - _Woman<Akkala Traveller 008>:
       text: Traveller
@@ -20,25 +16,27 @@ Akkala 1:
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>
-  - Follow road looking for .road(Laroba):
-      movements:
-        - to: [4248, -2750.75]
-        - to: [3762, -2394]
-        - to: [3597, -2299]
-        - to: [3431, -2335]
-        - to: [3386, -2082]
-        - to: [3154, -2060]
-        - to: [3150, -1688]
+  - _Fire<Morning>:
+      comment: face east
+      coord: [4191, -2655]
   - _Woman<Laroba>:
+      coord: [4248.5, -2717]
       comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo.
-  - _Woman<Kaifa>:
-      comment: sheep pen
-  - _Woman<Jana>:
-      comment: sitting under tree
-  - _Woman<Gleema>:
-      comment: child
-  - _Woman<Tenne>:
-      comment: horse customization
+  - BLSS to .place(Tarrey Town)
+  - Talk to Hudson:
+      icon: marker
+      comment: give wood, get mission to find Goron
+      coord: [3988.5, -1597]
+  - .important(Make night)
+  - WB <S to fairy fountain
+  - _Woman<Mija>:
+      comment: pay great fairy
+      coord: [4120, -1386]
+  - WB to shrine
+  - Dah Hesho:
+      icon: shrine
+      comment: Activate shrine warp
+      coord: [3896, -1309]
   - _Segment<Akkala 1>
   - "":
       vars:

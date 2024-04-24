@@ -1,4 +1,18 @@
 Gerudo 1:
+  - Warp to Dah Hesho:
+      icon: shrine
+      color: dodgerblue
+      movements:
+        - to: [3896, -1309]
+          warp: true
+  - WB to .place(Tarrey Town)
+  - Talk to Hudson:
+      icon: marker
+      comment: give wood, get mission to find Rito
+      coord: [3988.5, -1597]
+  - _Fire<Night>:
+      comment: Should be night for Gerudo 1
+
   - Warp to Daqo Chisay:
       icon: shrine
       color: dodgerblue
