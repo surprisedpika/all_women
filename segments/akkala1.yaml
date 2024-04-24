@@ -13,15 +13,15 @@ Akkala 1:
       coord: [4298, -2524]
 
   - WB to .place(East Akkala Stable)
-  - _Woman<Nobo>:
-      coord: [4248, -2750.75]
-  - _Woman<Aya>
   - _Fire<Morning>:
       comment: face east
       coord: [4191, -2655]
   - _Woman<Laroba>:
       coord: [4248.5, -2717]
       comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+  - _Woman<Nobo>:
+      coord: [4248, -2750.75]
+  - _Woman<Aya>
   - BLSS to .place(Tarrey Town)
   - Talk to Hudson:
       icon: marker
