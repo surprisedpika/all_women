@@ -18,7 +18,7 @@ Hateno:
         - to: [1807, 1656]
         - to: [2130, 1660]
         - to: [2186, 1808]
-  - Follow road toward .place(Hateno Village) looking for .road(Letty) , .road(Toma) and .road(Celessa)
+  - Follow road toward .place(Hateno Village) looking for .road(Toma) and .road(Celessa)
   - _Woman<Hateno Traveller 004>:
       comment: yiga assassin
       text: Traveller
