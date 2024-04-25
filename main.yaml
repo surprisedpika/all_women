@@ -2,7 +2,7 @@
 
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 
-- .road(Road NPCs are labelled like this in the route). They spawn anywhere along their road at any time of day and their specific position is random. They are routed in a way that expects you may travel the entire road to find them. If you see one, do not turn the camera away as this has caused them to despawn in my testing. They can also be at their destination/origin town or stable. They will be the most challenging and frustrating part of this run because they rely on pure RNG. For roads that do not end a branch, I would recommend creating a hard-save at the start of the road, sprinting along it with speed food until you find them before windbombing the rest of the way, reloading the save if you are unlucky in your search - simply windbombing along a road is generally too fast to allow them time to spawn.
+- .road(Road NPCs are labelled like this in the route). They spawn anywhere along their road at any time of day and their specific position is random. They are routed in a way that expects you may travel the entire road to find them. If you see one, do not turn the camera away as this has caused them to despawn in my testing. They can also be at their destination/origin town or stable. They will be the most challenging and frustrating part of this run because they rely on pure RNG.
 
 #
 # Plateau
@@ -33,7 +33,10 @@
 # Get Camera from Purah
 - use: ./segments/hateno.yaml # orange
 
-# MAYBE: Get Akkala Tech Lab?
+# Get Akkala Tech Lab
+# Finish all of northern Akkala
+- use: ./segments/akkala1.yaml # orange
+
 # Progress Tarrey Town (Set Night)
 # Set Dah Hesho warp point
 # Get to Goron City for Greyson and the 1 Gerudo in Goron City
@@ -42,9 +45,9 @@
 #
 # Hyrule Field Branch
 #
-# Progress Tarrey Town
-# Finish all of northern Akkala and South Akkala Stable
-- use: ./segments/akkala1.yaml # yellow
+# One road NPC nearby
+# South Akkala Stable
+- use: ./segments/akkala2.yaml # yellow
 
 # Get Foothill stable, NPCs along the road to Woodland Stable
 # Magda, Riverside Stable, Outskirt Stable, along road to Lake Hylia
@@ -62,15 +65,9 @@
 - use: ./segments/karakarabazaar.yaml # green
 
 #
-# Post-Kara Kara Bazaar Branch
-#
-# Progress Tarrey Town (Set Night for Gerudo 1)
-# One road NPC nearby
-- use: ./segments/akkala2.yaml # blue
-
-#
 # Gerudo 1 Branch
 #
+# Progress Tarrey Town (Set Night for Gerudo 1)
 # Half of Gerudo Town, Start Vah Naboris
 - use: ./segments/gerudo1.yaml # blue
 

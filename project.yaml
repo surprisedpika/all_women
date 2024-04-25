@@ -26,6 +26,7 @@ config:
       weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
       king: https://icons.pistonite.org/icon/character.king.none.cfa240.ffd700.8c5e28.fdfdfd.8c5e28.fdfdfd.png
       marker: https://icons.pistonite.org/icon/misc.frame.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+      fire: https://icons.pistonite.org/icon/location.fire_temple.none.d57b69.fec1d3.d57b69.fdfdfd.d57b69.fdfdfd.png
   - presets:
       Material:
         text: Collect $(0)
@@ -41,6 +42,9 @@ config:
       Segment:
         text: $(0) [.var(segment-women) of .var(women)]
         counter: .var(segment)
+      Fire:
+        text: Wait til $(0)
+        icon: fire
   - splits:
       - segment
   - tags:
