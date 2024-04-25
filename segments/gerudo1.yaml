@@ -10,8 +10,7 @@ Gerudo 1:
       icon: marker
       comment: give wood, get mission to find Rito
       coord: [3988.5, -1597]
-  - _Fire<Night>:
-      comment: Should be night for Gerudo 1
+  - .important(Make night for Gerudo 1)
 
   - Warp to Daqo Chisay:
       icon: shrine
@@ -93,7 +92,7 @@ Gerudo 1:
   - Shopping:
       icon: marker
   - .sub(- Buy 10 ice arrows):
-      comment: for BTBs and horse
+      comment: for BTBs
   - .sub(- Buy 20 shock arrows):
       comment: dont use them
   - _Woman<Kalani>:

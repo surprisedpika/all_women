@@ -2,7 +2,7 @@
 
 - .link([NPC info]https://docs.google.com/spreadsheets/d/1GS5DRdfnNnsczeg-N-iR-6Is9yeAdsRwT4CyDZbdq5U/edit#gid=1594284283) from 100% resources, helpful for certain NPCs but not for every woman
 
-- .road(Road NPCs are labelled like this in the route). They spawn anywhere along their road at any time of day and their specific position is random. They are routed in a way that expects you may travel the entire road to find them. If you see one, do not turn the camera away as this has caused them to despawn in my testing. They can also be at their destination/origin town or stable. They will be the most challenging and frustrating part of this run because they rely on pure RNG.
+- .road(Road NPCs are labelled like this in the route). They will be the most challenging and frustrating part of this run because they rely on pure RNG. They can spawn on specific points along their road at random. They have been routed to follow their road when possible, but if they do not spawn the strategy is to just Save/Reload your game until they appear. Their spawn rate has been determined to be .todo(XX-XX%) based on my testing
 
 #
 # Plateau

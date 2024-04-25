@@ -1,5 +1,6 @@
 Hyrule Field:
-  - WB south and west to .place(Foothill Stable)
+  - WB S> + <W turn to .place(Foothill Stable):
+      coord: [3099, -1514]
   - _Woman<Gaile>:
       comment: outside stable
       coord: [2606, -1130]
@@ -11,15 +12,15 @@ Hyrule Field:
   - _Woman<Foothill Traveller 006>:
       text: Traveller
       coord: [2628, -755]
-  - _Fire<Morning>:
-      coord: [2141, -223]
   - _Woman<Douma>:
       coord: [2132, -216]
   - _Woman<Karsh>:
       coord: [2056, -209]
+      notes: save and reload here until she appears on the road
       comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
 
-  - BLSS to .place(Woodland Stable)
+  - WB to korok platform and BLSS to .place(Woodland Stable):
+      coord: [2093, -335]
   - _Woman<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]

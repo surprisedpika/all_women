@@ -9,16 +9,14 @@ Akkala 1:
   - BLSS .place(towards East Akkala Stable)
   - _Woman<Akkala Traveller 008>:
       text: Traveller
-      comment: before reaching the stable
+      comment: before going to the stable
       coord: [4298, -2524]
 
   - WB to .place(East Akkala Stable)
-  - _Fire<Morning>:
-      comment: face east
-      coord: [4191, -2655]
   - _Woman<Laroba>:
       coord: [4248.5, -2717]
-      comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo.
+      comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo
+      notes: save and reload here until she appears at the stable or on the road
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>

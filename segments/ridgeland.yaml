@@ -16,20 +16,14 @@ Ridgeland:
   - _Woman<Chabi>:
       comment: attacked just on the border of Scablands
       coord: [-1854, -302]
-  - Continue on road:
-      movements:
-        - to: [-1564, -588]
-        - to: [-1500, -1024]
-        - to: [-1455, -1142.5]
-        - to: [-1540, -1304]
-        - to: [-1673, -1557]
   - _Woman<Yammo>:
-      notes: She has a donkey and an emblazened shield
-      comment: .road(on road between Tabantha Bridge Stable and Serenne Stable)
+      notes: Save and reload here until she appears on the road
+      comment: .road(on road between Tabantha Bridge Stable and Serenne Stable) She travels with a donkey
+  - .todo(WB and BLSS(?\))
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5, -1797]
-  - BLSS(?)
+  - .todo(BLSS(?\))
   - _Woman<Woodland Traveller 010>:
       text: Traveller
       coord: [-1061, -2315]

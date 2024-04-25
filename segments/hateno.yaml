@@ -1,23 +1,14 @@
 Hateno:
-  - Down the road to .place(Dueling Peaks Stable), look for .road(Brokka):
-      movements:
-        - to: [1926, 1004]
-        - to: [2066, 1178]
-        - to: [2088, 1374]
-        - to: [1838, 1426]
-        - to: [1756, 1576]
   - _Woman<Brokka>:
-      comment: .road(on road between Kakariko and Dueling Peaks Stable)
-  - Continue along road toward .place(Dueling Peaks Stable) looking for .road(Celessa)
+      notes: save and reload here until she appears on the road
+      comment: follow along .road(on road between Kakariko and Dueling Peaks Stable)
+      movements:
+        - to: [1950, 1108]
+        - to: [2082, 1204]
+        - to: [2109, 1417]
   - _Woman<Sagessa>:
       comment: at DP stable
       coord: [1742.25, 1943.5]
-  - _Woman<Celessa>:
-      comment: .road(on road between Dueling Peaks Stable and Hateno)
-      movements:
-        - to: [1807, 1656]
-        - to: [2130, 1660]
-        - to: [2186, 1808]
   - Follow road toward .place(Hateno Village) looking for .road(Toma) and .road(Celessa)
   - _Woman<Hateno Traveller 004>:
       comment: yiga assassin
@@ -31,10 +22,14 @@ Hateno:
         - to: [3101, 1996]
         - to: [3146, 2158]
         # - to: [3287, 2136]
+  - _Woman<Celessa>:
+      comment: .road(on road between Dueling Peaks Stable and Hateno)
   - WB
+  - ? If you did not see .road(Celessa) and .road(Toma) on the road, save and reload by the entrance to Hateno until they appear
+    : banner: true
   - _Woman<Hateno Traveller 006>:
+      comment: yiga assassin
       text: Traveller
-      notes: Reply "Link?"
       coord: [3092, 2443]
   - WB <E
 
