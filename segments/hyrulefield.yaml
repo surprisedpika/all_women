@@ -9,8 +9,7 @@ Hyrule Field:
       comment: Nat and Meghyn attacked
       coord: [2686.5, -929]
   - _Woman<Meghyn>
-  - _Woman<Foothill Traveller 006>:
-      text: Traveller
+  - _Woman<Traveler>:
       coord: [2628, -755]
   - _Woman<Douma>:
       coord: [2132, -216]
@@ -59,18 +58,10 @@ Hyrule Field:
       movements:
         - to: [-1227, 1008]
         - to: [-1005.5, 1087]
-  - _Woman<Hyrule Field Traveller 004>:
-      text: Traveller
-      comment: by the fork in the road
-      coord: [-868.02, 1441.20]
   - WB east
   - _Woman<Mina>:
       comment: attacked npc
       coord: [-543.54, 1462.12]
-  - _Woman<Hyrule Field Traveller 008>:
-      comment: south of big ol' rock
-      text: Traveller
-      coord: [-225, 1969]
 
   - _Woman<Mei>:
       comment: zora in the lake

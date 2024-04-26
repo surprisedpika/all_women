@@ -41,7 +41,7 @@ Emri
 Ena
 Essa
 Estan
-Fegran (2)
+Fegran
 Finley
 Flavi
 Flaxel
@@ -177,14 +177,7 @@ Toma
 Tona
 Torfeau
 Totsuna
-Traveler (Npc_Assassin_004 1)
-Traveler (Npc_Assassin_004 2)
-Traveler (Npc_Assassin_006 1)
-Traveler (Npc_Assassin_006 2)
-Traveler (Npc_Assassin_008 1)
-Traveler (Npc_Assassin_008 2)
-Traveler (Npc_Assassin_010 1)
-Traveler (Npc_Assassin_010 2)
+Traveler
 Traysi
 Trissa
 Tula

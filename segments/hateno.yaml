@@ -9,29 +9,7 @@ Hateno:
   - _Woman<Sagessa>:
       comment: at DP stable
       coord: [1742.25, 1943.5]
-  - Follow road toward .place(Hateno Village) looking for .road(Toma) and .road(Celessa)
-  - _Woman<Hateno Traveller 004>:
-      comment: yiga assassin
-      text: Traveller
-      coord: [2626, 1686]
-  - _Woman<Toma>:
-      comment: .road(on road between Hateno and Fort Hateno) has Horse
-      movements:
-        - to: [2766, 1737]
-        - to: [2953, 1983]
-        - to: [3101, 1996]
-        - to: [3146, 2158]
-        # - to: [3287, 2136]
-  - _Woman<Celessa>:
-      comment: .road(on road between Dueling Peaks Stable and Hateno)
-  - WB
-  - ? If you did not see .road(Celessa) and .road(Toma) on the road, save and reload by the entrance to Hateno until they appear
-    : banner: true
-  - _Woman<Hateno Traveller 006>:
-      comment: yiga assassin
-      text: Traveller
-      coord: [3092, 2443]
-  - WB <E
+  - .todo(Figure out how we're going to get to Hateno)
 
   - Talk to Bolson:
       icon: marker
@@ -39,7 +17,14 @@ Hateno:
   - .important(Make noon)
   - Start Tarrey Town stuff:
       comment: talk to Bolson and Hudson
-  - WB north
+  - WB
+  - _Woman<Toma>:
+      notes: save and reload by the entrance to Hateno until .road(Toma) and .road(Celessa) appear
+      comment: .road(on road between Hateno and Fort Hateno) has Horse
+      coord: [3214.396816114566, 2151.9533809846125]
+  - _Woman<Celessa>:
+      comment: .road(on road between Dueling Peaks Stable and Hateno)
+  - WB <E
   - _Woman<Tamana>:
       comment: by the chickens
       coord: [3349, 2086.75]

@@ -6,12 +6,6 @@ Akkala 1:
         - to: [4796, -1432]
   - _Woman<Jerrin>:
       coord: [4519, -3161]
-  - BLSS .place(towards East Akkala Stable)
-  - _Woman<Akkala Traveller 008>:
-      text: Traveller
-      comment: before going to the stable
-      coord: [4298, -2524]
-
   - WB to .place(East Akkala Stable)
   - _Woman<Laroba>:
       coord: [4248.5, -2717]

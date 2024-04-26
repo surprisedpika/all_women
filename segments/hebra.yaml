@@ -16,6 +16,15 @@ Hebra:
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5, -3143.5]
+  - BLSS
+  - _Woman<Juannelle>:
+      comment: at snowfield stable
+      coord: [-1642, -2568]
+  - _Woman<Zumi>:
+      comment: at serenne stable
+      coord: [-1540.5, -1797]
+  - _Woman<Chabi>:
+      coord: [-1236, -1870]
   - .important(Make night)
   - _Segment<Hebra>
   - "":

@@ -3,6 +3,10 @@
         comment: step up on roof of temple
         color: lightcoral
     - inside stable
+    - _Woman<Yammo>:
+        notes: Save and reload here until she appears on the road
+        comment: .road(on road between Tabantha Bridge Stable and Serenne Stable) She travels with a donkey
+        coord: [-2811, -546.5]
     - _Woman<Banji>:
         comment: standing by bed
         coord: [-2912.25, -547]
@@ -15,14 +19,9 @@
     - _Material<Wildberries,3>
     - _Material<Spicy Pepper,3>
     - _Material<Wood,1>
-    - WB south from peppers
     - _Material<Rushroom>:
-        coord: [-2924, -385]
-    - Shae Loya:
-        icon: shrine
-        comment: Activate shrine warp
-        coord: [-2935, -434]
-    - WB <W superlaunch to .place(Fairy Fountain):
+        coord: [-2877.9493450423415, -666.0814956091217]
+    - WB W> to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman<Kaysa>
     - _Material<Fairy,1>
