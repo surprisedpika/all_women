@@ -82,6 +82,18 @@ Kara Kara Bazaar:
       coord: [-2163, 1700]
   - _Woman<Canolo>:
       coord: [-2188.5, 1688]
+  - WB <E and <E slight turn to .place(Outskirt Stable):
+      movements:
+        - to: [-2022, 1640]
+
+  - _Woman<Canni>:
+      coord: [-1451.55, 1250.47]
+  - _Woman<Haite>
+  - _Woman<Myti>
+  - _Woman<Aliza>:
+      comment: under tree, 'my hero' lady
+      coord: [-1400.00, 1280.00]
+
   - _Segment<Kara Kara Bazaar>
   - "":
       vars:

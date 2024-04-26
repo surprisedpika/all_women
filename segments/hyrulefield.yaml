@@ -18,8 +18,14 @@ Hyrule Field:
       notes: save and reload here until she appears on the road
       comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
 
-  - WB to korok platform and BLSS to .place(Woodland Stable):
+  - WB to korok platform and BLSS to past .place(Woodland Stable):
       coord: [2093, -335]
+
+  - _Woman<Mina>:
+      comment: attacked npc
+      coord: [644, -1268]
+  - build cryo block on mud pit and WB east
+
   - _Woman<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]
@@ -41,31 +47,17 @@ Hyrule Field:
   - WB to .place(Riverside Stable)
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
-  - WB north to trees on hill and BLSS (use stump) to .place(Outskirt Stable):
+  - WB south to stump korok and BLSS to .place(Lake Hylia):
+      notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia
       movements:
-        - to: [193, 869]
-        - to: [-1266, 1023]
-
-  - _Woman<Canni>:
-      coord: [-1451.55, 1250.47]
-  - _Woman<Haite>
-  - _Woman<Myti>
-  - _Woman<Aliza>:
-      comment: under tree, 'my hero' lady
-      coord: [-1400.00, 1280.00]
-
-  - BLSS from stump, steer around north of colliseum:
-      movements:
-        - to: [-1227, 1008]
-        - to: [-1005.5, 1087]
-  - WB east
-  - _Woman<Mina>:
-      comment: attacked npc
-      coord: [-543.54, 1462.12]
+        - to: [295, 1202]
+        - to: [-132, 1615]
+        - to: [-172, 2181]
 
   - _Woman<Mei>:
       comment: zora in the lake
       coord: [-229, 2575]
+
   - _Segment<Hyrule Field>
   - "":
       vars:
