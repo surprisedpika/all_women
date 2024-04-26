@@ -35,8 +35,10 @@ Hyrule Field:
   - WB north to tree, use stump for step-up:
       movements:
         - to: [1168.5, -1286]
-
-  - BLSS to .place(Hila Rao Shrine island)
+        - to: [1018, -452]
+  - _Woman<Benny>:
+      coord: [620.44, 77.41]
+  - WB <S slight turn superlaunch to .place(Hila Rao Shrine island)
   - _Woman<Magda>:
       coord: [816.80, 836.77]
   - WB to bridge

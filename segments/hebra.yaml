@@ -16,7 +16,10 @@ Hebra:
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5, -3143.5]
-  - BLSS
+  - BLSS:
+      movements:
+        - to: [-2836, -2844]
+        - to: [-2612, -2648]
   - _Woman<Juannelle>:
       comment: at snowfield stable
       coord: [-1642, -2568]

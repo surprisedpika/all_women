@@ -1,5 +1,7 @@
 - Setup:
     - BLSS to .place(Tabantha Bridge stable):
+        movements:
+          - to: [-1764, 148]
         comment: step up on roof of temple
         color: lightcoral
     - inside stable
