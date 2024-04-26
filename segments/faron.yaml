@@ -9,6 +9,7 @@ Faron:
   - _Woman<Loone>:
       coord: [128, 3824]
   - WB east and north to .place(Highland Stable):
+      notes: while you are at the stable, look for .road(Totsuna) or .road(Meeshy) for lucky spawns
       movements:
         - to: [332, 3836]
         - to: [439, 3681]
@@ -17,15 +18,15 @@ Faron:
       coord: [515.125, 3462.875]
   - _Woman<Perosa>:
       comment: beside Phanna during the day, inside at night or in rain
+  - WB north
+  - _Woman<Suzuna>:
+      coord: [436, 3069]
+  - WB chain to .place(Lakeside Stable)
   - _Woman<Totsuna>:
       notes: save and reload here until she or Meeshy appear on the road or at the stable
       comment: .road(on road between Highland Stable and Lakeside Stable)
   - _Woman<Meeshy>:
       comment: .road(on road between Highland Stable and Lakeside Stable)
-  - WB north
-  - _Woman<Suzuna>:
-      coord: [436, 3069]
-  - .todo(WB and BLSS(?\))
   - _Woman<Cima>:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
@@ -36,12 +37,14 @@ Faron:
   - _Woman<Sorelia>:
       comment: attacked just south of road
       coord: [1954.5, 3435.5]
-  - ? Save and reload by the wooden shelter, in the forced rain area, until you see .road(Letty)
-    : movements:
+  - Follow the road into Lurelin looking for .road(Letty):
+      notes: save and reload in the bend in the road just outside Lurelin until she appears
+      movements:
         - to: [2098, 3343]
+        - to: [2681, 3213]
   - _Woman<Letty>:
       comment: .road(on road between Lakeside Stable and Lurelin Village)
-  - WB up to to the top of .place(Tuft Mountain)
+  - WB south up to to the top of .place(Tuft Mountain)
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
       coord: [2591, 3526]

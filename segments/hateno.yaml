@@ -9,22 +9,28 @@ Hateno:
   - _Woman<Sagessa>:
       comment: at DP stable
       coord: [1742.25, 1943.5]
-  - .todo(Figure out how we're going to get to Hateno)
-
-  - Talk to Bolson:
-      icon: marker
-      coord: [3309, 2302]
-  - .important(Make noon)
-  - Start Tarrey Town stuff:
-      comment: talk to Bolson and Hudson
-  - WB
+  - max-height WB west to top of waterfall
+  - BLSS to .place(Hateno Village) (road near front gate):
+      notes: it's a bit of a tricky steer but you can get through the hills at this height
+      movements:
+        - to: [1633, 1865.5]
+        - to: [2493, 2060]
+        - to: [2648, 2031]
+        - to: [3207, 2162]
   - _Woman<Toma>:
       notes: save and reload by the entrance to Hateno until .road(Toma) and .road(Celessa) appear
       comment: .road(on road between Hateno and Fort Hateno) has Horse
       coord: [3214.396816114566, 2151.9533809846125]
   - _Woman<Celessa>:
       comment: .road(on road between Dueling Peaks Stable and Hateno)
-  - WB <E
+  - WB <S to Bolson
+  - Talk to Bolson:
+      icon: marker
+      coord: [3309, 2302]
+  - .important(Make noon)
+  - Start Tarrey Town stuff:
+      comment: talk to Bolson and Hudson
+  - WB north
   - _Woman<Tamana>:
       comment: by the chickens
       coord: [3349, 2086.75]
