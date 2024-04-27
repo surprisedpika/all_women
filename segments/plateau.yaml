@@ -1,6 +1,8 @@
 - Plateau:
-    - Standard Plateau route:
+    - _Woman::Special<Zelda>:
         color: grey
+        comment: she talks to you in your mind, we count that
+    - Standard Plateau route:
         movements:
           - to: [-939, 1948]
           - to: [-826, 1961]
@@ -16,11 +18,9 @@
           - to: [-983, 2250]
           - to: [-1434, 1988]
           - to: [-813.5, 1968]
-    - .sub(- Skip cutscene outside SOR)
-    - .sub(- Get some extra peppers and shrooms for early game health)
-    - .sub(- Tower activation after Bombs)
-    - .sub(- Other stuff like IST scrap and 1 handed weapon are accounted for later)
-    - _Woman::Special<Zelda>:
-        comment: she talks to you in your mind, we count that
+    - .sub(Skip cutscene outside SOR)
+    - .sub(Get some extra peppers and shrooms for early game health)
+    - .sub(Tower activation after Bombs)
+    - .sub(Other stuff like IST scrap and 1 handed weapon are accounted for later)
     - _Segment<Paraglider>:
         icon: king

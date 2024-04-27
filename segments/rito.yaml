@@ -15,6 +15,7 @@
         comment: sleeping
         coord: [-2911.5, -557]
     - Tabantha money man:
+        icon: marker
         comment: rob of 500 rupees
         coord: [-2924, -560.5]
     - _Material<Wildberries,3>
@@ -22,7 +23,7 @@
     - _Material<Wood,1>
     - _Material<Rushroom>:
         coord: [-2877.9493450423415, -666.0814956091217]
-    - WB W> to .place(Fairy Fountain):
+    - WB W. to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman::Special<Kaysa>:
         comment: pay great fairy
