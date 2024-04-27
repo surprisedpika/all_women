@@ -4,12 +4,11 @@ Akkala 1:
         - to: [4312, 1424]
         - to: [4768, -560]
         - to: [4796, -1432]
-  - _Woman<Jerrin>:
+  - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)
-  - _Woman<Laroba>:
+  - _Woman::Road<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>:
       coord: [4248.5, -2717]
-      comment: on road between .road(between East Akkala Stable and South Akkala Stable). She is a gerudo
       notes: save and reload here until she appears at the stable or on the road
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
@@ -21,7 +20,7 @@ Akkala 1:
       coord: [3988.5, -1597]
   - .important(Make night)
   - WB <S to fairy fountain
-  - _Woman<Mija>:
+  - _Woman::Special<Mija>:
       comment: pay great fairy
       coord: [4120, -1386]
   - WB to shrine

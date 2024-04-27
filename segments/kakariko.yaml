@@ -13,22 +13,21 @@ Kakariko:
       comment: before 8am
       movements:
         - to: [1688, 775]
-  - _Woman<Koko>:
+  - _Woman::Child<Koko>:
       comment: at the grave
       coord: [1788.25, 856]
   - WB south
-  - _Woman<Impa>:
-      notes: must complete "Seek Out Impa" for Yiga spawns
+  - _Woman::Special<Impa>:
       comment: talk twice, accept prompt
       coord: [1772.75, 983]
   - _Woman<Paya>:
-      notes: faster to talk to her after Impa if you can get there before she loads
+      notes: faster to talk to her after Impa if you can get there before she loads. .todo(possible after talking to koko?)
       coord: [1786.25, 985.75]
-  - _Woman<Trissa>:
-      comment: shopkeeper
+  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
+      notes: talk to her on butter prompt
       coord: [1788.25, 1027.25]
-  - _Woman<Rola>:
-      comment: arrow shop
+  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
+      notes: talk to her on arrow prompt
       coord: [1830.25, 1042.75]
   - _Woman<Mellie>:
       comment: standing watch over plum garden
@@ -36,28 +35,27 @@ Kakariko:
   - _Woman<Lasli>:
       comment: outside clothing shop
       coord: [1846.75, 969.25]
-  - _Woman<Claree>:
-      comment: clothing shop
+  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
+      notes: talk to her on pants prompt
       coord: [1854.5, 982]
-  - WB east:
+  - height WB east:
       coord: [1838.75, 964.5]
-  - _Woman<Cotera>:
+  - _Woman::Special<Cotera>:
       comment: pay great fairy
       coord: [1976.25, 845.5]
+  - WB west
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
-  - _Woman<Cottla>:
+  - _Woman::Child<Cottla>:
       comment: standing at shrine
+      notes: if you were too slow, cottla is not here and cannot be talked to at this time of day. (fix by setting time of day to morning at the end of the hebra branch @ serenne stable, talk to her before zoras domain)
       coord: [1840.75, 915.75]
-  - WB south
-  - WB east to entrance
+  - square first WB to east entrance
   - _Woman<Nanna>:
-      notes: in bed before 3am (Lasli's house)
       comment: at east entrance by the fire
       coord: [1923.5, 1003.5]
-  - WB to shrine
   - _Segment<Kakariko>
   - "":
       vars:

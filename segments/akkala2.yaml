@@ -7,9 +7,9 @@ Akkala 2:
           warp: true
   - WB to Tarrey Town
   - Enter house near Hudson
-  - _Woman<Ruli>:
+  - _Woman::Special<Ruli>:
       coord: [3968.875, -1591.25]
-  - _Woman<Hunnie>:
+  - _Woman::Special<Hunnie>:
       coord: [3972, -1592]
   - Talk to Hudson:
       icon: marker
@@ -22,12 +22,10 @@ Akkala 2:
   - _Woman<Jana>:
       comment: sitting under tree
       coord: [3132, -1670.5]
-  - _Woman<Gleema>:
-      comment: child
+  - _Woman::Child<Gleema>
   - _Woman<Tenne>:
       comment: horse customization
-  - _Woman<Lonni>:
-      comment: .road(On the road between Tarrey Town and South Akkala Stable)
+  - _Woman::Road<Lonni, Tarrey Town and South Akkala Stable>:
       notes: save and reload here until she appears at the stable or on the road
   - _Segment<Akkala 2>
   - "":

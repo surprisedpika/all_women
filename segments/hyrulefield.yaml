@@ -5,28 +5,25 @@ Hyrule Field:
       comment: outside stable
       coord: [2606, -1130]
   - Keep an eye our for .road(Karsh (Gerudo\)) along the road to Foothill Stable
-  - _Woman<Nat>:
-      comment: Nat and Meghyn attacked
+  - _Woman::Attacked<Nat>:
       coord: [2686.5, -929]
-  - _Woman<Meghyn>
-  - _Woman<Traveler>:
+  - _Woman::Attacked<Meghyn>
+  - _Woman::Special<Traveler>:
       coord: [2628, -755]
   - _Woman<Douma>:
       coord: [2132, -216]
-  - _Woman<Karsh>:
+  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
       coord: [2056, -209]
       notes: save and reload here until she appears on the road
-      comment: .road(Gerudo on road between Foothill Stable and Woodland Stable)
 
   - WB to korok platform and BLSS to past .place(Woodland Stable):
       coord: [2093, -335]
 
-  - _Woman<Mina>:
-      comment: attacked npc
+  - _Woman::Attacked<Mina>:
       coord: [644, -1268]
   - build cryo block on mud pit and WB east
 
-  - _Woman<Shamae>:
+  - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]
   - _Woman<Breen>:
@@ -42,8 +39,7 @@ Hyrule Field:
   - _Woman<Magda>:
       coord: [816.80, 836.77]
   - WB to bridge
-  - _Woman<Leekah>:
-      comment: attacked on bridge
+  - _Woman::Attacked<Leekah>:
       coord: [678.875, 979.375]
 
   - WB to .place(Riverside Stable)

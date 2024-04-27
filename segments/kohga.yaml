@@ -6,6 +6,7 @@ Kohga:
         - to: [-3778.90, 326.03, 1855.20]
   - Clip in to .place(Yiga Hideout)
   - Duplex Bow:
+      comment: use on Kohga and attack on vah naboris
       icon: weapon
       coord: [-3510.46, 442.51, 1297.31]
   - Fight Kohga:

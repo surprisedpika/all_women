@@ -26,10 +26,9 @@ Gerudo 1:
   - _Woman<Fegran>:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
-  - _Woman<Lorn>:
-      comment: fruit vendor
+  - _Woman::Shopkeeper<Lorn, Fruit Stand>:
       coord: [-3822.75, 2877.375]
-  - _Woman<Dalia>:
+  - _Woman::Child<Dalia>:
       comment: child sleeping in stall
   - go to .place(jewelery shop)
   - _Woman<Isha>:
@@ -62,22 +61,19 @@ Gerudo 1:
       comment: under tent outside
   - enter the .place(House next to bar):
       coord: [-3874.75, 2876.125]
-  - _Woman<Pearle>:
-      comment: child
+  - _Woman::Child<Pearle>
   - _Woman<Rotana>:
       comment: shrinequest npc at bookshelf in the same house
   - Across the street, rear entrance of .place(Inn):
       coord: [-3854.25, 2897.875]
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
-  - _Woman<Romah>:
-      comment: innkeeper
+  - _Woman::Shopkeeper<Romah, Hotel Oasis>
   - exit .place(front of Inn)
   - _Woman<Olu>:
       coord: [-3839.375, 2893.875]
       comment: outside inn
-  - _Woman<Estan>:
-      comment: meat vendor
+  - _Woman::Shopkeeper<Estan, Meat Stand>:
       coord: [-3847.1875, 2903.1875]
   - _Woman<Frita>:
       comment: rito
@@ -85,8 +81,7 @@ Gerudo 1:
       comment: wandering in the main square
       coord: [-3842.625, 2915.875]
   - .place(arrow shop)
-  - _Woman<Danda>:
-      comment: buy arrows
+  - _Woman::Shopkeeper<Danda, Arrow Stand>:
       notes: get dialog buying
       coord: [-3858, 2911.6875]
   - Shopping:
@@ -95,10 +90,10 @@ Gerudo 1:
       comment: for BTBs
   - .sub(- Buy 20 shock arrows):
       comment: dont use them
-  - _Woman<Kalani>:
+  - _Woman::Child<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall
-  - _Woman<Makure>:
+  - _Woman::Child<Makure>:
       comment: sleeping child
   - up the steps to the .place(palace entrance)
   - _Woman<Reeza>:
@@ -113,18 +108,17 @@ Gerudo 1:
       comment: talking to left guard
   - enter the .place(palace):
       notes: forced dialog
-  - _Woman<Riju + Buliara>:
+  - _Woman::Special<Riju + Buliara>:
       comment: Main Quest dialog
       coord: [-3889.9375, 2969.1875]
       vars:
         women: .add(1) # 1+1
         segment-women: .add(1) # 1+1
   - _Woman<Padda>:
-      comment: south courtyard with seal
+      comment: south courtyard with Patricia (seal)
       coord: [-3848.875, 2987.125]
   - WB <N to .place(west entrance seal rental)
-  - _Woman<Kohm>:
-      comment: pink woman sealing
+  - _Woman::Shopkeeper<Kohm, Seal Rental>:
       coord: [-3902.875, 2882.875]
   - _Woman<Laine>:
       comment: guard outside

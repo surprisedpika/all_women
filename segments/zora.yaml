@@ -18,14 +18,13 @@ Zora:
       coord: [3300.875, -516.5]
   - _Woman<Torfeau>:
       comment: guard
-      notes: reply 'No'
       coord: [3314.5, -548]
-  - _Woman<Tona>:
+  - _Woman::Child<Tona>:
       comment: 3 children sleeping in one pond (other ponds contain boy zoras)
       notes: try to avoid going in the water
       coord: [3317.75, -528]
-  - _Woman<Finley>
-  - _Woman<Laruta>
+  - _Woman::Child<Finley>
+  - _Woman::Child<Laruta>
   - _Woman<Laflat>:
       comment: east of sleeping children
       coord: [3343, -515]
@@ -51,7 +50,7 @@ Zora:
       icon: marker
       coord: [3597.5, -340.5]
   - Enter .place(Ruta)
-  - _Woman<Mipha>:
+  - _Woman::Special<Mipha>:
       notes: forced dialog
       coord: [3668.5, -215]
   - _Segment<Zora>

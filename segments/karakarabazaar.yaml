@@ -18,7 +18,7 @@ Kara Kara Bazaar:
   - BLSS to .place(Great Skeleton):
       comment: straight west
       coord: [-4860, 3788]
-  - _Woman<Tera>:
+  - _Woman::Special<Tera>:
       comment: pay the great fairy
       coord: [-4860, 3788]
 
@@ -42,53 +42,51 @@ Kara Kara Bazaar:
       coord: [-3728.5, 2870.5]
 
   - Follow road looking for .road(Kyra) and .road(Lukan)
-  - _Woman<Kyra>:
-      comment: .road(on road between Kara Kara and Gerudo Town) usually running
-  - _Woman<Rhondson>:
+  - _Woman::Road<Kyra, Kara Kara and Gerudo Town, usually running>
+  - _Woman::Special<Rhondson>:
       comment: send to tarrey town
       coord: [-3269, 2583]
   - _Woman<Ripp>:
-      comment: guard, walking around the pond, starts at the sound end by the building
+      comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
   - Enter building
   - _Woman<Kachoo>:
       coord: [-3267.5, 2610.5]
   - _Woman<Shaillu>
-  - _Woman<Konora>
-  - _Woman<Emri>:
+  - _Woman::Shopkeeper<Konora>
+  - _Woman::Shopkeeper<Emri>:
       comment: stall outside
       coord: [-3278, 2564.5]
-  - _Woman<Maike>:
+  - _Woman::Shopkeeper<Maike>:
       comment: other stall around pond
       coord: [-3241, 2522.5]
   - WB to top of building:
       notes: detonate stray square bomb
-  - _Woman<Vilia>:
+  - _Woman::Special<Vilia>:
       comment: buy clothes
       coord: [-3257.5, 2611.25]
   - Get a sand seal and continue on road:
       coord: [-3387.375, 2566.75]
-  - _Woman<Lukan>:
+  - _Woman::Road<Lukan, Canyon Stable and Gerudo Town>:
       notes: sometimes sitting on the rocks right at the edge of the desert
-      comment: .road(on road between Canyon Stable and Gerudo Town)
-  - _Woman<Calisa>:
-      comment: .road(on road between Canyon Stable and Kara Kara)
+  - _Woman::Road<Calisa, Canyon Stable and Kara Kara>
   - Sesami:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
   - WBs northeast into valley
-  - _Woman<Flaxel>:
+  - _Woman::Special<Flaxel>:
       coord: [-2163, 1700]
-  - _Woman<Canolo>:
+  - _Woman::Special<Canolo>:
       coord: [-2188.5, 1688]
   - WB <E and <E slight turn to .place(Outskirt Stable):
       movements:
         - to: [-2022, 1640]
 
   - _Woman<Canni>:
+      comment: horse customization
       coord: [-1451.55, 1250.47]
-  - _Woman<Haite>
+  - _Woman::Child<Haite>
   - _Woman<Myti>
   - _Woman<Aliza>:
       comment: under tree, 'my hero' lady

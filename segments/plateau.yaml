@@ -20,7 +20,7 @@
     - .sub(- Get some extra peppers and shrooms for early game health)
     - .sub(- Tower activation after Bombs)
     - .sub(- Other stuff like IST scrap and 1 handed weapon are accounted for later)
-    - _Woman<Zelda>:
+    - _Woman::Special<Zelda>:
         comment: she talks to you in your mind, we count that
     - _Segment<Paraglider>:
         icon: king

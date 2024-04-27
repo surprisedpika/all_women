@@ -1,11 +1,12 @@
 Hateno:
-  - _Woman<Brokka>:
+  - run along the road a bit, windbomb if you want but you're looking for .road(Brokka)
+  - _Woman::Road<Brokka, Kakariko and Dueling Peaks Stable>:
       notes: save and reload here until she appears on the road
-      comment: follow along .road(on road between Kakariko and Dueling Peaks Stable)
       movements:
         - to: [1950, 1108]
         - to: [2082, 1204]
         - to: [2109, 1417]
+  - depending on where you see Brokka your movement here will just need to be improvised. get to .place(Dueling Peaks) fastly
   - _Woman<Sagessa>:
       comment: at DP stable
       coord: [1742.25, 1943.5]
@@ -17,12 +18,10 @@ Hateno:
         - to: [2493, 2060]
         - to: [2648, 2031]
         - to: [3207, 2162]
-  - _Woman<Toma>:
+  - _Woman::Road<Toma, Hateno and Fort Hateno, has horse>:
       notes: save and reload by the entrance to Hateno until .road(Toma) and .road(Celessa) appear
-      comment: .road(on road between Hateno and Fort Hateno) has Horse
       coord: [3214.396816114566, 2151.9533809846125]
-  - _Woman<Celessa>:
-      comment: .road(on road between Dueling Peaks Stable and Hateno)
+  - _Woman::Road<Celessa, Dueling Peaks Stable and Haten, cute shield>
   - WB <S to Bolson
   - Talk to Bolson:
       icon: marker
@@ -35,8 +34,7 @@ Hateno:
       comment: by the chickens
       coord: [3349, 2086.75]
   - head toward the main road
-  - _Woman<Sophie>:
-      comment: in the clothing shop
+  - _Woman::Shopkeeper<Sophie, Ventest Clothing Boutique>:
       coord: [3361.25, 2129]
   - _Woman<Ivee>:
       comment: outside general store
@@ -46,7 +44,7 @@ Hateno:
       vars:
         women: .add(1) # 1+1
         segment-women: .add(1) # 1+1
-  - _Woman<Narah>:
+  - _Woman::Child<Narah>:
       comment: child running around centrally
   - _Woman<Senna>:
       comment: outside dye shop
@@ -55,17 +53,16 @@ Hateno:
   - _Woman<Clavia>:
       comment: behind dye shop
       coord: [3426.25, 2162.75]
-  - _Woman<Aster>:
+  - _Woman::Child<Aster>:
       comment: child running around outside inn
       coord: [3426.5, 2118.75]
   - _Woman<Uma>:
       comment: old
       coord: [3458, 2129.5]
-  - _Woman<Prima>:
-      comment: Innkeeper
+  - _Woman::Shopkeeper<Prima, The Great Ton Pu Inn>:
       notes: stand on the counter
       coord: [3467.25, 2092.25]
-  - _Woman<Karin>:
+  - _Woman::Child<Karin>:
       comment: walking on the bridge
       coord: [3476.5, 2139.5]
   - WB east
@@ -80,7 +77,7 @@ Hateno:
       coord: [3436, 1978]
   - Weapon smuggle and WB to .place(Hateno Tech Lab):
       coord: [3639.5, 2094.5]
-  - _Woman<Purah>:
+  - _Woman::Special<Purah>:
       comment: tech lab
       coord: [3777, 2126.5]
   - Talk to Purah until she gives you Camera:

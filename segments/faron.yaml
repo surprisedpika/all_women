@@ -22,11 +22,9 @@ Faron:
   - _Woman<Suzuna>:
       coord: [436, 3069]
   - WB chain to .place(Lakeside Stable)
-  - _Woman<Totsuna>:
+  - _Woman::Road<Totsuna, Highland Stable and Lakeside Stable>:
       notes: save and reload here until she or Meeshy appear on the road or at the stable
-      comment: .road(on road between Highland Stable and Lakeside Stable)
-  - _Woman<Meeshy>:
-      comment: .road(on road between Highland Stable and Lakeside Stable)
+  - _Woman::Road<Meeshy, Highland Stable and Lakeside Stable>
   - _Woman<Cima>:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
@@ -34,7 +32,7 @@ Faron:
       movements:
         - to: [1712, 3448]
         - to: [1868, 3346]
-  - _Woman<Sorelia>:
+  - _Woman::Attacked<Sorelia>:
       comment: attacked just south of road
       coord: [1954.5, 3435.5]
   - Follow the road into Lurelin looking for .road(Letty):
@@ -42,8 +40,7 @@ Faron:
       movements:
         - to: [2098, 3343]
         - to: [2681, 3213]
-  - _Woman<Letty>:
-      comment: .road(on road between Lakeside Stable and Lurelin Village)
+  - _Woman::Road<Letty, Lakeside Stable and Lurelin Village, blonde>
   - WB south up to to the top of .place(Tuft Mountain)
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
@@ -53,12 +50,10 @@ Faron:
       comment: side quest npc
       notes: sleeping 6:00 PM - 5:00 AM
       coord: [2886, 3413.5]
-  - _Woman<Chessica>:
-      comment: in the inn
+  - _Woman::Shopkeeper<Chessica, Inn>:
       notes: if it's night, Flavi will be sleeping in the inn
       coord: [2946.5, 3435.75]
-  - _Woman<Mubbs>:
-      comment: shopkeeper on docks
+  - _Woman::Shopkeeper<Mubbs, General Store (Docks)>:
       coord: [2957.75, 3491.25]
   - _Woman<Flavi>:
       comment: east of town during the day, looking out at Eventide. Has a campfire

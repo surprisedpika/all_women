@@ -45,11 +45,9 @@ Gerudo 2:
   - _Woman<Pasha>
   - _Woman<Dina>
   - _Woman<Ashai>
-  - _Woman<Spera>:
-      comment: grain vendor
+  - _Woman::Shopkeeper<Spera, Grain Stand>:
       coord: [-3821.625, 2937.375]
-  - _Woman<Ardin>:
-      comment: shroom vendor
+  - _Woman::Shopkeeper<Ardin, Mushroom Stand>:
       notes: ignore women in the street here, they were in the bar
       coord: [-3819.875, 2925.25]
   - Around the corner and enter .place(door on right)
@@ -57,7 +55,7 @@ Gerudo 2:
       comment: talking to a doll
       coord: [-3809.375, 2933.25]
   - .place(Secret club)
-  - _Woman<Greta>:
+  - _Woman::Shopkeeper<Greta, Gerudo Secret Club>:
       notes: no need to enter, just talk to the door
       coord: [-3788.125, 2934.375]
   - Near the .place(east entrance seal rental)
@@ -66,14 +64,12 @@ Gerudo 2:
   - _Woman<Lashley>:
       comment: guard
       coord: [-3755.25, 2952.25]
-  - _Woman<Frelly>:
-      comment: seal lady
+  - _Woman::Shopkeeper<Frelly, Seal Rental>:
       coord: [-3757.75, 2938.875]
   - _Woman<Essa>:
       comment: sweeping
       coord: [-3773.5, 2916.375]
-  - _Woman<Saula>:
-      comment: clothing vendor
+  - _Woman::Shopkeeper<Saula, Clothing Stand>:
       coord: [-3802.375, 2902]
 
   - WB south to .place(Sand-Seal Rally)
@@ -91,7 +87,7 @@ Gerudo 2:
       coord: [-2966, 3773]
   - Enter .place(Naboris):
       coord: [-2612, 3628]
-  - _Woman<Urbosa>:
+  - _Woman::Special<Urbosa>:
       notes: forced dialog
   - _Segment<Gerudo 2>
   - "":

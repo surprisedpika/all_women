@@ -28,7 +28,7 @@ Hebra:
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5, -1797]
-  - _Woman<Chabi>:
+  - _Woman::Attacked<Chabi>:
       coord: [-1236, -1870]
   - .important(Make night)
   - _Segment<Hebra>

@@ -5,15 +5,14 @@
         comment: step up on roof of temple
         color: lightcoral
     - inside stable
-    - _Woman<Yammo>:
+    - _Woman::Road<Yammo, Tabantha Bridge Stable and Serenne Stable>:
         notes: Save and reload here until she appears on the road
-        comment: .road(on road between Tabantha Bridge Stable and Serenne Stable) She travels with a donkey
         coord: [-2811, -546.5]
     - _Woman<Banji>:
         comment: standing by bed
         coord: [-2912.25, -547]
-    - _Woman<Ena>:
-        comment: little girl sleeping
+    - _Woman::Child<Ena>:
+        comment: sleeping
         coord: [-2911.5, -557]
     - Tabantha money man:
         comment: rob of 500 rupees
@@ -25,12 +24,14 @@
         coord: [-2877.9493450423415, -666.0814956091217]
     - WB W> to .place(Fairy Fountain):
         coord: [-3538, -748]
-    - _Woman<Kaysa>
+    - _Woman::Special<Kaysa>:
+        comment: pay great fairy
     - _Material<Fairy,1>
     - _Material<Mighty Thistle,3>
     - _Material<Endura Carrot,2>
     - WB to .place(near tower)
-    - Claymore:
+    - Royal Claymore:
+        comment: for Kohga and attacked NPCs and trees
         icon: weapon
         coord: [-3555, -1049]
     - WB to .place(near enemy camp)
@@ -54,18 +55,16 @@
     - _Woman<Amali>:
         comment: green bird by cooking pot
     - Drop down to goddess statue
-    - _Woman<Hylia>:
+    - _Woman::Special<Hylia>:
         text: Hylia / Goddess Statue
         comment: get 1 stamina vessel
         coord: [-3610.5, -1805]
-    - _Woman<Cecili>:
-        comment: Innkeeper
+    - _Woman::Shopkeeper<Cecili, Inn>:
         coord: [-3611.8125, -1858.1875]
     - .place(Shop):
         coord: [-3646.5, -1822.75]
     - Buy all arrows
-    - _Woman<Misa>:
-        comment: Shopkeeper
+    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>
     - Do IST:
         comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA51SQY7bMAy8%2BxUEct1DNlsUyKEvKXpgLMYmIosqJcfr3y8lxU6DXoqeJFoezgyHHDjDO6RIqD%2Fp98zxl5W9x3USJbtm0X608yLL9n46Aqo%2Ba4OPTN61%2Bg08X%2BnHt%2BOxvFyRdbVzEXHwYTzcrxApRlIrF%2FbuQqpMyao8csreru8wYsorkOdPVitVEChAX6g85qJr8OxIuwNclPAG3%2B1BcgIOkBeBRHZfOI8gcyFKvWKEyaDK6FPnVGIx1xiLvoeStQ7jKbJr7T9a%2B662PO240x%2B40yvO7rc5%2Ftu%2F%2F8txKD7BWDjcKVhSK1xFDUmQ8E7NpQXXLi2kzXpNfMu3q8ntsXcVfYDBugcaMPOdYOplDhkwuJI%2BhoGgoiZjti6VVXkYMyRLplOaxFDovWmSB22pthCeXxbCKCFtI3vu3K6nCCk%2ByvmwMYemuYFNbC%2Bqc8xshZIXdF0aRcpy12XdPFXWfRFMNZon2%2FQHnBxIgAEncpgRUvW1QulXdisa2gb%2FtxmyNtuWGkugzwxXWiBliqkS2IhuRLHOqRmsowQ3RyPdrZZGr%2Fu%2FJ1aN75G9TmvzbAYl0FuNbi27P1m5dolM7Pl8LhpTMUnBzYpf9UAOJP4DAAA%3D)
         notes: scrap = pepper x3, mighty thistle x3, wildberries x3
@@ -79,7 +78,7 @@
     - _Woman<Laissa>:
         comment: purple bird
         coord: [-3635.125, -1791]
-    - _Woman<Molli>:
+    - _Woman::Child<Molli>:
         comment: little pink bird sleeping next door
     - _Woman<Juney>:
         comment: hylian woman, on deck between Saki and elder
@@ -89,16 +88,16 @@
     - _Woman<Bedoli>:
         coord: [-3587, -1798.5]
         comment: on flight deck
-    - _Woman<Cree>:
+    - _Woman::Child<Cree>:
         comment: little blue bird
         coord: [-3605.5, -1799.5]
-    - _Woman<Kotts>:
+    - _Woman::Child<Kotts>:
         comment: little yellow bird
-    - _Woman<Notts>:
+    - _Woman::Child<Notts>:
         comment: little red bird
-    - _Woman<Kheel>:
+    - _Woman::Child<Kheel>:
         comment: little red bird
-    - _Woman<Genli>:
+    - _Woman::Child<Genli>:
         comment: little green bird
     - jump off deck east and midair WB to .place(Rito Village Stable)
     - _Woman<Ariane>:
