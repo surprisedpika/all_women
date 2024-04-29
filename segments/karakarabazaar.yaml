@@ -44,20 +44,23 @@ Kara Kara Bazaar:
   - Follow road looking for .road(Kyra) and .road(Lukan)
   - _Woman::Road<Kyra, Kara Kara and Gerudo Town, usually running>
   - _Woman::Special<Rhondson>:
+      notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
       comment: send to tarrey town
       coord: [-3269, 2583]
   - _Woman<Ripp>:
       comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
   - Enter building
-  - _Woman<Kachoo>:
+  - _Woman::Shopkeeper<Kachoo, Inn>:
       coord: [-3267.5, 2610.5]
-  - _Woman<Shaillu>
-  - _Woman::Shopkeeper<Konora>
+  - _Woman::Shopkeeper<Shaillu>
+  - _Woman<Konora>
   - _Woman::Shopkeeper<Emri>:
+      notes: talk on shop prompt
       comment: stall outside
       coord: [-3278, 2564.5]
   - _Woman::Shopkeeper<Maike>:
+      notes: talk on shop prompt
       comment: other stall around pond
       coord: [-3241, 2522.5]
   - WB to top of building:
@@ -67,6 +70,7 @@ Kara Kara Bazaar:
       coord: [-3257.5, 2611.25]
   - Get a sand seal and continue on road:
       coord: [-3387.375, 2566.75]
+  - .todo([TODO] Look into a Kara Kara NPC farm)
   - _Woman::Road<Lukan, Canyon Stable and Gerudo Town>:
       notes: sometimes sitting on the rocks right at the edge of the desert
   - _Woman::Road<Calisa, Canyon Stable and Kara Kara>
@@ -88,6 +92,7 @@ Kara Kara Bazaar:
       coord: [-1451.55, 1250.47]
   - _Woman::Child<Haite>
   - _Woman<Myti>
+  - .important(Make night for Gerudo 1)
   - _Woman<Aliza>:
       comment: under tree, 'my hero' lady
       coord: [-1400.00, 1280.00]

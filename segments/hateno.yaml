@@ -1,27 +1,34 @@
 Hateno:
-  - run along the road a bit, windbomb if you want but you're looking for .road(Brokka)
-  - _Woman::Road<Brokka, Kakariko and Dueling Peaks Stable>:
-      notes: save and reload here until she appears on the road
+  - This next section has .road(3 Road NPCs), so it may get confusing:
+      banner: true
+  - _Woman::Road::Watch<Brokka, Kakariko and Dueling Peaks Stable, red hair>:
       movements:
         - to: [1950, 1108]
         - to: [2082, 1204]
         - to: [2109, 1417]
-  - depending on where you see Brokka your movement here will just need to be improvised. get to .place(Dueling Peaks) fastly
+  - Run along the road a bit, windbomb if you want but you're looking for .road(Brokka). WB to the stable when you are clear of the hills (by Hestu)
+  - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
+      coord: [1727.75, 1927]
+  - ? _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>
+    : notes: Toma may be here while farming spawns for Brokka
+  - ? _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>
+    : notes: Celessa may be here while farming spawns for Brokka
   - _Woman<Sagessa>:
-      comment: at DP stable
+      comment: at DP stable by the cooking pot or sometimes looking at the Shrine
       coord: [1742.25, 1943.5]
   - max-height WB west to top of waterfall
   - BLSS to .place(Hateno Village) (road near front gate):
+      comment: use ore deposit for step-up
       notes: it's a bit of a tricky steer but you can get through the hills at this height
       movements:
         - to: [1633, 1865.5]
         - to: [2493, 2060]
         - to: [2648, 2031]
         - to: [3207, 2162]
-  - _Woman::Road<Toma, Hateno and Fort Hateno, has horse>:
-      notes: save and reload by the entrance to Hateno until .road(Toma) and .road(Celessa) appear
-      coord: [3214.396816114566, 2151.9533809846125]
-  - _Woman::Road<Celessa, Dueling Peaks Stable and Haten, cute shield>
+  - _Woman::Road<Toma, Hateno Village, has horse>:
+      coord: [3259.75, 2134.25]
+  - _Woman::Road<Celessa, Hateno Village, dark hair>:
+      notes: farm spawns for Toma and Celessa in the same location
   - WB <S to Bolson
   - Talk to Bolson:
       icon: marker
@@ -80,8 +87,7 @@ Hateno:
   - _Woman::Special<Purah>:
       comment: tech lab
       coord: [3777, 2126.5]
-  - Talk to Purah until she gives you Camera:
-      notes: you do not need to take her picture
+  - take her picture, show it to her, get the Robbie's Research side quest
   - _Segment<Hateno>
   - "":
       vars:

@@ -32,27 +32,25 @@ Kakariko:
   - _Woman<Mellie>:
       comment: standing watch over plum garden
       coord: [1872.5, 1013]
-  - _Woman<Lasli>:
-      comment: outside clothing shop
-      coord: [1846.75, 969.25]
   - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
       notes: talk to her on pants prompt
       coord: [1854.5, 982]
-  - height WB east:
-      coord: [1838.75, 964.5]
-  - _Woman::Special<Cotera>:
-      comment: pay great fairy
-      coord: [1976.25, 845.5]
-  - WB west
+  - _Woman<Lasli>:
+      comment: outside clothing shop
+      coord: [1846.75, 969.25]
+  - WB north from shop stairs
+  - _Woman::Child<Cottla>:
+      comment: standing at shrine
+      coord: [1840.75, 915.75]
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
-  - _Woman::Child<Cottla>:
-      comment: standing at shrine
-      notes: if you were too slow, cottla is not here and cannot be talked to at this time of day. (fix by setting time of day to morning at the end of the hebra branch @ serenne stable, talk to her before zoras domain)
-      coord: [1840.75, 915.75]
-  - square first WB to east entrance
+  - WB east
+  - _Woman::Special<Cotera>:
+      comment: pay great fairy
+      coord: [1976.25, 845.5]
+  - WB south
   - _Woman<Nanna>:
       comment: at east entrance by the fire
       coord: [1923.5, 1003.5]

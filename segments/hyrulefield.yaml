@@ -12,14 +12,20 @@ Hyrule Field:
       coord: [2628, -755]
   - _Woman<Douma>:
       coord: [2132, -216]
-  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      coord: [2056, -209]
-      notes: save and reload here until she appears on the road
+
+  - .todo([TODO] find a better step up maybe, or just WB?)
 
   - WB to korok platform and BLSS to past .place(Woodland Stable):
       coord: [2093, -335]
 
+  - .todo([TODO] find a better Karsh farm)
+
+  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
+      coord: [2056, -209]
+      notes: save and reload here until she appears on the road
+
   - _Woman::Attacked<Mina>:
+      notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
   - build cryo block on mud pit and WB east
 

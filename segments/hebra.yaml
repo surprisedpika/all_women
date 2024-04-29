@@ -9,6 +9,9 @@ Hebra:
       coord: [-3594, -1821.375]
   - WB N. + midair:
       coord: [-3431, -2322]
+
+  - .todo([TODO] clarify this, getting up there is confusing)
+
   - WB chain to .place(Selmie's Cabin):
       movements:
         - to: [-3491, -2630]
@@ -28,9 +31,9 @@ Hebra:
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5, -1797]
+  - .important(Make night)
   - _Woman::Attacked<Chabi>:
       coord: [-1236, -1870]
-  - .important(Make night)
   - _Segment<Hebra>
   - "":
       vars:

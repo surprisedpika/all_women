@@ -4,6 +4,7 @@ Akkala 1:
         - to: [4312, 1424]
         - to: [4768, -560]
         - to: [4796, -1432]
+  - talk to the robot to make Robbie and Jerrin appear
   - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)

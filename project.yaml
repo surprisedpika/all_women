@@ -4,7 +4,7 @@ title: All Women
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 0.4.2
+version: 0.4.3
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:
@@ -38,9 +38,17 @@ config:
         comment: $(1) $(0)
         icon: material
       _Woman:
+        _Road:
+          Watch:
+            text: Look for .road($(0)) - $(2)
+            comment: on the road between .road($(1))
         Road:
-          text: $(0)
-          comment: on road between .road($(1)) $(2)
+          text: .road($(0)) - $(2)
+          comment: attempt to force spawn by saving and cycling reloads at $(1)
+          notes:
+            - try to save with camera facing many spawn points
+            - save within the location area - so it says $(1) on the save file
+            - save on a road, if possible
           icon: road-woman
           counter: .var(women)
           vars:

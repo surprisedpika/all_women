@@ -6,15 +6,13 @@ Akkala 2:
         - to: [3896, -1309]
           warp: true
   - WB to Tarrey Town
-  - Enter house near Hudson
-  - _Woman::Special<Ruli>:
-      coord: [3968.875, -1591.25]
-  - _Woman::Special<Hunnie>:
-      coord: [3972, -1592]
   - Talk to Hudson:
       icon: marker
       comment: give wood, get mission to find Gerudo
       coord: [3988.5, -1597]
+
+  - .todo([TODO] clean up this section, going back to the sheep pen is a bit awkward)
+
   - Keep an eye our for .road(Lonni) along the road to South Akkala Stable
   - _Woman<Kaifa>:
       coord: [3164, -1717]

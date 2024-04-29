@@ -1,17 +1,4 @@
 Gerudo 1:
-  - Warp to Dah Hesho:
-      icon: shrine
-      color: dodgerblue
-      movements:
-        - to: [3896, -1309]
-          warp: true
-  - WB to .place(Tarrey Town)
-  - Talk to Hudson:
-      icon: marker
-      comment: give wood, get mission to find Rito
-      coord: [3988.5, -1597]
-  - .important(Make night for Gerudo 1)
-
   - Warp to Daqo Chisay:
       icon: shrine
       color: dodgerblue
@@ -27,6 +14,7 @@ Gerudo 1:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
   - _Woman::Shopkeeper<Lorn, Fruit Stand>:
+      notes: talk on shop prompt
       coord: [-3822.75, 2877.375]
   - _Woman::Child<Dalia>:
       comment: child sleeping in stall
