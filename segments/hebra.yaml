@@ -21,6 +21,7 @@ Hebra:
       coord: [-2947.5, -3143.5]
 
   - .todo([TODO] clarify this step-up and BLSS angle too, easy to get off course)
+
   - BLSS:
       movements:
         - to: [-2836, -2844]
@@ -30,6 +31,7 @@ Hebra:
       coord: [-1642, -2568]
   - _Woman<Harlow>:
       comment: at snowfield stable
+  - .todo([TODO] what is this windbomb?)
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5, -1797]
