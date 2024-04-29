@@ -19,6 +19,8 @@ Hebra:
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5, -3143.5]
+
+  - .todo([TODO] clarify this step-up and BLSS angle too, easy to get off course)
   - BLSS:
       movements:
         - to: [-2836, -2844]
