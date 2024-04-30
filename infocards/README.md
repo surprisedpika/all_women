@@ -25,4 +25,4 @@
 ![Toma & Celessa](NPC-Toma-Celessa.jpg?raw=true)
 
 ## Yammo
-![Yammo](NPC-Letty.jpg?raw=true)
+![Yammo](NPC-Yammo.jpg?raw=true)
