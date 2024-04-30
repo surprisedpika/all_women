@@ -9,10 +9,11 @@ Faron:
   - _Woman<Loone>:
       coord: [128, 3824]
   - WB east and north to .place(Highland Stable):
-      notes: while you are at the stable, look for .road(Totsuna) or .road(Meeshy) for lucky spawns
       movements:
         - to: [332, 3836]
         - to: [439, 3681]
+  - _Woman::Road::Watch<Meeshy, Highland Stable and Lakeside Stable, no shield>
+  - _Woman::Road::Watch<Totsuna, Highland Stable and Lakeside Stable, has shield>
   - _Woman<Phanna>:
       comment: horse customization
       coord: [515.125, 3462.875]
@@ -22,36 +23,24 @@ Faron:
   - _Woman<Suzuna>:
       coord: [436, 3069]
   - WB chain to .place(Lakeside Stable)
-  - _Woman::Road<Totsuna, Highland Stable and Lakeside Stable>:
-      notes: save and reload here until she or Meeshy appear on the road or at the stable
-  - _Woman::Road<Meeshy, Highland Stable and Lakeside Stable>
-
-  - .todo([TODO] figure out if there's a good NPC farm at Lakeside Stable)
-
   - _Woman<Cima>:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
-  - Follow road toward .place(Lurelin Village) keep an eye out for .road(Letty):
-      movements:
-        - to: [1712, 3448]
-        - to: [1868, 3346]
+
+  - _Woman::Road::Watch<Letty, Lakeside Stable and Lurelin Village, blonde>:
+      notes: Letty seems to have a lower spawn rate at Lakeside Stable so we'll try to farm spawns in Lurelin Village
+  - "Road NPC info card: .link([Meeshy & Totsuna]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Meeshy-Totsuna.jpg?raw=true)"
+  - _Woman::Road<Meeshy, Lakeside Stable, no shield>
+  - _Woman::Road<Totsuna, Lakeside Stable, has shield>:
+      notes: farm spawns for Meeshy and Totsuna in the same location
+
+  - Windbomb east, over the bridge
   - _Woman::Attacked<Sorelia>:
       comment: attacked just south of road
       notes: has a male companion, dont talk to him >:)
       coord: [1954.5, 3435.5]
-  - Follow the road into Lurelin looking for .road(Letty):
-      notes: save and reload in the bend in the road just outside Lurelin until she appears
-      movements:
-        - to: [2098, 3343]
-        - to: [2681, 3213]
 
-  - .todo([TODO] find optimal Letty farm)
-
-  - _Woman::Road<Letty, Lakeside Stable and Lurelin Village, blonde>
-
-  - .todo([TODO] clean up this section, i don't really like the movement up to the top of the mountain)
-
-  - WB south up to to the top of .place(Tuft Mountain)
+  - WB E + E + E midair up to the top of .place(Tuft Mountain)
   - _Woman<Perda>:
       comment: Gerudo by the heart pond
       coord: [2591, 3526]
@@ -69,6 +58,13 @@ Faron:
   - _Woman<Flavi>:
       comment: east of town during the day, looking out at Eventide. Has a campfire
       coord: [3076, 3544.5]
+  - If you still need to find Letty, WB northwest toward the Village entrance
+  - "NPC info card: .link([Letty]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Letty.jpg?raw=true)"
+  - _Woman::Road<Letty, Lurelin Village, blonde>:
+      coord: [2706.4961745528853, 3231.4957397236667]
+      notes:
+        - try to save with camera facing spawn points
+        - save on a road, if possible
   - _Segment<Faron>
   - "":
       vars:

@@ -36,13 +36,14 @@ Kara Kara Bazaar:
       coord: [-3814, 2819]
   - Talk to the nerd outside the shrine
   - Grab a Sand Seal:
-      comment: sand seal recommended on this road due to frequent stopping along the flat desert
-      notes: If you do not see the Road NPCs along the road, ride the sand-seal back and forth along the road until they appear
+      comment: sand seal recommended on this road due to stopping along the flat desert
+      notes: If you do not see Kyra along the road, ride the sand-seal back and forth along the road until she appears
       icon: marker
       coord: [-3728.5, 2870.5]
 
-  - Follow road looking for .road(Kyra) and .road(Lukan)
-  - _Woman::Road<Kyra, Kara Kara and Gerudo Town, usually running>
+  - _Woman::Road::Watch<Lukan, Gerudo Town and Gerudo Canyon Stable, Gerudo>
+  - _Woman::Road<Kyra, Kara Kara and Gerudo Town, Gerudo usually running>:
+      notes: unlike all the other Road NPCs just use a sand seal for Kyra
   - _Woman::Special<Rhondson>:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
       comment: send to tarrey town
@@ -55,30 +56,33 @@ Kara Kara Bazaar:
       coord: [-3267.5, 2610.5]
   - _Woman::Shopkeeper<Shaillu>
   - _Woman<Konora>
+  - _Woman::Road::Watch<Calisa, Kara Kara Bazaar and Gerudo Canyon Stable, Gerudo>
   - _Woman::Shopkeeper<Emri>:
       notes: talk on shop prompt
       comment: stall outside
       coord: [-3278, 2564.5]
-  - _Woman::Shopkeeper<Maike>:
-      notes: talk on shop prompt
-      comment: other stall around pond
-      coord: [-3241, 2522.5]
-  - WB to top of building:
+  - WB south to the top of the building:
+      coord: [-3280.5, 2553.5]
       notes: detonate stray square bomb
   - _Woman::Special<Vilia>:
       comment: buy clothes
       coord: [-3257.5, 2611.25]
-  - Get a sand seal and continue on road:
-      coord: [-3387.375, 2566.75]
-  - .todo([TODO] Look into a Kara Kara NPC farm)
-  - _Woman::Road<Lukan, Canyon Stable and Gerudo Town>:
-      notes: sometimes sitting on the rocks right at the edge of the desert
-  - _Woman::Road<Calisa, Canyon Stable and Kara Kara>
+  - low WB north to shop
+  - _Woman::Shopkeeper<Maike>:
+      notes: talk on shop prompt
+      comment: other stall around pond
+      coord: [-3241, 2522.5]
+
+  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Calisa-Lukan.jpg?raw=true)"
+  - _Woman::Road<Calisa, Kara Kara Bazaar, Gerudo>
+  - _Woman::Road<Lukan, Kara Kara Bazaar, Gerudo>:
+      notes: farm spawns for Lukan and Calisa in the same location
+  - WBs to .place(Gerudo Canyon Stable)
   - Sesami:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
-  - WBs northeast into valley
+  - high WBs north and east into valley
   - _Woman::Special<Flaxel>:
       coord: [-2163, 1700]
   - _Woman::Special<Canolo>:

@@ -4,7 +4,7 @@ Hyrule Field:
   - _Woman<Gaile>:
       comment: outside stable
       coord: [2606, -1130]
-  - Keep an eye our for .road(Karsh (Gerudo\)) along the road to Foothill Stable
+  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
   - _Woman::Attacked<Nat>:
       coord: [2686.5, -929]
   - _Woman::Attacked<Meghyn>
@@ -13,22 +13,24 @@ Hyrule Field:
   - _Woman<Douma>:
       coord: [2132, -216]
 
-  - .todo([TODO] find a better step up maybe, or just WB?)
-
-  - WB to korok platform and BLSS to past .place(Woodland Stable):
-      coord: [2093, -335]
-
-  - .todo([TODO] find a better Karsh farm)
-
-  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>:
-      coord: [2056, -209]
-      notes: save and reload here until she appears on the road
+  - BLSS from rock along the road to .important(past) .place(Woodland Stable):
+      movements:
+        - to: [2147, -209]
+        - to: [1952, -243]
+        - to: [1809, -361]
+        - to: [1621, -417]
+        - to: [1462, -716]
+        - to: [1245, -902]
+        - to: [1231, -1004]
+        - to: [883, -1198]
 
   - _Woman::Attacked<Mina>:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
   - build cryo block on mud pit and WB east
 
+  - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
+  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>
   - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]

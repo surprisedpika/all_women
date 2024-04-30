@@ -24,9 +24,7 @@ Gerudo 2:
         - to: [-3814, 2819]
           warp: true
 
-  - .todo([TODO] Gerudo 2 is currently untested)
-
-  - WB south to room by cooking pots
+  - WB south to .place(room by cooking pots)
   - _Woman<Pasha>:
       notes: 3 women talking inside
       coord: [-3811.875, 2956.375]
@@ -63,7 +61,7 @@ Gerudo 2:
   - _Woman::Shopkeeper<Saula, Clothing Stand>:
       notes: talk on shop prompt
       coord: [-3802.375, 2902]
-  - WB southwest
+  -
   - _Woman<Bertri>:
       comment: guard at upper left doorway
       coord: [-3862.125, 2961.125]
@@ -73,6 +71,15 @@ Gerudo 2:
   - _Woman<Katta>:
       comment: guard at upper right doorway
       coord: [-3882.875, 2941.125]
+  - Climb wall beside tree outside doorway, follow waterway up to melon lady:
+      coord: [-3888.375, 2931.1875]
+  - _Woman<Calyban>:
+      comment: eating melon
+      coord: [-3914, 2955]
+  - drop down
+  - _Woman<Teake>:
+      comment: captain
+      coord: [-3923.25, 2939.75]
   - _Woman<Liana>:
       comment: group of 4 women in middle
       coord: [-3910.5625, 2928.4375]
@@ -84,17 +91,11 @@ Gerudo 2:
       coord: [-3910.75, 2913.3125]
   - _Woman<Marta>
   - _Woman<Babi>
-  - _Woman<Teake>:
-      comment: captain
-      coord: [-3923.25, 2939.75]
-  - climb wall
-  - _Woman<Calyban>:
-      comment: eating melon
-      coord: [-3914, 2955]
 
-  - WB E> to .place(Sand-Seal Rally):
+  - outside courtyard, use the boxes for bullet-time
+  - WB S> to .place(Sand-Seal Rally):
       movements:
-        - to: [-3929.5, 2973.5]
+        - to: [-3878.1875, 2889.0625]
   - _Woman<Tali + Shabonne>:
       coord: [-3760, 3112]
       vars:

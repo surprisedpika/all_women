@@ -8,9 +8,7 @@ Akkala 1:
   - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)
-  - _Woman::Road<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>:
-      coord: [4248.5, -2717]
-      notes: save and reload here until she appears at the stable or on the road
+  - _Woman::Road::Watch<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>

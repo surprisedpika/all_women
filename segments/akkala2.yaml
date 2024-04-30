@@ -10,10 +10,9 @@ Akkala 2:
       icon: marker
       comment: give wood, get mission to find Gerudo
       coord: [3988.5, -1597]
-
-  - .todo([TODO] clean up this section, going back to the sheep pen is a bit awkward)
-
-  - Keep an eye our for .road(Lonni) along the road to South Akkala Stable
+  - BLSS toward .place(South Akkala Stable)
+  - _Woman::Road::Watch<Lonni, Tarrey Town and South Akkala Stable>
+  - WB west to sheep pen behind stable
   - _Woman<Kaifa>:
       coord: [3164, -1717]
       comment: sheep pen
@@ -23,8 +22,10 @@ Akkala 2:
   - _Woman::Child<Gleema>
   - _Woman<Tenne>:
       comment: horse customization
-  - _Woman::Road<Lonni, Tarrey Town and South Akkala Stable>:
-      notes: save and reload here until she appears at the stable or on the road
+  - "Road NPC info card: .link([Laroba & Lonni]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Laroba-Lonni.jpg?raw=true)"
+  - _Woman::Road<Lonni, South Akkala Stable, brown hair>
+  - _Woman::Road<Laroba, South Akkala Stable, Gerudo>:
+      notes: farm spawns for Lonni and Laroba in the same location
   - _Segment<Akkala 2>
   - "":
       vars:

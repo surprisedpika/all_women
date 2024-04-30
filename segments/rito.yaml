@@ -21,7 +21,7 @@
         coord: [-2916, -560.75]
     - _Material<Wildberries,3>:
         coord: [-2909.0625, -565.9375]
-    - "Road NPC info sheet: .link([Yammo]https://i.imgur.com/8rJ97or.jpeg)"
+    - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
     - _Material<Rushroom>:
