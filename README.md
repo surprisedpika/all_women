@@ -9,8 +9,8 @@ A proposed Breath of the Wild Category Extension Speedrun
 - You must talk to [all 192 Women in Hyrule](women.txt) with a unique name (Yiga "Travelers" disguised as women count only once). Women are NPCs who are identified as women (with She/Her pronouns in English), are presenting themselves as a woman, or have subjectively been decided fit this criteria in the case of any ambiguity in their physical appearance or dialog _(check the list)_.
 - Talking to an NPC is defined as:
     - Their unique name appears as the speaker on any dialog box, as the label in the top-left.
-    - They have spoken voice acting in cutscenes and are speaking directly to Link in the present, either in his mind or face-to-face. Dialog spoken in a memory of flashback cutscene is not counted (Mipha, Urbosa, Riju and Zelda)
-    - Divining with the "Goddess" Hylia via a Goddess Statue
+    - They have spoken voice acting in cutscenes and are speaking directly to Link in the present, either in his mind or face-to-face. Dialog spoken in a memory of flashback cutscene is not counted.
+    - Divining with the "Goddess" Hylia via a Goddess Statue.
 - Timing ends when gaining control of Link after the dialog closes (you must close the final dialog)
 
 Check [BOTW Category Extensions](https://speedrun.com/botw-extension) for general game rules, amiibo rules, etc.
