@@ -37,7 +37,10 @@ Hyrule Field:
   - _Woman<Breen>:
       comment: horse customization
       coord: [1079.25, -1131.125]
-  - WB north to tree, use stump for step-up:
+  - WB north to tree, use stump for step-up to BLSS to Benny's hill:
+      notes:
+        - be quick because these Lizalfos are annoying
+        - aim for the road between the hills and then steer west
       movements:
         - to: [1168.5, -1286]
         - to: [1018, -452]
@@ -54,7 +57,7 @@ Hyrule Field:
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
   - WB south to stump korok and BLSS to .place(Lake Hylia):
-      notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia
+      notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
       movements:
         - to: [295, 1202]
         - to: [-132, 1615]

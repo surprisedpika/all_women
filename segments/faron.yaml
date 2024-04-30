@@ -8,8 +8,8 @@ Faron:
   - BLSS
   - _Woman<Loone>:
       coord: [128, 3824]
-  - WB east and north to .place(Highland Stable):
-      movements:
+  - ? "height WB east, jump off and midair east, then north to .place(Highland Stable)"
+    : movements:
         - to: [332, 3836]
         - to: [439, 3681]
   - _Woman::Road::Watch<Meeshy, Highland Stable and Lakeside Stable, no shield>
@@ -28,7 +28,7 @@ Faron:
       coord: [1540.75, 3531.75]
 
   - _Woman::Road::Watch<Letty, Lakeside Stable and Lurelin Village, blonde>:
-      notes: Letty seems to have a lower spawn rate at Lakeside Stable so we'll try to farm spawns in Lurelin Village
+      notes: Letty seems to have a lower spawn rate at Lakeside Stable .todo((unsure of this?\)) so we'll try to farm spawns in Lurelin Village
   - "Road NPC info card: .link([Meeshy & Totsuna]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Meeshy-Totsuna.jpg?raw=true)"
   - _Woman::Road<Meeshy, Lakeside Stable, no shield>
   - _Woman::Road<Totsuna, Lakeside Stable, has shield>:

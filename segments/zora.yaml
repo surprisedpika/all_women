@@ -9,9 +9,9 @@ Zora:
       coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain)
   - Talk to Dorephan and Sidon:
+      comment: .important(Equip Zora Armor) as soon as you receive it
       icon: marker
       coord: [3331.25, -534.5]
-  - .sub(Equip Zora Armor)
   - Drop down to the level below, west of the throne
   - _Woman<Tula>:
       comment: red zora running around in circles

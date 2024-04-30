@@ -29,7 +29,8 @@ Kara Kara Bazaar:
   - _Woman<Anche>:
       coord: [-3740, 2280]
 
-  - WB to .place(Daqo Chisay Shrine)
+  - WB to .place(Daqo Chisay Shrine):
+      notes: there isn't a lot to WB from, i just surf down the slope and use the ruins
   - Daqo Chisay:
       icon: shrine
       comment: Activate shrine warp
@@ -37,7 +38,7 @@ Kara Kara Bazaar:
   - Talk to the nerd outside the shrine
   - Grab a Sand Seal:
       comment: sand seal recommended on this road due to stopping along the flat desert
-      notes: If you do not see Kyra along the road, ride the sand-seal back and forth along the road until she appears
+      notes: throw bomb at the seal as soon as you stop to prevent it from escaping
       icon: marker
       coord: [-3728.5, 2870.5]
 
@@ -45,7 +46,9 @@ Kara Kara Bazaar:
 
   - "Road NPC info card: .link([Kyra]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
   - _Woman::Road<Kyra, Kara Kara and Gerudo Town, Gerudo usually running>:
-      notes: unlike all the other Road NPCs just use a sand seal for Kyra
+      comment: ride the sand-seal back and forth along the road until she appears
+      notes:
+        - unlike all the other Road NPCs just use a sand seal for Kyra
   - _Woman::Special<Rhondson>:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
       comment: send to tarrey town
@@ -75,7 +78,7 @@ Kara Kara Bazaar:
       comment: other stall around pond
       coord: [-3241, 2522.5]
 
-  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Calisa-Lukan.jpg?raw=true)"
+  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
   - _Woman::Road<Calisa, Kara Kara Bazaar, Gerudo>
   - _Woman::Road<Lukan, Kara Kara Bazaar, Gerudo>:
       notes: farm spawns for Lukan and Calisa in the same location

@@ -24,9 +24,11 @@
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
-    - _Material<Rushroom>:
-        coord: [-2877.9493450423415, -666.0814956091217]
-    - WB W. to .place(Fairy Fountain):
+    - .important(Buy 1 Bird Egg) from Yammo:
+        notes:
+          - if you forget the Egg, your speed food will be 4:00 instead of 5:30, but otherwise fine
+          - if for some strange reason she is offering the "Rainy Day Special", Goron Spice can be used in place of Bird Egg to the same effect
+    - WB to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman::Special<Kaysa>:
         comment: pay great fairy
@@ -40,6 +42,7 @@
         coord: [-3555, -1049]
     - WB to .place(near enemy camp)
     - _Material<Swift Violets,3>:
+        notes: you can shoot them off the cliff with arrows if necessary, just retain min 1 arrow to be able to windbomb
         coord: [-3588.5, -1451.5]
     - _Material<Rushroom,1>
 
@@ -54,7 +57,7 @@
         coord: [-3589, -1804.75]
         notes: Speed food comes first, Roasted endura carrot comes second. (If you mess that up sorting meal tab will fix it)
         text: Cook speed food
-        comment: 3x swift violet, 2 rushroom
+        comment: 3x swift violet, 1 rushroom, 1 bird egg (5:30)
     - _Cook:
         text: Roast endura carrot
         comment: 1 endura carrot

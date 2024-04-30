@@ -31,6 +31,8 @@ Gerudo 2:
   - _Woman<Dina>
   - _Woman<Ashai>
 
+  - exit to .place(main square)
+
   - _Woman::Shopkeeper<Spera, Grain Stand>:
       notes: talk on shop prompt
       coord: [-3821.625, 2937.375]
@@ -58,10 +60,13 @@ Gerudo 2:
   - _Woman<Essa>:
       comment: sweeping in the seal pen or sleeping in the bed (room on the left)
       coord: [-3773.5, 2916.375]
+
+  - back to the .place(main square)
   - _Woman::Shopkeeper<Saula, Clothing Stand>:
       notes: talk on shop prompt
       coord: [-3802.375, 2902]
-  -
+
+  - WB or just run and climb to the .place(palace upper level)
   - _Woman<Bertri>:
       comment: guard at upper left doorway
       coord: [-3862.125, 2961.125]
@@ -76,7 +81,7 @@ Gerudo 2:
   - _Woman<Calyban>:
       comment: eating melon
       coord: [-3914, 2955]
-  - drop down
+  - drop down into .place(guard's courtyard)
   - _Woman<Teake>:
       comment: captain
       coord: [-3923.25, 2939.75]
@@ -97,6 +102,7 @@ Gerudo 2:
       movements:
         - to: [-3878.1875, 2889.0625]
   - _Woman<Tali + Shabonne>:
+      comment: talk to Tali (afro) for engaging 2 NPCs at once
       coord: [-3760, 3112]
       vars:
         women: .add(1) # 1+1
@@ -107,7 +113,8 @@ Gerudo 2:
       comment: inside outpost
       coord: [-3433.5, 3121.75]
   - climb ladder, start Naboris at Riju
-  - sand-seal over to .place(Misae Suma Shrine)
+  - sand-seal over to .place(Misae Suma Shrine):
+      notes: if Riju asks to leave, say no
   - _Woman<Pokki>:
       coord: [-2966, 3773]
   - Enter .place(Naboris):

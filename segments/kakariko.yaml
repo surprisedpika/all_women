@@ -21,7 +21,7 @@ Kakariko:
       comment: talk twice, accept prompt
       coord: [1772.75, 983]
   - _Woman<Paya>:
-      notes: faster to talk to her after Impa if you can get there before she loads. .todo(possible after talking to koko?)
+      notes: faster to talk to her after Impa if you can get there before she loads. .todo(unsure if possible after talking to koko?)
       coord: [1786.25, 985.75]
   - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
       notes: talk to her on butter prompt

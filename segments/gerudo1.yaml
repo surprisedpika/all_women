@@ -74,10 +74,10 @@ Gerudo 1:
       coord: [-3858, 2911.6875]
   - Shopping:
       icon: marker
-  - .sub(Buy 10 ice arrows):
-      comment: for BTBs
-  - .sub(Buy 20 shock arrows):
-      comment: dont use them
+  - Buy 10 ice arrows:
+      comment: for 2 BTBs, you can shoot Kohga with them too to avoid swapping arrows
+  - Buy 20 shock arrows:
+      comment: dont use them until Ruta entry at the end of the run
   - _Woman::Child<Kalani>:
       comment: sleeping child
       notes: 2 children sleeping in stall
