@@ -24,3 +24,6 @@
     - .sub(Other stuff like IST scrap and 1 handed weapon are accounted for later)
     - _Segment<Paraglider>:
         icon: king
+    - "":
+        vars:
+          segment-women: 0

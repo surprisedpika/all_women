@@ -40,7 +40,7 @@ Gerudo 1:
       comment: three women talking about a password
       vars:
         women: .add(2) # 1+2
-        segment-women: .add(2) # 1+2
+        segment-women: .add(3)
   - _Woman<Jules>:
       comment: hylian in bar
   - street .place(outside bar)
@@ -101,7 +101,7 @@ Gerudo 1:
       coord: [-3889.9375, 2969.1875]
       vars:
         women: .add(1) # 1+1
-        segment-women: .add(1) # 1+1
+        segment-women: .add(2)
   - _Woman<Padda>:
       comment: south courtyard with Patricia (seal)
       coord: [-3848.875, 2987.125]

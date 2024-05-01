@@ -106,7 +106,7 @@ Gerudo 2:
       coord: [-3760, 3112]
       vars:
         women: .add(1) # 1+1
-        segment-women: .add(1) # 1+1
+        segment-women: .add(2)
 
   - WB east to .place(outpost)
   - _Woman<Sudrey>:

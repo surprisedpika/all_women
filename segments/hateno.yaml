@@ -52,7 +52,7 @@ Hateno:
       comment: gossiping
       vars:
         women: .add(1) # 1+1
-        segment-women: .add(1) # 1+1
+        segment-women: .add(2)
   - _Woman::Child<Narah>:
       comment: child running around centrally
   - _Woman<Senna>:
