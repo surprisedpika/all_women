@@ -22,7 +22,8 @@ Faron:
   - WB north
   - _Woman<Suzuna>:
       coord: [436, 3069]
-  - WB chain to .place(Lakeside Stable)
+  - WB east to the hill and BLSS from the stump to .place(Lakeside Stable):
+      coord: [592.25, 3135.5]
   - _Woman<Cima>:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
