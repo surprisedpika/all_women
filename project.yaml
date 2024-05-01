@@ -4,7 +4,7 @@ title: All Women
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 0.4.5
+version: 1.0.0
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:

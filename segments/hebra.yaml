@@ -7,22 +7,19 @@ Hebra:
   - Talk to Fyson:
       icon: marker
       coord: [-3594, -1821.375]
-  - WB N. + midair:
-      coord: [-3431, -2322]
 
-  - .todo([TODO] clarify this, getting up there is confusing)
-
-  - WB chain to .place(Selmie's Cabin):
-      movements:
-        - to: [-3491, -2630]
-        - to: [-3154, -2812]
+  - ? WB chain (N> + midair + N + midair + .E + .E + N + midair) to .place(Selmie's Cabin)
+    : movements:
+        - to: [-3430.5, -2208]
+        - to: [-3369, -2545.75]
+        - to: [-3261, -2563.5]
+        - to: [-3062, -2629]
   - _Woman<Selmie>:
       comment: at Selmie's Cabin
       coord: [-2947.5, -3143.5]
 
-  - .todo([TODO] clarify this step-up and BLSS angle too, easy to get off course)
-
-  - BLSS:
+  - ? exit and go right toward Shada Naw, knock down and use the stump of the tree to step-up and BLSS
+    : notes: steer southeast around the Hebra peak until you see Death Mountain visible through the fog, steer toward the volcano until .place(Snowfield Stable) is visible below you
       movements:
         - to: [-2836, -2844]
         - to: [-2612, -2648]
@@ -31,11 +28,12 @@ Hebra:
       coord: [-1642, -2568]
   - _Woman<Harlow>:
       comment: at snowfield stable
-  - .todo([TODO] what is this windbomb?)
+  - WB .S turn super to .place(Serenne Stable)
   - _Woman<Zumi>:
       comment: at serenne stable
       coord: [-1540.5, -1797]
   - .important(Make night)
+  - WB E turn to .place(little ruined house)
   - _Woman::Attacked<Chabi>:
       coord: [-1236, -1870]
   - _Segment<Hebra>

@@ -78,15 +78,16 @@ Kara Kara Bazaar:
       comment: other stall around pond
       coord: [-3241, 2522.5]
 
-  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
-  - _Woman::Road<Calisa, Kara Kara Bazaar, Gerudo>
-  - _Woman::Road<Lukan, Kara Kara Bazaar, Gerudo>:
-      notes: farm spawns for Lukan and Calisa in the same location
   - WBs to .place(Gerudo Canyon Stable)
   - Sesami:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
+  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
+  - _Woman::Road<Calisa, Gerudo Canyon Stable, Gerudo>:
+      coord: [-2785, 2247.5]
+  - _Woman::Road<Lukan, Gerudo Canyon Stable, Gerudo>:
+      notes: farm spawns for Lukan and Calisa in the same location
   - high WBs north and east into valley
   - _Woman::Special<Flaxel>:
       coord: [-2163, 1700]
