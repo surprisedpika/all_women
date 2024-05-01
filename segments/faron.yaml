@@ -1,7 +1,7 @@
 Faron:
   - Warp to Ishto Soh:
       icon: shrine
-      color: hotpink
+      color: plum
       movements:
         - to: [-996, 3568]
           warp: true
@@ -50,6 +50,9 @@ Faron:
       comment: side quest npc
       notes: sleeping 6:00 PM - 5:00 AM
       coord: [2886, 3413.5]
+
+  - .important(Make night for Zora's Domain)
+
   - _Woman::Shopkeeper<Chessica, Inn>:
       notes: if it's night, Flavi will be sleeping in the inn, sometimes shes just outside the inn
       coord: [2946.5, 3435.75]

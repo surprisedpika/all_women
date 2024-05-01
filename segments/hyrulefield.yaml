@@ -57,8 +57,6 @@ Hyrule Field:
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
 
-  - .important(Make night for Zora's Domain)
-
   - WB south to stump korok and BLSS to .place(Lake Hylia):
       notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
       movements:

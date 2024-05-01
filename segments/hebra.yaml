@@ -1,5 +1,6 @@
 Hebra:
   - Warp to Akh Vaquot:
+      color: white
       icon: shrine
       movements:
         - to: [-3656.5, -1756.25]
