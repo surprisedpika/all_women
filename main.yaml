@@ -55,6 +55,12 @@
 - use: ./segments/hyrulefield.yaml # yellow
 
 #
+# Zora Branch
+#
+# Get all of Zora's Domain, Enter Vah Ruta
+- use: ./segments/zora.yaml # green
+
+#
 # Kara Kara Bazaar Branch
 #
 # Set Ishto Soh Warp point
@@ -62,17 +68,17 @@
 # Set Daqo Chisay Warp point
 # Get Kara Kara Bazaar and all NPCs along road
 # Sesami and his friends in Gerudo Canyon
-- use: ./segments/karakarabazaar.yaml # green
+- use: ./segments/karakarabazaar.yaml # blue
 
 #
 # Gerudo 1 Branch
 #
 # Progress Tarrey Town (Set Night for Gerudo 1)
 # Half of Gerudo Town, Start Vah Naboris
-- use: ./segments/gerudo1.yaml # blue
+- use: ./segments/gerudo1.yaml # light blue
 
 # BTBs to Yiga hideout, fight Kohga
-- use: ./segments/kohga.yaml # blue
+- use: ./segments/kohga.yaml # light blue
 
 #
 # Gerudo 2 Branch
@@ -80,7 +86,7 @@
 # Finish Gerudo Town (Should be Morning)
 # Finish the last few things in the desert
 # End branch at Naboris
-- use: ./segments/gerudo2.yaml # light blue
+- use: ./segments/gerudo2.yaml # purple
 
 #
 # Faron Branch
@@ -88,7 +94,7 @@
 # Start with Loone
 # Get to Highland Stable and follow road all the way to Lurelin Village
 # Get Lakeside Stable and all NPCs along the road
-- use: ./segments/faron.yaml # purple
+- use: ./segments/faron.yaml # pink
 
 #
 # Hebra Branch
@@ -96,13 +102,7 @@
 # Progress Tarrey Town @ Fyson
 # Get up to Selmies Spot
 # Get Snowfield Stable and Serenne Stable
-- use: ./segments/hebra.yaml # purple
-
-#
-# Zora Branch
-#
-# Get all of Zora's Domain, Enter Vah Ruta
-- use: ./segments/zora.yaml # pink
+- use: ./segments/hebra.yaml # pink
 
 #
 # Tarrey Town Branch

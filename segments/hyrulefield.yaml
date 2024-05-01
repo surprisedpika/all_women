@@ -10,7 +10,7 @@ Hyrule Field:
   - _Woman::Attacked<Meghyn>
   - _Woman::Special<Traveler>:
       coord: [2628, -755]
-  - _Woman<Douma>:
+  - _Woman::Special<Douma>:
       coord: [2132, -216]
 
   - BLSS from rock along the road to .important(past) .place(Woodland Stable):
@@ -56,6 +56,9 @@ Hyrule Field:
   - WB to .place(Riverside Stable)
   - _Woman<Parcy>:
       coord: [345.00, 1091.50]
+
+  - .important(Make night for Zora's Domain)
+
   - WB south to stump korok and BLSS to .place(Lake Hylia):
       notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
       movements:

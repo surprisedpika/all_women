@@ -1,7 +1,7 @@
 Gerudo 2:
   - Warp to Dah Hesho:
       icon: shrine
-      color: paleturquoise
+      color: plum
       movements:
         - to: [3896, -1309]
           warp: true
@@ -19,7 +19,7 @@ Gerudo 2:
 
   - Warp to Daqo Chisay:
       icon: shrine
-      color: paleturquoise
+      color: plum
       movements:
         - to: [-3814, 2819]
           warp: true
