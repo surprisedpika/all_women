@@ -52,7 +52,7 @@ Faron:
   - _Woman::Shopkeeper<Chessica, Inn>:
       notes: if it's night, Flavi will be sleeping in the inn, sometimes shes just outside the inn
       coord: [2946.5, 3435.75]
-  - _Woman::Shopkeeper<Mubbs, General Store (Docks)>:
+  - _Woman::Shopkeeper<Mubs, General Store (Docks)>:
       coord: [2957.75, 3491.25]
       notes: talk on shop prompt
   - _Woman<Flavi>:
