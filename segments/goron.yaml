@@ -1,10 +1,12 @@
 Goron City:
   - W + W midair + N + W:
+      notes: alternatively, this is absolutely faster, but looks like harder to steer because of the lower height .link([keikou's Marriage% movement]https://youtu.be/0HwfxO9USZQ?t=1619) .todo([TODO] check if it's worth adding as the recommended strat)
       movements:
         - to: [3432, -1375]
         - to: [3397, -1486]
         - to: [3268, -1541]
   - BLSS to .place(Southern Mine):
+      comment: use the ruins by the top of the tower, there are a lot of rocks to step-up on
       coord: [3279, -1571.5]
   - Talk to Greyson:
       icon: marker

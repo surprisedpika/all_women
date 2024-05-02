@@ -30,7 +30,7 @@ Hyrule Field:
   - build cryo block on mud pit and WB east
 
   - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
-  - _Woman::Road<Karsh, Foothill Stable and Woodland Stable, Gerudo>
+  - _Woman::Road<Karsh, Woodland Stable, Gerudo>
   - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]

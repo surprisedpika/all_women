@@ -23,7 +23,7 @@ Kara Kara Bazaar:
       coord: [-4860, 3788]
 
   - BLSS to .place(Ice House):
-      comment: northeast
+      comment: use the edge of the great fairy's flower thing to step-up. steer northeast
       movements:
         - to: [-3740, 2280]
   - _Woman<Anche>:
