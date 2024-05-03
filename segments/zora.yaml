@@ -8,7 +8,7 @@ Zora:
   - WB to stump:
       coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain):
-      comment: expecting to get here .important(between midnight and 5am), if you're late read the note on Finley
+      notes: expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
   - Talk to Dorephan and Sidon:
       comment: .important(Equip Zora Armor) as soon as you receive it
       icon: marker
