@@ -28,6 +28,8 @@ Faron:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
 
+  - .important(Make night for Zora's Domain)
+
   - _Woman::Road::Watch<Letty, Lakeside Stable and Lurelin Village, blonde>:
       notes: Letty seems to have a lower spawn rate at Lakeside Stable .todo((unsure of this?\)) so we'll try to farm spawns in Lurelin Village
   - "Road NPC info card: .link([Meeshy & Totsuna]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Meeshy-Totsuna.jpg?raw=true)"
@@ -47,21 +49,17 @@ Faron:
       coord: [2591, 3526]
   - WB east to .place(Lurelin Village)
   - _Woman<Kiana>:
-      comment: side quest npc
-      notes: sleeping 6:00 PM - 5:00 AM
-      coord: [2886, 3413.5]
-
-  - .important(Make night for Zora's Domain)
+      comment: side quest npc near cooking pots
+      notes: sleeping in the house closest to the entrance, with the clotheslines near the cooking pot
+      coord: [2884, 3401.25]
 
   - _Woman::Shopkeeper<Chessica, Inn>:
-      notes: if it's night, Flavi will be sleeping in the inn, sometimes shes just outside the inn
       coord: [2946.5, 3435.75]
+  - _Woman<Flavi>:
+      comment: sleeping in the inn
   - _Woman::Shopkeeper<Mubs, General Store (Docks)>:
       coord: [2957.75, 3491.25]
       notes: talk on shop prompt
-  - _Woman<Flavi>:
-      comment: east of town during the day, looking out at Eventide. Has a campfire
-      coord: [3076, 3544.5]
   - If you still need to find Letty, WB northwest toward the Village entrance
   - "NPC info card: .link([Letty]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Letty.jpg?raw=true)"
   - _Woman::Road<Letty, Lurelin Village, blonde>:

@@ -19,11 +19,12 @@ Zora:
   - _Woman<Torfeau>:
       comment: guard
       coord: [3314.5, -548]
-  - _Woman::Child<Tona>:
-      comment: 3 children sleeping in one pond (other ponds contain boy zoras)
+  - _Woman<Tona>:
+      comment: 3 zora sleeping in one pond (other ponds contain boy zoras)
       notes: try to avoid going in the water
       coord: [3317.75, -528]
-  - _Woman::Child<Finley>
+  - _Woman::Child<Finley>:
+      notes: at 5am she wakes up and will be in the inn
   - _Woman::Child<Laruta>
   - _Woman<Laflat>:
       comment: east of sleeping children
