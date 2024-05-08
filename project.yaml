@@ -25,7 +25,8 @@ config:
       road-woman: https://icons.pistonite.org/icon/character.zelda.triangle.69a2d5.ffffb5.8c5e28.fdfdfd.69a2d5.c1fefe.png
       shopkeeper-woman: https://icons.pistonite.org/icon/character.zelda.square.d57b69.fdfdfd.8c5e28.ffffb5.d57b69.fdfdfd.png
       special-woman: https://icons.pistonite.org/icon/character.zelda.circle.f24c99.ffc0fa.8c5e28.ffffb5.f24c99.ffc0fa.png
-      attacked-woman: https://icons.pistonite.org/icon/character.zelda.minus.613b75.b96cf5.8c5e28.ffffb5.613b75.b96cf5.png
+      attacked-woman-minus: https://icons.pistonite.org/icon/character.zelda.minus.613b75.b96cf5.8c5e28.ffffb5.613b75.b96cf5.png
+      attacked-woman-plus: https://icons.pistonite.org/icon/character.zelda.plus.613b75.b96cf5.8c5e28.ffffb5.613b75.b96cf5.png
       child-woman: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.8c5e28.ffffb5.d57b69.fec1d3.png
       material: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.cfa240.ffd700.69a2d5.c1fefe.png
       weapon: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
@@ -73,13 +74,21 @@ config:
           counter: .var(women)
           vars:
             segment-women: .add(1)
-        Attacked:
-          text: $(0)
-          comment: she's under attack! help her!
-          icon: attacked-woman
-          counter: .var(women)
-          vars:
-            segment-women: .add(1)
+        _Attacked:
+          Armed:
+            text: $(0)
+            comment: get 'em sis!
+            icon: attacked-woman-plus
+            counter: .var(women)
+            vars:
+              segment-women: .add(1)
+          Unarmed:
+            text: $(0)
+            comment: she's under attack! help her!
+            icon: attacked-woman-minus
+            counter: .var(women)
+            vars:
+              segment-women: .add(1)
       Woman:
         text: $(0)
         comment: say hi

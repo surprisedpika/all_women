@@ -34,7 +34,7 @@ Hebra:
       comment: at serenne stable
       coord: [-1540.5, -1797]
   - WB E turn to .place(little ruined house)
-  - _Woman::Attacked<Chabi>:
+  - _Woman::Attacked::Armed<Chabi>:
       coord: [-1236, -1870]
   - _Segment<Hebra>
   - "":

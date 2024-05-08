@@ -5,9 +5,9 @@ Hyrule Field:
       comment: outside stable
       coord: [2606, -1130]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
-  - _Woman::Attacked<Nat>:
+  - _Woman::Attacked::Unarmed<Nat>:
       coord: [2686.5, -929]
-  - _Woman::Attacked<Meghyn>
+  - _Woman::Attacked::Unarmed<Meghyn>
   - _Woman::Special<Traveler>:
       coord: [2628, -755]
   - _Woman::Special<Douma>:
@@ -24,7 +24,7 @@ Hyrule Field:
         - to: [1231, -1004]
         - to: [883, -1198]
 
-  - _Woman::Attacked<Mina>:
+  - _Woman::Attacked::Armed<Mina>:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
   - build cryo block on mud pit and WB east
@@ -50,7 +50,7 @@ Hyrule Field:
   - _Woman<Magda>:
       coord: [816.80, 836.77]
   - WB to bridge
-  - _Woman::Attacked<Leekah>:
+  - _Woman::Attacked::Unarmed<Leekah>:
       coord: [678.875, 979.375]
 
   - WB to .place(Riverside Stable)

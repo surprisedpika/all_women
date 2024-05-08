@@ -37,9 +37,8 @@ Faron:
   - _Woman::Road<Totsuna, Lakeside Stable, has shield>:
       notes: farm spawns for Meeshy and Totsuna in the same location
 
-  - Windbomb east, over the bridge
-  - _Woman::Attacked<Sorelia>:
-      comment: attacked just south of road
+  - Windbomb east, over the bridge, find Sorelia south of the road
+  - _Woman::Attacked::Unarmed<Sorelia>:
       notes: has a male companion, dont talk to him >:)
       coord: [1954.5, 3435.5]
 
