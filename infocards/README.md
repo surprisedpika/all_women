@@ -12,14 +12,14 @@
 ## Laroba & Lonni
 ![Laroba & Lonni](NPC-Laroba-Lonni.jpg?raw=true)
 
-## Letty
+##
 ![Letty](NPC-Letty.jpg?raw=true)
 
 ## Lukan & Calisa
 ![Lukan & Calisa](NPC-Lukan-Calisa.jpg?raw=true)
 
-## Meeshy & Totsuna
-![Meeshy & Totsuna](NPC-Meeshy-Totsuna.jpg?raw=true)
+## Meeshy, Totsuna & Letty
+![Meeshy, Totsuna & Letty](NPC-Totsuna-Meeshy-Letty.jpg?raw=true)
 
 ## Toma & Celessa
 ![Toma & Celessa](NPC-Toma-Celessa.jpg?raw=true)
