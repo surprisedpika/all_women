@@ -49,3 +49,7 @@ with open('translations.csv', 'r') as translation_file:
               print(f'Processing {route_file}')
               
               subprocess.run(['perl', '-i', '-pe', f's/(?<!-){source}/{dest}/g', route_file])
+              
+    subprocess.run(['git', 'add', '../main.yaml', '../segments/*.yaml'])
+    subprocess.run(['git', 'commit', '-m', f'Translate {args.ColumnName}'])
+    subprocess.run(['git', 'checkout', 'main'])
