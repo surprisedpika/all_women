@@ -9,30 +9,43 @@
         movements:
           - to: [-1764, 148]
     - _Woman::Road::Watch<Yammo, Tabantha Bridge Stable and Snowfield Stable, has donkey>
-    - inside stable
     - _Woman<Banji>:
-        comment: standing by bed
         coord: [-2931.375, -547.125]
-    - _Woman::Child<Ena>:
-        comment: sleeping beside Banji
+    - _Woman::Child<Ena>
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
+    - .important(Make night)
     - WB to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman::Special<Kaysa>:
         comment: pay great fairy
 
     # Start Rito Village
-    - WB to .place(Rito Village)
-    - _Woman<Juney>:
-        comment: hylian woman, on deck between Saki and elder
+    - WB to .place(Rito Village):
+        notes: land on the deck of the hut closest to the shrine
+    - _Woman<Laissa>:
+        comment: purple bird sleeping
+        coord: [-3635.125, -1791]
+    - _Woman<Bedoli>:
+        comment: also sleeping
+        coord: [-3587, -1798.5]
+        notes: climb up the shelves, can reach her if you're standing on the plates
+    - _Woman::Child<Molli>:
+        comment: little pink bird sleeping next door
     - _Woman<Saki>:
         comment: pink bird from All Dungeons
         coord: [-3606.875, -1823.75]
-    - _Woman<Bedoli>:
-        coord: [-3587, -1798.5]
-        comment: on flight deck
+    - Drop down and Talk to Fyson:
+        icon: marker
+        coord: [-3594, -1821.375]
+    - go to the .place(Inn)
+    - _Woman::Shopkeeper<Cecili, Inn>:
+        coord: [-3611.8125, -1858.1875]
+    - _Woman<Juney>:
+        comment: hylian woman, sleeping in the inn
+    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
+        coord: [-3646.5, -1822.75]
     - _Woman::Child<Cree>:
         comment: little blue bird
         coord: [-3605.5, -1799.5]
@@ -44,19 +57,14 @@
         comment: little red bird
     - _Woman::Child<Genli>:
         comment: little green bird
-
-    - _Woman<Laissa>:
-        comment: purple bird
-        coord: [-3635.125, -1791]
-    - _Woman::Child<Molli>:
-        comment: little pink bird sleeping next door
-
     - _Woman<Amali>:
         comment: green bird by cooking Pot
-    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
-        coord: [-3646.5, -1822.75]
-    - _Woman::Shopkeeper<Cecili, Inn>:
-        coord: [-3611.8125, -1858.1875]
+        coord: [-3589, -1804.75]
+
+    - WB to .place(Rito Village Stable)
+    - _Woman<Ariane>:
+        comment: inside on a chair
+        coord: [-3246, -1782]
 
     - _Segment<Rito>
     - "":
