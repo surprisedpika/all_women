@@ -1,13 +1,11 @@
 Hebra:
-  - Warp to Akh Vaquot:
-      color: white
-      icon: shrine
-      movements:
-        - to: [-3656.5, -1756.25]
-          warp: true
   - Talk to Fyson:
       icon: marker
       coord: [-3594, -1821.375]
+  - WB to .place(Rito Village Stable)
+  - _Woman<Ariane>:
+      comment: sweepin'
+      coord: [-3246, -1782]
 
   - ? WB chain (N> + midair + N + midair + .E + .E + N + midair) to .place(Selmie's Cabin)
     : movements:

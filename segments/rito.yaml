@@ -1,96 +1,30 @@
-- Setup:
+- Rito:
+    - Warp to Keh Namut:
+        icon: shrine
+        movements:
+          - to: [-1437, 1989]
+            warp: true
     - BLSS to .place(Tabantha Bridge stable):
+        color: hotpink
         movements:
           - to: [-1764, 148]
-        comment: step up on roof of temple
-        color: lightcoral
     - _Woman::Road::Watch<Yammo, Tabantha Bridge Stable and Snowfield Stable, has donkey>
-    - _Material<Wood,1>:
-        coord: [-2896.75, -549]
-    - _Material<Spicy Pepper,3>
     - inside stable
     - _Woman<Banji>:
         comment: standing by bed
         coord: [-2931.375, -547.125]
     - _Woman::Child<Ena>:
         comment: sleeping beside Banji
-    - Tabantha money man:
-        notes: Toren, a dude standing by the cooking pots
-        icon: marker
-        comment: rob of 500 rupees
-        coord: [-2916, -560.75]
-    - _Material<Wildberries,3>:
-        coord: [-2909.0625, -565.9375]
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
-    - .important(Buy 1 Bird Egg) from Yammo:
-        notes:
-          - if you forget the Egg, your speed food will be 4:00 instead of 5:30, but otherwise fine
-          - if for some strange reason she is offering the "Rainy Day Special", Goron Spice can be used in place of Bird Egg to the same effect
     - WB to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman::Special<Kaysa>:
         comment: pay great fairy
-    - _Material<Fairy,1>
-    - _Material<Mighty Thistle,3>
-    - _Material<Endura Carrot,1>
-    - WB to .place(near tower)
-    - Royal Claymore:
-        comment: for Kohga and attacked NPCs and trees
-        icon: weapon
-        coord: [-3555, -1049]
-    - WB to .place(near enemy camp)
-    - _Material<Swift Violets,3>:
-        notes: you can shoot them off the cliff with arrows if necessary, just retain min 1 arrow to be able to windbomb
-        coord: [-3588.5, -1451.5]
-    - _Material<Rushroom,1>
 
     # Start Rito Village
-    - WB to .place(Rito Village):
-        comment: Land at cooking pot, above goddess statue
-    - Torch:
-        notes: if your shield is badly damaged you should get the potlid here, drop your damaged one
-        icon: weapon
-        coord: [-3588.91, -1801.50]
-    - _Cook:
-        coord: [-3589, -1804.75]
-        notes: Speed food comes first, Roasted endura carrot comes second. (If you mess that up sorting meal tab will fix it)
-        text: Cook speed food
-        comment: 3x swift violet, 1 rushroom, 1 bird egg (5:30)
-    - _Cook:
-        text: Roast endura carrot
-        comment: 1 endura carrot
-    - _Woman<Amali>:
-        comment: green bird by cooking pot
-    - Drop down to goddess statue
-    - _Woman::Special<Hylia>:
-        text: Hylia / Goddess Statue
-        comment: get 1 stamina vessel
-        coord: [-3610.5, -1805]
-    - _Woman::Shopkeeper<Cecili, Inn>:
-        coord: [-3611.8125, -1858.1875]
-    - .place(Shop):
-        coord: [-3646.5, -1822.75]
-    - Buy all arrows
-    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>
-    - Do IST:
-        comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA51TQY7bMAy8%2BxUEct1DNlsUyKEvKXpgLMYmIosqJcfr3y8l2UkXbYGiJ4lRhjPDoTlwhldIkVC%2F08%2BZ4w8re4%2FrJEp2zaL9aOdFlv39dARUfdYGH5m8a%2FULeL7Sty%2FHY3m5Iutq5yLi4M14uF8hUoykVi7s3YVUmZJVeeSUvV1fYcSUVyDP76xWqiBQgL5QecxF1%2BDZkXYHuCjhDb7ag%2BQEHCAvAonsvnAeQeZClHrFCJNBldGnzqnEYq4xFn2bkrUO4ymya%2B3fWvuutjw9cKdfcKfPOLvf5vhv%2F%2F1fjkPxCcbC4U7BklrhKmpIgoR3ai4tuHZpIe3Wa%2BJ7vl1N7hF7V9EHGKx7oAEz3wmmXuaQAYMr6WMYCCpqMmbrUlmVhzFDsmQ6pUkMhd6bJtloS7WH8PxlIYwS0j6y58499BQhxUc5NxtzaJob2MT2ojrHzFYoeUHXpVGkLHdd1t1TZX0sgqlG82SbvsHJgQQYcCKHGSFVXyuUfmW3oqFt8L%2BbIWuzb6mxBHrPcKUFUqaYKoGN6EYU65yawTpKcHM00ofV0ujz%2Fu%2BJ%2FeGj3Gbx98FtkzDbEuilBrqWL2Kycu0SmYXz%2BVyUp2KdgpsVPwDhDZGeFAQAAA%3D%3D)
-        notes:
-          - scrap = pepper x3, mighty thistle x3, wildberries x3
-          - you will sacrifice your shield at the cost of keeping the torch (needed in Hateno) and duping a claymore. a quick shield will be picked up at Rito Village Stable soon.
-    - .important(Sell all roasted endura carrots)
-    - run past clothing shop, quick height WB south to shrine:
-        comment: immediately pump glider
-    - Akh Vaquot:
-        icon: shrine
-        comment: Activate shrine warp
-        coord: [-3656.5, -1756.25]
-    - _Woman<Laissa>:
-        comment: purple bird
-        coord: [-3635.125, -1791]
-    - _Woman::Child<Molli>:
-        comment: little pink bird sleeping next door
+    - WB to .place(Rito Village)
     - _Woman<Juney>:
         comment: hylian woman, on deck between Saki and elder
     - _Woman<Saki>:
@@ -110,13 +44,20 @@
         comment: little red bird
     - _Woman::Child<Genli>:
         comment: little green bird
-    - jump off deck east and midair WB to .place(Rito Village Stable)
-    - _Woman<Ariane>:
-        comment: sweepin'
-        coord: [-3246, -1782]
-    - Pot lid:
-        icon: weapon
-        coord: [-3266.75, -1785.5]
+
+    - _Woman<Laissa>:
+        comment: purple bird
+        coord: [-3635.125, -1791]
+    - _Woman::Child<Molli>:
+        comment: little pink bird sleeping next door
+
+    - _Woman<Amali>:
+        comment: green bird by cooking Pot
+    - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
+        coord: [-3646.5, -1822.75]
+    - _Woman::Shopkeeper<Cecili, Inn>:
+        coord: [-3611.8125, -1858.1875]
+
     - _Segment<Rito>
     - "":
         vars:

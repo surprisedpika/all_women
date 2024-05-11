@@ -1,7 +1,7 @@
 Kara Kara Bazaar:
   - Warp to Keh Namut:
       icon: shrine
-      color: lightgreen
+      color: khaki
       movements:
         - to: [-1437, 1989]
           warp: true

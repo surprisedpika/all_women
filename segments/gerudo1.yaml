@@ -1,7 +1,7 @@
 Gerudo 1:
   - Warp to Daqo Chisay:
       icon: shrine
-      color: dodgerblue
+      color: lightgreen
       movements:
         - to: [-3814, 2819]
           warp: true

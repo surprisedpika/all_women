@@ -1,59 +1,102 @@
 Kakariko:
-  - Warp to Keh Namut:
-      icon: shrine
-      color: lightsalmon
+  - BLSS to .place(Dueling Peaks Stable):
+      color: lightcoral
       movements:
-        - to: [-1437, 1989]
-          warp: true
-  - WB northeast to .place(SoR):
+        - to: [1077, 1854]
+        - to: [1544, 1989]
+  - _Material<Swift Violet>:
+      comment: by the waterfall behind Ha Dahamar Shrine
+      coord: [1615, 1897]
+  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
+  - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
+      coord: [1727.75, 1927]
+  - ? _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>
+    : notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
+  - ? _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>
+    : notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+  - _Material<Apples, 3>
+  - _Woman<Sagessa>:
+      comment: she'll talk to you when you take the Apples (shorter dialog)
+      coord: [1742.25, 1943.5]
+  - Torch:
+      icon: weapon
+      coord: [1752, 1951.5]
+  - _Material<Wood, 1>:
+      coord: [1758.25, 1957.5]
+  - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
-      comment: get cliff cutscene
-      coord: [-1063, 1785]
-  - BLSS to .place(Kakariko Village):
-      comment: before 8am
+      coord: [1721.5, 1963]
+  - WB West to Boko camp:
+      coord: [1494, 1955.5]
+  - BTB and unequip shield to get height
+  - BLLS to Kakariko:
+      notes: 4pm - 7pm
       movements:
-        - to: [1688, 775]
-  - _Woman::Child<Koko>:
-      comment: at the grave
-      coord: [1788.25, 856]
-  - WB south
-  - _Woman::Special<Impa>:
-      comment: talk twice, accept prompt
-      coord: [1772.75, 983]
-  - _Woman<Paya>:
-      notes: faster to talk to her after Impa if you can get there before she loads. .todo(unsure if possible after talking to koko?)
-      coord: [1786.25, 985.75]
-  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
-      notes: talk to her on butter prompt
-      coord: [1788.25, 1027.25]
-  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
-      notes: talk to her on arrow prompt
-      coord: [1830.25, 1042.75]
-  - _Woman<Mellie>:
-      comment: standing watch over plum garden
-      coord: [1872.5, 1013]
-  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
-      notes: talk to her on pants prompt
-      coord: [1854.5, 982]
-  - _Woman<Lasli>:
-      comment: outside clothing shop
-      coord: [1846.75, 969.25]
-  - WB north from shop stairs
-  - _Woman::Child<Cottla>:
-      comment: standing at shrine
-      coord: [1840.75, 915.75]
+        - to: [1461.5, 2019]
+        - to: [1597, 1955]
+        - to: [1752, 1223]
+  - _Material<Bird Egg>:
+      coord: [2006.125, 867.625]
+  - _Woman::Special<Cotera>:
+      comment: pay great fairy
+      coord: [1976.25, 845.5]
+  - _Material<Fairy,1>
+  - _Material<Blue Nightshade,3>
+  - _Material<Endura Carrot,1>
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
-  - WB east
-  - _Woman::Special<Cotera>:
-      comment: pay great fairy
-      coord: [1976.25, 845.5]
-  - WB south
+  - _Woman<Paya>:
+      coord: [1786.25, 985.75]
+  - _Woman::Special<Impa>:
+      comment: talk twice, accept prompt
+      coord: [1772.75, 983]
+  - _Woman::Child<Cottla>:
+      comment: at the tables by cooking pot
+      coord: [1789.875, 1017.625]
+  - _Woman::Child<Koko>:
+      comment: at the cooking pot
+      coord: [1798.875, 1013.75]
+  - Pick up and drop Pot Lid if your shield is badly damaged
+  - _Cook:
+      text: Cook speed food
+      comment: 3x swift violet, 1 rushroom, 1 bird egg (5:30)
+  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
+      notes: talk to her on butter prompt
+      coord: [1788.25, 1027.25]
+  - Break 6 slots for IST:
+      comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA6VTQY7bMAy86xUEct1Dkl0UyKEvKfbAWLQtRBZVSorh35eSkt00uRToyaJMzgzJkQsuwwFSJJRf9Lu4%2BKlhZhlm%2FZ55%2FbrcA4o8xJBmR972%2BA28G%2Bnnx37%2FCe%2BK5oYNIsVIkmq8ujHD1bGnnLRSSpqFedFfGKMnvVqZbSV0YoGmSY8jOtk04%2BwLQXDTnNOMtuZSsEUQhqqnifeYCT6A5VzRJ%2B8siVldnp%2B4H6kPlcYMzJfaPNlRBZgdnIXwAj8Uk1WqC5BXhlRlNzwuUjEHwQiLsopDn4wVjgp47%2BVV8eNATKd47xRd5vFWe3ypPf5dq%2BdLif%2Be%2Fz9cLftp2n1gOkbGlMk%2B%2FdzVSYHqc%2BFKQU20wcgCeSZIeKU%2BJ%2FVUP3T%2F3IfXHGiambr9DGG%2BLdXUasAEE1tLKQGWzA1xB5MyBpowO01ZBi4hAwZbzYphImiIi6pR1KZEasOQ1CNGaOEK7D209TcpNbqv9vtmJYwc0n0B30%2Bk664qamP1e%2BurhN5Mr1SlA4uUmJ0GQp7RvraTZm6Obi%2FN3DpsGr7Mpj3oXFDojqdb4AATLmQxI6TW5QaNQP0btVqX%2BdpaHa%2BuUVcIQwsODw%2BhC6zkHOitDXmr3l803EwiBTqdTk82%2BAMLeI5kTAQAAA%3D%3D)
+      notes:
+        - scrap = pepper x3, blue nightshade x3, apple x3
+  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
+      notes: talk to her on arrow prompt
+      coord: [1830.25, 1042.75]
+  - _Cook:
+      text: Roast endura carrot
+      comment: 1 endura carrot
+      notes: drop bow + drop shield + drop spear + equip torch while you wait
+  - _Woman::Special<Hylia>:
+      text: Hylia / Goddess Statue
+      comment: get 1 stamina vessel
+      coord: [1839.625, 998.125]
+  - use this autosave and complete the IST setup
+  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
+      coord: [1854.5, 982]
+  - .important(Sell all roasted endura carrots)
+  - _Woman<Lasli>:
+      comment: outside clothing shop
+      coord: [1846.75, 969.25]
+  - _Woman<Mellie>:
+      comment: by her house and other cooking pot
+      coord: [1903.375, 980.125]
   - _Woman<Nanna>:
-      comment: at east entrance by the fire
-      coord: [1923.5, 1003.5]
+      comment: sleeping in her house
+      coord: [1899.75, 1035.25]
+  - 2 WBs north to stump:
+      notes: detonate square after first WB
+      coord: [1872, 815.5]
+
   - _Segment<Kakariko>
   - "":
       vars:

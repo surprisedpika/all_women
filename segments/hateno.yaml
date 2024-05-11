@@ -1,30 +1,7 @@
 Hateno:
-  - This next section has .road(3 Road NPCs), so it may get confusing:
-      banner: true
-  - _Woman::Road::Watch<Brokka, Kakariko and Dueling Peaks Stable, red hair>:
-      movements:
-        - to: [1950, 1108]
-        - to: [2082, 1204]
-        - to: [2109, 1417]
-  - Run along the road a bit, windbomb if you want but you're looking for .road(Brokka). WB to the stable when you are clear of the hills (by Hestu)
-  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
-  - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
-      coord: [1727.75, 1927]
-  - ? _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>
-    : notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
-  - ? _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>
-    : notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
-  - _Woman<Sagessa>:
-      comment: at DP stable by the cooking pot or sometimes looking at the Shrine
-      coord: [1742.25, 1943.5]
-  - max-height WB west to top of waterfall
   - BLSS to .place(Hateno Village) (road near front gate):
-      comment: use ore deposit for step-up
-      notes: it's a bit of a tricky steer but you can get through the hills at this height
+      comment: use stump for step-up
       movements:
-        - to: [1633, 1865.5]
-        - to: [2493, 2060]
-        - to: [2648, 2031]
         - to: [3207, 2162]
   - "Road NPC info card: .link([Toma & Celessa]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
   - _Woman::Road<Toma, Hateno Village, has horse>:

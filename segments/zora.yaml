@@ -1,6 +1,6 @@
 Zora:
   - Warp to Ta'loh Naeg:
-      color: hotpink
+      color: plum
       icon: shrine
       movements:
         - to: [1841.5, 889.25]
