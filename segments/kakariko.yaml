@@ -60,7 +60,9 @@ Kakariko:
   - _Woman::Child<Koko>:
       comment: at the cooking pot
       coord: [1798.875, 1013.75]
-  - Pick up and drop Pot Lid if your shield is badly damaged
+  - Pot Lid:
+      icon: weapon
+      comment: drop your current potlid and pick up the fresh one
   - _Cook:
       text: Cook speed food
       comment: 3x swift violet, 1 rushroom, 1 bird egg (5:30)
