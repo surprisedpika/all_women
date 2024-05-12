@@ -1,16 +1,7 @@
 Hebra:
-  - Warp to Akh Vaquot:
-      color: white
-      icon: shrine
+  - climb up onto the roof
+  - WB chain to .place(Selmie's Cabin):
       movements:
-        - to: [-3656.5, -1756.25]
-          warp: true
-  - Talk to Fyson:
-      icon: marker
-      coord: [-3594, -1821.375]
-
-  - ? WB chain (N> + midair + N + midair + .E + .E + N + midair) to .place(Selmie's Cabin)
-    : movements:
         - to: [-3430.5, -2208]
         - to: [-3369, -2545.75]
         - to: [-3261, -2563.5]

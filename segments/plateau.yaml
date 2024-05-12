@@ -18,10 +18,10 @@
           - to: [-983, 2250]
           - to: [-1434, 1988]
           - to: [-813.5, 1968]
-    - .sub(Skip cutscene outside SOR)
-    - .sub(Get some extra peppers and shrooms for early game health)
+    - .sub(Get cutscene outside SOR to start time-of-day cycle)
+    - .sub(Get 6 spicy peppers, will need 3 for IST)
+    - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine)
     - .sub(Tower activation after Bombs)
-    - .sub(Other stuff like IST scrap and 1 handed weapon are accounted for later)
     - _Segment<Paraglider>:
         icon: king
     - "":

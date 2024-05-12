@@ -1,7 +1,7 @@
 Faron:
   - Warp to Ishto Soh:
       icon: shrine
-      color: plum
+      color: paleturquoise
       movements:
         - to: [-996, 3568]
           warp: true

@@ -1,7 +1,7 @@
 Akkala 2:
   - Warp to Dah Hesho:
       icon: shrine
-      color: khaki
+      color: lightsalmon
       movements:
         - to: [3896, -1309]
           warp: true

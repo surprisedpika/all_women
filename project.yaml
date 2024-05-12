@@ -1,10 +1,10 @@
 # The name of your project/route.
 # This will be displayed in the header for people who are viewing your route
-title: All Women
+title: All Women (1.1)
 
 # The version of your route. There's no particular format here.
 # This will be displayed in the metadata in the settings dialog
-version: 1.0.6
+version: 1.1.1
 
 # This is the route itself. Here it points to the main.yaml file we created earlier
 route:

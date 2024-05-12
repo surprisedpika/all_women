@@ -1,7 +1,7 @@
 Gerudo 2:
   - Warp to Dah Hesho:
       icon: shrine
-      color: paleturquoise
+      color: dodgerblue
       movements:
         - to: [3896, -1309]
           warp: true

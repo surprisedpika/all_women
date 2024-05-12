@@ -1,59 +1,111 @@
 Kakariko:
-  - Warp to Keh Namut:
-      icon: shrine
-      color: lightsalmon
+  - BLSS to .place(Dueling Peaks Stable):
+      color: lightcoral
       movements:
-        - to: [-1437, 1989]
-          warp: true
-  - WB northeast to .place(SoR):
+        - to: [1077, 1854]
+        - to: [1544, 1989]
+  - _Material<Swift Violet, 4>:
+      notes:
+        - by the waterfall behind Ha Dahamar Shrine
+        - grab them while gliding or you can shoot them down with arrows
+      coord: [1615, 1897]
+  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
+  - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
+      coord: [1727.75, 1927]
+  - ? _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>
+    : notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
+  - ? _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>
+    : notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+  - _Material<Apples, 3>
+  - _Woman<Sagessa>:
+      comment: she'll talk to you when you take the Apples (shorter dialog)
+      coord: [1742.25, 1943.5]
+  - Torch:
+      icon: weapon
+      coord: [1752, 1951.5]
+  - _Material<Wood, 1>:
+      coord: [1758.25, 1957.5]
+  - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
-      comment: get cliff cutscene
-      coord: [-1063, 1785]
-  - BLSS to .place(Kakariko Village):
-      comment: before 8am
+      coord: [1721.5, 1963]
+  - WB West to Boko camp:
+      coord: [1494, 1955.5]
+  - BTB and unequip shield to get height:
+      notes:
+        - .link([BTB Reference]https://youtu.be/Ki-nt715kZQ)
+        - my visual cue on where to do the cryo block is right beside the bomb barrel; since the bokos dont crowd you as much and you can focus on this guy in particular.
+        - slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til you're over the water then unequip shield, and you should have enough height to get to this ore deposit for the BLSS
+  - BLSS to Kakariko:
+      comment: use ore deposit for step-up
+      notes: 4pm - 7pm
       movements:
-        - to: [1688, 775]
-  - _Woman::Child<Koko>:
-      comment: at the grave
-      coord: [1788.25, 856]
-  - WB south
-  - _Woman::Special<Impa>:
-      comment: talk twice, accept prompt
-      coord: [1772.75, 983]
-  - _Woman<Paya>:
-      notes: faster to talk to her after Impa if you can get there before she loads. .todo(unsure if possible after talking to koko?)
-      coord: [1786.25, 985.75]
-  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
-      notes: talk to her on butter prompt
-      coord: [1788.25, 1027.25]
-  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
-      notes: talk to her on arrow prompt
-      coord: [1830.25, 1042.75]
-  - _Woman<Mellie>:
-      comment: standing watch over plum garden
-      coord: [1872.5, 1013]
-  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
-      notes: talk to her on pants prompt
-      coord: [1854.5, 982]
-  - _Woman<Lasli>:
-      comment: outside clothing shop
-      coord: [1846.75, 969.25]
-  - WB north from shop stairs
-  - _Woman::Child<Cottla>:
-      comment: standing at shrine
-      coord: [1840.75, 915.75]
+        - to: [1417.40, 1922.06]
+  - _Material<Bird Egg>:
+      coord: [2006.125, 867.625]
+  - _Woman::Special<Cotera>:
+      comment: pay great fairy
+      coord: [1976.25, 845.5]
+  - _Material<Fairy,1>
+  - _Material<Blue Nightshade,3>
+  - _Material<Endura Carrot,1>
+  - WB to shrine, get an extra carrot/fairy if you need health:
+      notes: you have ragdoll from the shield unequip BTB, so either flop on your shield or quick fix
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
-  - WB east
-  - _Woman::Special<Cotera>:
-      comment: pay great fairy
-      coord: [1976.25, 845.5]
-  - WB south
+  - _Woman<Paya>:
+      coord: [1786.25, 985.75]
+  - _Woman::Special<Impa>:
+      comment: talk twice, accept prompt
+      coord: [1772.75, 983]
+  - _Woman::Child<Cottla>:
+      comment: at the tables by cooking pot
+      coord: [1789.875, 1017.625]
+  - _Woman::Child<Koko>:
+      comment: at the cooking pot
+      coord: [1798.875, 1013.75]
+  - Pot Lid:
+      icon: weapon
+      comment: drop your current potlid and pick up the fresh one
+  - _Cook:
+      text: Cook speed food
+      comment: 4x swift violet, 1 bird egg (5:30)
+  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
+      notes: talk to her on butter prompt
+      coord: [1788.25, 1027.25]
+  - Break 6 slots for IST:
+      comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA6VTQY7bMAy8%2BxUEct1Dkl0UyKEvKfbAWLQsRBZVSrbh35eS4t00uRToyaJFcmbIkQsuwwlSJJRf9Ht28VPDzNKP%2Br3y%2BvXzCCjyEEMaHXnT4jfwbqCfH8fjJ7xrN9dvEClGkgQfkFY3ZFgce8pJ7zFGT9phZTYFxYkBslaPAzrZNOPqZ4Lg7JjTiKbkUjCzIPSFRGXsMZP2ZrkmDa13hqRbXR6fAEuttV3PfCsyyQyK2h3gKoQ3%2BKGNWEm5AHllSIVgbcKzFCW9YIRJocShT50RjtpwF%2FBK81F61yDeG0Tjdr7Xnl9qz3%2FX6vk2x3%2FP%2Fx%2Bsmv004jawEwhjymSeLg9lUqD8XFgoqF02GFggjwQJF2pzUve0Q3PKPrzqta7aphlNuwkZoqlcZpxcQFgoJfKd0MTLvuautAZMYNkYvQecM1e4A1ilE8hidpoy9TyHDBhM8SwGS1DhJqWqkJWmlGlAUtfsIOg9VG9UniXa9%2F79ZyWMHNK%2Bne%2BX0kQVFkV1%2Bd5Fz6EpbZXKtGeROWangZBnNK9y0sjV4%2FXBdXeFlcOXE1UDqkKhvZ%2BuiANYnMhgRkhV5QYVQM0dtVo3%2FSqNtI3uWPcLfQ1OD6%2BkESzgHOitDnkrD2PScOt0QR4ul8uTR%2F4AXH9OJFMEAAA%3D)
+      notes:
+        - scrap = pepper x3, blue nightshade x3, apple x3
+  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
+      notes: talk to her on arrow prompt
+      coord: [1830.25, 1042.75]
+  - _Cook:
+      text: Roast endura carrot
+      comment: 1 endura carrot
+      notes: drop bow + drop shield + drop spear + equip torch while you wait
+  - _Woman::Special<Hylia>:
+      text: Hylia / Goddess Statue
+      comment: get 1 stamina vessel
+      coord: [1839.625, 998.125]
+  - use this autosave and complete the IST setup
+  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
+      coord: [1854.5, 982]
+  - .important(Sell all roasted endura carrots)
+  - _Woman<Lasli>:
+      comment: outside clothing shop
+      coord: [1846.75, 969.25]
+  - _Woman<Mellie>:
+      comment: by her house and other cooking pot
+      coord: [1903.375, 980.125]
   - _Woman<Nanna>:
-      comment: at east entrance by the fire
-      coord: [1923.5, 1003.5]
+      comment: sleeping in her house
+      coord: [1899.75, 1035.25]
+  - 2 WBs north to stump:
+      notes: detonate square after first WB
+      coord: [1872, 815.5]
+
   - _Segment<Kakariko>
   - "":
       vars:

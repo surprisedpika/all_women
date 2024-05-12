@@ -12,8 +12,14 @@ Goron City:
       icon: marker
       coord: [1656.63, -1968.53]
 
-  - windbombs NW + >N + midair to .place(Goron City):
+  - WB W> to bombable wall left of lavafalls
+  - Stone Smasher:
+      comment: use for attacked NPCs and Kohga
+      icon: weapon
+      coord: [1396, -2069.5]
+  - WBs <E + N. to .place(Goron City):
       notes: unequip or unignite bow before landing
+      coord: [1561, -2246.5]
   - _Woman<Ramella>:
       comment: sleeping in the inn
       coord: [1678, -2440]
