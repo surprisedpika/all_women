@@ -48,6 +48,8 @@ Kakariko:
   - _Material<Fairy,1>
   - _Material<Blue Nightshade,3>
   - _Material<Endura Carrot,1>
+  - WB to shrine, get an extra carrot/fairy if you need health:
+      notes: you have ragdoll from the shield unequip BTB, so either flop on your shield or quick fix
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp

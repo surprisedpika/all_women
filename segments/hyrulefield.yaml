@@ -5,24 +5,15 @@ Hyrule Field:
       comment: outside stable
       coord: [2606, -1130]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
-  - _Woman::Attacked::Unarmed<Nat>:
-      coord: [2686.5, -929]
-  - _Woman::Attacked::Unarmed<Meghyn>
-  - _Woman::Special<Traveler>:
-      coord: [2628, -755]
+  - BLSS to crossroad near Soh Kofi Shrine
   - _Woman::Special<Douma>:
       coord: [2132, -216]
 
   - BLSS from rock along the road to .important(past) .place(Woodland Stable):
       movements:
-        - to: [2147, -209]
-        - to: [1952, -243]
-        - to: [1809, -361]
-        - to: [1621, -417]
-        - to: [1462, -716]
-        - to: [1245, -902]
-        - to: [1231, -1004]
-        - to: [883, -1198]
+        - to: [2112.75, -243]
+        - to: [1273, -694]
+        - to: [1018, -1038]
 
   - _Woman::Attacked::Armed<Mina>:
       notes: has a male companion, dont talk to him >:)
@@ -58,11 +49,11 @@ Hyrule Field:
       coord: [345.00, 1091.50]
 
   - WB south to stump korok and BLSS to .place(Lake Hylia):
-      notes: toward east post ruins and then directly south following the road past the enemy camp - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
+      notes: follow river than steer west above the bridge before you get to the lake - this BLSS does not have clearance past bridge of hylia. this is tricky to steer through here
       movements:
         - to: [295, 1202]
-        - to: [-132, 1615]
-        - to: [-172, 2181]
+        - to: [59, 2033]
+        - to: [-209, 2247]
 
   - _Woman<Mei>:
       comment: zora in the lake

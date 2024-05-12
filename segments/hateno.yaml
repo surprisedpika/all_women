@@ -1,8 +1,13 @@
 Hateno:
-  - BLSS to .place(Hateno Village) (road near front gate):
+  - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
       comment: use stump for step-up
-      movements:
-        - to: [3207, 2162]
+  - _Woman::Special<Traveler>:
+      coord: [3086.05, 2446.28]
+  - WB N> to woods outside hateno
+  - _Woman::Attacked::Unarmed<Nat>:
+      comment: use bombs to kill their attackers
+      coord: [3184, 2137]
+  - _Woman::Attacked::Unarmed<Meghyn>
   - "Road NPC info card: .link([Toma & Celessa]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
   - _Woman::Road<Toma, Hateno Village, has horse>:
       coord: [3259.75, 2134.25]
