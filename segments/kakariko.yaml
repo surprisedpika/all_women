@@ -4,9 +4,11 @@ Kakariko:
       movements:
         - to: [1077, 1854]
         - to: [1544, 1989]
-  - _Material<Swift Violet>:
+  - _Material<Swift Violet, 3>:
       comment: by the waterfall behind Ha Dahamar Shrine
       coord: [1615, 1897]
+  - _Material<Rushroom, 1>:
+      comment: also at waterfall
   - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
   - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
       coord: [1727.75, 1927]
