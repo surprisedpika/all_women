@@ -14,6 +14,7 @@ Goron City:
 
   - WB W> to bombable wall left of lavafalls
   - Stone Smasher:
+      comment: use for attacked NPCs and Kohga
       icon: weapon
       coord: [1396, -2069.5]
   - WBs <E + N. to .place(Goron City):
