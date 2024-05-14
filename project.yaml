@@ -45,11 +45,11 @@ config:
             comment: on the road between .road($(1))
         Road:
           text: .road($(0)) - $(2)
-          comment: attempt to force spawn by saving and cycling reloads at $(1)
+          comment: Attempt to force spawn by saving and cycling reloads at $(1)
           notes:
-            - try to save with camera facing many spawn points
-            - save within the location area - so it says $(1) on the save file
-            - save on a road, if possible
+            - Try to save with camera facing many spawn points
+            - Save within the location area - so it says $(1) on the save file
+            - Save on a road, if possible
           icon: road-woman
           counter: .var(women)
           vars:
