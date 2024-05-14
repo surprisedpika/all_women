@@ -33,15 +33,13 @@ Kakariko:
   - BTB and unequip shield to get height:
       notes:
         - .link([BTB Reference]https://youtu.be/Ki-nt715kZQ)
-        - my visual cue on where to do the cryo block is right beside the bomb barrel; since the bokos dont crowd you as much and you can focus on this guy in particular.
-        - slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til you're over the water then unequip shield, and you should have enough height to get to this ore deposit for the BLSS
+        - Place cryo block beside the bomb barrel
+        - Slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til over the water then unequip shield, pull glider at peak height and glide North.
   - BLSS to Kakariko:
-      comment: use ore deposit for step-up
+      comment: Use left side of rightmost ore deposit for step-up
       notes: 4pm - 7pm
       movements:
         - to: [1417.40, 1922.06]
-  - _Material<Bird Egg>:
-      coord: [2006.125, 867.625]
   - _Woman::Special<Cotera>:
       comment: pay great fairy
       coord: [1976.25, 845.5]
@@ -54,16 +52,18 @@ Kakariko:
       icon: shrine
       comment: Activate shrine warp
       coord: [1841.5, 889.25]
+  - _Material<Bird Egg>:
+      notes: In big tree between shrine and Impa's house
   - _Woman<Paya>:
       coord: [1786.25, 985.75]
   - _Woman::Special<Impa>:
-      comment: talk twice, accept prompt
+      comment: Talk twice, Accept prompt
       coord: [1772.75, 983]
   - _Woman::Child<Cottla>:
-      comment: at the tables by cooking pot
+      comment: At the tables by cooking pot
       coord: [1789.875, 1017.625]
   - _Woman::Child<Koko>:
-      comment: at the cooking pot
+      comment: At the cooking pot
       coord: [1798.875, 1013.75]
   - Pot Lid:
       icon: weapon
