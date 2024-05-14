@@ -20,8 +20,8 @@
           - to: [-813.5, 1968]
     - .sub(Get cutscene outside SOR to start time-of-day cycle)
     - .sub(Get 6 spicy peppers, will need 3 for IST)
-    - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine)
     - .sub(Tower activation after Bombs)
+    - .sub(Get) .important(DLC Ruby) .sub(outside Magnesis Shrine)
     - _Segment<Paraglider>:
         icon: king
     - "":
