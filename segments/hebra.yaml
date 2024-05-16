@@ -1,7 +1,7 @@
 Hebra:
   - Climb up onto the roof
   - WB chain to .place(Selmie's Cabin):
-      comment: NW until enemy camp, N until lone tree, E until after lone tree, NNE until at cabin
+      comment: NW until enemy camp, height WBs N and E until lone tree, NNE until at cabin
       movements:
         - to: [-3430.5, -2208]
         - to: [-3369, -2545.75]
