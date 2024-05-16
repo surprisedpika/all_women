@@ -12,7 +12,8 @@ Goron City:
       icon: marker
       coord: [1656.63, -1968.53]
 
-  - WB W> to bombable wall left of lavafalls
+  - WB W> to bombable wall:
+      comment: To left of lavafalls, about halfway down
   - Stone Smasher:
       notes: use for attacked NPCs and Kohga
       icon: weapon
