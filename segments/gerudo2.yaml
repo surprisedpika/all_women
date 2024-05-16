@@ -50,6 +50,7 @@ Gerudo 2:
       coord: [-3788.125, 2934.375]
   - Near the .place(east entrance seal rental)
   - _Woman<Muava>:
+      comment: By hylia statue
       coord: [-3770.25, 2945.75]
   - _Woman<Lashley>:
       comment: guard
@@ -93,11 +94,12 @@ Gerudo 2:
   - _Woman<Smaude>:
       comment: three training together
       coord: [-3910.75, 2913.3125]
-  - _Woman<Marta>
+  - _Woman<Marta>:
+      comment: Don't have to speak to side quest lady
   - _Woman<Babi>
 
   - outside courtyard, use the boxes for bullet-time
-  - WB S> to .place(Sand-Seal Rally):
+  - WB <S to .place(Sand-Seal Rally):
       movements:
         - to: [-3878.1875, 2889.0625]
   - _Woman<Tali + Shabonne>:
