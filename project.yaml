@@ -84,7 +84,7 @@ config:
               segment-women: .add(1)
           Unarmed:
             text: $(0)
-            comment: she's under attack! help her!
+            comment: She's under attack! help her!
             icon: attacked-woman-minus
             counter: .var(women)
             vars:

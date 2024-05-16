@@ -8,8 +8,8 @@ Faron:
   - BLSS
   - _Woman<Loone>:
       coord: [128, 3824]
-  - ? "height WB east, jump off and midair east, then north to .place(Highland Stable)"
-    : movements:
+  - "height WB east, jump off and midair east, then north to .place(Highland Stable)":
+      movements:
         - to: [332, 3836]
         - to: [439, 3681]
   - _Woman::Road::Watch<Meeshy, Highland Stable and Lakeside Stable, no shield>
@@ -31,11 +31,14 @@ Faron:
   - .important(Make night for Zora's Domain)
 
   - "Road NPC info card: .link([Totsuna, Meesy & Letty]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Totsuna-Meeshy-Letty.jpg?raw=true)"
-  - _Woman::Road<Totsuna, Lakeside Stable, has shield>
+  - _Woman::Road<Totsuna, Lakeside Stable, has shield>:
+      comment: Farm spawns for Totsuna, Meeshy & Letty in the same location
   - _Woman::Road<Meeshy, Lakeside Stable, no shield>:
-      notes: farm spawns for Totsuna, Meeshy & Letty in the same location
+      notes:
+      comment:
   - _Woman::Road<Letty, Lurelin Village, blonde>:
-      notes: farm spawns for Totsuna, Meeshy & Letty in the same location
+      notes:
+      comment:
 
   - Windbomb east, over the bridge, find Sorelia south of the road
   - _Woman::Attacked::Unarmed<Sorelia>:
