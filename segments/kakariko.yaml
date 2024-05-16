@@ -58,22 +58,22 @@ Kakariko:
   - _Woman<Paya>:
       coord: [1786.25, 985.75]
   - _Woman::Special<Impa>:
-      comment: Talk twice, Accept prompt
+      comment: .important(Talk twice, Accept prompt)
       coord: [1772.75, 983]
   - _Woman::Child<Cottla>:
       comment: At the tables by cooking pot
       coord: [1789.875, 1017.625]
-  - _Woman::Child<Koko>:
-      comment: At the cooking pot
-      coord: [1798.875, 1013.75]
   - Pot Lid:
       icon: weapon
       comment: Drop current potlid and pick up the fresh one
+      coord: [1798.875, 1013.75]
+  - _Woman::Child<Koko>:
+      comment: At the cooking pot, will speak to you when you pick up the potlid
   - _Cook:
       text: Cook speed food
       comment: 4x swift violet, 1 bird egg (5:30)
   - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
-      notes: Talk to her on butter prompt
+      notes: You will talk to her when you break slots
       coord: [1788.25, 1027.25]
   - Break 6 slots for IST:
       comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA6VTQY7bMAy8%2BxUEct1Dkl0UyKEvKfbAWLQsRBZVSrbh35eS4t00uRToyaJFcmbIkQsuwwlSJJRf9Ht28VPDzNKP%2Br3y%2BvXzCCjyEEMaHXnT4jfwbqCfH8fjJ7xrN9dvEClGkgQfkFY3ZFgce8pJ7zFGT9phZTYFxYkBslaPAzrZNOPqZ4Lg7JjTiKbkUjCzIPSFRGXsMZP2ZrkmDa13hqRbXR6fAEuttV3PfCsyyQyK2h3gKoQ3%2BKGNWEm5AHllSIVgbcKzFCW9YIRJocShT50RjtpwF%2FBK81F61yDeG0Tjdr7Xnl9qz3%2FX6vk2x3%2FP%2Fx%2Bsmv004jawEwhjymSeLg9lUqD8XFgoqF02GFggjwQJF2pzUve0Q3PKPrzqta7aphlNuwkZoqlcZpxcQFgoJfKd0MTLvuautAZMYNkYvQecM1e4A1ilE8hidpoy9TyHDBhM8SwGS1DhJqWqkJWmlGlAUtfsIOg9VG9UniXa9%2F79ZyWMHNK%2Bne%2BX0kQVFkV1%2Bd5Fz6EpbZXKtGeROWangZBnNK9y0sjV4%2FXBdXeFlcOXE1UDqkKhvZ%2BuiANYnMhgRkhV5QYVQM0dtVo3%2FSqNtI3uWPcLfQ1OD6%2BkESzgHOitDnkrD2PScOt0QR4ul8uTR%2F4AXH9OJFMEAAA%3D)
@@ -83,17 +83,18 @@ Kakariko:
       notes: Talk to her on arrow prompt
       coord: [1830.25, 1042.75]
   - _Cook:
-      text: .important(Roast endura carrot)
-      comment: 1 endura carrot
-      notes: .important(Drop bow, shield, spear & equip torch) while you wait
+      text: Roast endura carrot
+  - _Drop:
+      text: Drop bow, shield, spear & equip torch
+      comment:
   - _Woman::Special<Hylia>:
       text: Hylia / Goddess Statue
       comment: get 1 stamina vessel
       coord: [1839.625, 998.125]
-  - use this autosave and complete the IST setup
+  - Use this autosave and complete the IST setup from step 18
   - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
       coord: [1854.5, 982]
-  - .important(Sell all roasted endura carrots)
+      comment: .important(sell all roasted carrots) to her
   - _Woman<Lasli>:
       comment: outside clothing shop
       coord: [1846.75, 969.25]
@@ -102,7 +103,7 @@ Kakariko:
       notes: goes to sleep at 8pm
       coord: [1903.375, 980.125]
   - _Woman<Nanna>:
-      comment: sleeping in her house
+      comment: sleeping in her house or at east entrance
       coord: [1899.75, 1035.25]
   - 2 WBs north to stump:
       notes: detonate square after first WB
