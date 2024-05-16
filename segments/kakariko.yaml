@@ -83,7 +83,7 @@ Kakariko:
       notes: Talk to her on arrow prompt
       coord: [1830.25, 1042.75]
   - _Cook:
-      text: Roast endura carrot
+      text: Roast endura carrot on campfire near painter
   - _Drop:
       text: Drop bow, shield, spear & equip torch
       comment:
