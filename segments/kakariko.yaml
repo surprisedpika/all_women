@@ -12,22 +12,23 @@ Kakariko:
   - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
   - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
       coord: [1727.75, 1927]
+      notes: "Stand left of puddle, face stable"
   - _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>:
       notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
   - _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>:
       notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
   - _Material<Apples, 3>
-  - _Woman<Sagessa>:
-      comment: She'll talk to you when you take the Apples (shorter dialog)
-      coord: [1742.25, 1943.5]
+  - Sell Ruby to Beedle, buy 10 arrows:
+      icon: marker
+      coord: [1730, 1933]
   - Torch:
       icon: weapon
       coord: [1752, 1951.5]
   - _Material<Wood, 1>:
       coord: [1758.25, 1957.5]
-  - Sell Ruby to Beedle, buy 10 arrows:
-      icon: marker
-      coord: [1721.5, 1963]
+  - _Woman<Sagessa>:
+      comment: She'll talk to you when you take the Apples (shorter dialog)
+      coord: [1742.25, 1943.5]
   - WB West to Boko camp:
       coord: [1494, 1955.5]
   - BTB and unequip shield to get height:
