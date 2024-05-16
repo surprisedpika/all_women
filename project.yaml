@@ -77,7 +77,7 @@ config:
         _Attacked:
           Armed:
             text: $(0)
-            comment: get 'em sis!
+            comment: Don't need to fight enemies
             icon: attacked-woman-plus
             counter: .var(women)
             vars:
