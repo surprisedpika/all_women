@@ -2,7 +2,6 @@ import csv
 import argparse
 import subprocess
 import glob
-import ruamel.yaml
 
 parser = argparse.ArgumentParser(description='Create a git branch based on a column in a CSV file.')
 parser.add_argument('ColumnName', type=str, help='The name of the column in the CSV file')
@@ -10,7 +9,6 @@ parser.add_argument('ColumnName', type=str, help='The name of the column in the 
 args = parser.parse_args()
 
 route_files = glob.glob('../main.yaml') + glob.glob('../segments/*.yaml')
-yaml = ruamel.yaml.YAML()
 
 with open('translations.csv', 'r') as translation_file:
     reader = csv.reader(translation_file)
