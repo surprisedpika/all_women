@@ -31,9 +31,11 @@ Gerudo 1:
       notes: 8 in the bar
   - _Woman<Furosa>:
       comment: barkeeper
-  - _Woman<Nellie>:
-      comment: standing across bar with Pritana
-  - _Woman<Pritana>
+  - _Woman<Pritana>:
+      comment: standing across bar with Nellie
+  - _Woman<Nellie>
+  - _Woman<Jules>:
+      comment: hylian in bar
   - _Woman<Deltan>:
       comment: sad drunk
   - _Woman<Yaido + Sumati + Pyra>:
@@ -41,8 +43,6 @@ Gerudo 1:
       vars:
         women: .add(2) # 1+2
         segment-women: .add(3)
-  - _Woman<Jules>:
-      comment: hylian in bar
   - street .place(outside bar)
   - _Woman<Rima>:
       coord: [-3857, 2882.25]
@@ -56,7 +56,7 @@ Gerudo 1:
       coord: [-3854.25, 2897.875]
   - _Woman<Tauma>:
       comment: hylian reading a book in side room
-  - .sub(Malena might be sleeping in the Inn, if so, talk to her here)
+  - .sub(Malena goes to the Inn at ~11pm, if so, talk to her here)
   - _Woman::Shopkeeper<Romah, Hotel Oasis>
   - exit .place(front of Inn)
   - _Woman<Olu>:
@@ -89,7 +89,8 @@ Gerudo 1:
       coord: [-3868.125, 2939.5625]
       comment: right guard
   - _Woman<Malena>:
-      comment: talking to right guard (might be walking to inn or sleeping in inn)
+      comment: has sidequest, talking to right guard
+      notes: might be walking to inn or sleeping in inn
   - _Woman<Ploka>:
       coord: [-3861.8125, 2945.125]
       comment: left guard
