@@ -6,37 +6,37 @@ Faron:
         - to: [-996, 3568]
           warp: true
   - BLSS
-  - _Woman<Loone>:
+  - _Woman<Lune>:
       coord: [128, 3824]
   - "height WB east, jump off and midair east, then north to .place(Highland Stable)":
       movements:
         - to: [332, 3836]
         - to: [439, 3681]
-  - _Woman::Road::Watch<Meeshy, Highland Stable and Lakeside Stable, no shield>
-  - _Woman::Road::Watch<Totsuna, Highland Stable and Lakeside Stable, has shield>
+  - _Woman::Road::Watch<Sissimo, Highland Stable and Lakeside Stable, no shield>
+  - _Woman::Road::Watch<Chicorin, Highland Stable and Lakeside Stable, has shield>
   - _Woman<Phanna>:
       comment: horse customization
       coord: [515.125, 3462.875]
   - _Woman<Perosa>:
       comment: beside Phanna during the day, inside at night or in rain
   - WB north
-  - _Woman<Suzuna>:
+  - _Woman<Sasunne>:
       coord: [436, 3069]
   - WB east to the hill and BLSS from the stump to .place(Lakeside Stable):
       coord: [592.25, 3135.5]
-  - _Woman<Cima>:
+  - _Woman<Cimina>:
       comment: at lakeside stable. inside at night or in rain, otherwise at the horse pen
       coord: [1540.75, 3531.75]
 
   - .important(Make night for Zora's Domain)
 
-  - "Road NPC info card: .link([Totsuna, Meesy & Letty]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Totsuna-Meeshy-Letty.jpg?raw=true)"
-  - _Woman::Road<Totsuna, Lakeside Stable, has shield>:
-      comment: Farm spawns for Totsuna, Meeshy & Letty in the same location
-  - _Woman::Road<Meeshy, Lakeside Stable, no shield>:
+  - "Road NPC info card: .link([Chicorin, Meesy & Lasat]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Totsuna-Meeshy-Letty.jpg?raw=true)"
+  - _Woman::Road<Chicorin, Lakeside Stable, has shield>:
+      comment: Farm spawns for Chicorin, Sissimo & Lasat in the same location
+  - _Woman::Road<Sissimo, Lakeside Stable, no shield>:
       notes:
       comment:
-  - _Woman::Road<Letty, Lurelin Village, blonde>:
+  - _Woman::Road<Lasat, Lurelin Village, blonde>:
       notes:
       comment:
 
@@ -46,7 +46,7 @@ Faron:
       coord: [1954.5, 3435.5]
 
   - WB E + E + E midair up to the top of .place(Tuft Mountain)
-  - _Woman<Perda>:
+  - _Woman<Bedi>:
       comment: Gerudo by the heart pond
       coord: [2591, 3526]
   - WB east to .place(Lurelin Village)
@@ -55,7 +55,7 @@ Faron:
       notes: sleeping in the house closest to the entrance, with the clotheslines near the cooking pot
       coord: [2884, 3401.25]
 
-  - _Woman::Shopkeeper<Chessica, Inn>:
+  - _Woman::Shopkeeper<Chexter, Inn>:
       coord: [2946.5, 3435.75]
   - _Woman<Flavi>:
       comment: sleeping in the inn

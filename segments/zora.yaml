@@ -8,7 +8,7 @@ Zora:
   - WB to stump:
       coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain):
-      notes: Expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
+      notes: Expecting to get here between midnight and 5am, if you're late read the note on Fine. if you're early you can find Tona up the steps after talking to Tula.
   - Talk to Dorephan and Sidon:
       comment: Equip Zora Armor as soon as you receive it
       icon: marker
@@ -23,20 +23,20 @@ Zora:
   - _Woman<Tona>:
       comment: 3 zora sleeping in east pool
       coord: [3317.75, -528]
-  - _Woman::Child<Finley>:
+  - _Woman::Child<Fine>:
       notes: At 5am she wakes up and will be in the inn
   - _Woman::Child<Laruta>
-  - _Woman<Laflat>:
+  - _Woman<Amol>:
       comment: .important(east) of sleeping children
       coord: [3343, -515]
   - Glide down and run toward ZD entrance
-  - _Woman<Dunma>:
+  - _Woman<Dumja>:
       comment: Guard near entrance (right side)
       coord: [3283.25, -436.5]
   - Talk to Muzu and Sidon:
       icon: marker
       coord: [3305, -475.75]
-  - _Woman<Kodah>:
+  - _Woman<Kodar>:
       comment: In front of the inn (left of statue)
       coord: [3297, -493]
   - _Woman<Marot>:
@@ -44,7 +44,7 @@ Zora:
       coord: [3323.25, -482.25]
   - WB to east entrance:
       notes: Careful on the railing
-  - _Woman<Gaddison>:
+  - _Woman<Joada>:
       comment: Guard at east entrance
       coord: [3475.25, -484.75]
   - WB .S to .place(East Reservoir):

@@ -1,12 +1,12 @@
 Hyrule Field:
   - WB S> + <W turn to .place(Foothill Stable):
       coord: [3099, -1514]
-  - _Woman<Gaile>:
+  - _Woman<Kerte>:
       comment: sweeping outside stable
       coord: [2606, -1130]
-  - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
+  - _Woman::Road::Watch<Karsha, Foothill Stable and Woodland Stable, Gerudo>
   - BLSS to crossroad near Soh Kofi Shrine
-  - _Woman::Special<Douma>:
+  - _Woman::Special<Kleo>:
       coord: [2132, -216]
 
   - BLSS from rock along the road to .important(past) .place(Woodland Stable):
@@ -20,32 +20,32 @@ Hyrule Field:
       coord: [644, -1268]
   - WB E> to .place(Woodland Stable)
 
-  - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
-  - _Woman::Road<Karsh, Woodland Stable, Gerudo>
+  - "Road NPC info card: .link([Karsha]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
+  - _Woman::Road<Karsha, Woodland Stable, Gerudo>
   - _Woman::Child<Shamae>:
       comment: side quest little girl
       coord: [1088, -1130]
-  - _Woman<Breen>:
+  - _Woman<Brin>:
       comment: horse customization
       coord: [1079.25, -1131.125]
-  - WB north to tree, use stump for step-up to BLSS to Benny's plateau:
+  - WB north to tree, use stump for step-up to BLSS to Bendix's plateau:
       notes:
         - be quick because these Lizalfos are annoying
         - aim for the road between the hills and then steer right
       movements:
         - to: [1168.5, -1286]
         - to: [1018, -452]
-  - _Woman<Benny>:
+  - _Woman<Bendix>:
       coord: [620.44, 77.41]
   - WB <S slight turn superlaunch to .place(Hila Rao Shrine island)
-  - _Woman<Magda>:
+  - _Woman<Ocoba>:
       coord: [816.80, 836.77]
   - WB SW to bridge
-  - _Woman::Attacked::Unarmed<Leekah>:
+  - _Woman::Attacked::Unarmed<Porrah>:
       coord: [678.875, 979.375]
 
   - WB <W to .place(Riverside Stable)
-  - _Woman<Parcy>:
+  - _Woman<Parisse>:
       comment: Inside
       coord: [345.00, 1091.50]
 
@@ -56,7 +56,7 @@ Hyrule Field:
         - to: [59, 2033]
         - to: [-209, 2247]
 
-  - _Woman<Mei>:
+  - _Woman<Dedur>:
       comment: In lake, left and in front of main island
       coord: [-229, 2575]
 

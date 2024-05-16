@@ -9,7 +9,7 @@
         movements:
           - to: [-1764, 148]
     - _Woman::Road::Watch<Yammo, Tabantha Bridge Stable and Snowfield Stable, has donkey>
-    - _Woman<Banji>:
+    - _Woman<Banzi>:
         coord: [-2931.375, -547.125]
     - _Woman::Child<Ena>
     - .important(Make night)
@@ -18,7 +18,7 @@
         coord: [-2905.75, -574.25]
     - WB to .place(Fairy Fountain):
         coord: [-3538, -748]
-    - _Woman::Special<Kaysa>:
+    - _Woman::Special<Caesa>:
         comment: Pay great fairy
 
     # Start Rito Village
@@ -27,7 +27,7 @@
     - _Woman<Laissa>:
         comment: Purple bird sleeping
         coord: [-3635.125, -1791]
-    - _Woman<Bedoli>:
+    - _Woman<Bella>:
         comment: Also sleeping
         coord: [-3587, -1798.5]
         notes: Climb up the shelves, can reach her if you're standing on the plates
@@ -42,18 +42,18 @@
     - Go to the .place(Inn)
     - _Woman::Shopkeeper<Cecili, Inn>:
         coord: [-3611.8125, -1858.1875]
-    - _Woman<Juney>:
+    - _Woman<Juno>:
         comment: Hylian woman, sleeping in the inn
     - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
         coord: [-3646.5, -1822.75]
-    - _Woman::Child<Cree>:
+    - _Woman::Child<Gurli>:
         comment: Little blue bird
         coord: [-3605.5, -1799.5]
-    - _Woman::Child<Kotts>:
+    - _Woman::Child<Kan>:
         comment: Little yellow bird
-    - _Woman::Child<Notts>:
+    - _Woman::Child<Nan>:
         comment: Little red bird
-    - _Woman::Child<Kheel>:
+    - _Woman::Child<Kihl>:
         comment: Little red bird
     - _Woman::Child<Genli>:
         comment: Little green bird

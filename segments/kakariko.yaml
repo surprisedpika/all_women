@@ -9,14 +9,14 @@ Kakariko:
         - Next to the waterfall behind Ha Dahamar Shrine
         - Grab them while gliding or you can shoot them down with arrows
       coord: [1615, 1897]
-  - "Road NPC info card: .link([Brokka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
-  - _Woman::Road<Brokka, Dueling Peaks Stable, red hair>:
+  - "Road NPC info card: .link([Broccola]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Brokka.jpg?raw=true)"
+  - _Woman::Road<Broccola, Dueling Peaks Stable, red hair>:
       coord: [1727.75, 1927]
       notes: "Stand left of puddle, face stable"
   - _Woman::Road::Watch<Toma, Dueling Peaks Stable to Hateno Village, has horse>:
-      notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
-  - _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>:
-      notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
+      notes: Toma may be here while farming spawns for Broccola but her spawn rate is very low
+  - _Woman::Road::Watch<Liesel, Dueling Peaks Stable to Hateno Village, dark hair>:
+      notes: Liesel may be here while farming spawns for Broccola but her spawn rate is very low
   - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
       coord: [1730, 1933]
@@ -26,7 +26,7 @@ Kakariko:
   - _Material<Wood, 1>:
       coord: [1758.25, 1957.5]
   - _Material<Apples, 3>
-  - _Woman<Sagessa>:
+  - _Woman<Sagesa>:
       comment: She'll talk to you when you take the Apples (shorter dialog)
       coord: [1742.25, 1943.5]
   - WB West to Boko camp:
@@ -42,7 +42,7 @@ Kakariko:
       notes: 4pm - 7pm
       movements:
         - to: [1417.40, 1922.06]
-  - _Woman::Special<Cotera>:
+  - _Woman::Special<Cotura>:
       comment: Great Fairy, .important(you have ragdoll)
       coord: [1976.25, 845.5]
   - _Material<Fairy,1>
@@ -60,7 +60,7 @@ Kakariko:
   - _Woman::Special<Impa>:
       comment: .important(Talk twice, Accept prompt)
       coord: [1772.75, 983]
-  - _Woman::Child<Cottla>:
+  - _Woman::Child<Priko>:
       comment: At the tables by cooking pot
       coord: [1789.875, 1017.625]
   - Pot Lid:
@@ -72,14 +72,14 @@ Kakariko:
   - _Cook:
       text: Cook speed food
       comment: 4x swift violet, 1 bird egg (5:30)
-  - _Woman::Shopkeeper<Trissa, High Spirits Produce - General store>:
+  - _Woman::Shopkeeper<Zitra, High Spirits Produce - General store>:
       notes: You will talk to her when you break slots
       coord: [1788.25, 1027.25]
   - Break 6 slots for IST:
       comment: .link([Simulator]https://ist.itntpiston.app/?c=H4sIAAAAAAACA6VTQY7bMAy8%2BxUEct1Dkl0UyKEvKfbAWLQsRBZVSrbh35eS4t00uRToyaJFcmbIkQsuwwlSJJRf9Ht28VPDzNKP%2Br3y%2BvXzCCjyEEMaHXnT4jfwbqCfH8fjJ7xrN9dvEClGkgQfkFY3ZFgce8pJ7zFGT9phZTYFxYkBslaPAzrZNOPqZ4Lg7JjTiKbkUjCzIPSFRGXsMZP2ZrkmDa13hqRbXR6fAEuttV3PfCsyyQyK2h3gKoQ3%2BKGNWEm5AHllSIVgbcKzFCW9YIRJocShT50RjtpwF%2FBK81F61yDeG0Tjdr7Xnl9qz3%2FX6vk2x3%2FP%2Fx%2Bsmv004jawEwhjymSeLg9lUqD8XFgoqF02GFggjwQJF2pzUve0Q3PKPrzqta7aphlNuwkZoqlcZpxcQFgoJfKd0MTLvuautAZMYNkYvQecM1e4A1ilE8hidpoy9TyHDBhM8SwGS1DhJqWqkJWmlGlAUtfsIOg9VG9UniXa9%2F79ZyWMHNK%2Bne%2BX0kQVFkV1%2Bd5Fz6EpbZXKtGeROWangZBnNK9y0sjV4%2FXBdXeFlcOXE1UDqkKhvZ%2BuiANYnMhgRkhV5QYVQM0dtVo3%2FSqNtI3uWPcLfQ1OD6%2BkESzgHOitDnkrD2PScOt0QR4ul8uTR%2F4AXH9OJFMEAAA%3D)
       notes:
         - Scrap = pepper x3, blue nightshade x3, apple x3
-  - _Woman::Shopkeeper<Rola, The Curious Quiver>:
+  - _Woman::Shopkeeper<Cerola, The Curious Quiver>:
       notes: Talk to her on arrow prompt
       coord: [1830.25, 1042.75]
   - _Cook:
@@ -92,13 +92,13 @@ Kakariko:
       comment: get 1 stamina vessel
       coord: [1839.625, 998.125]
   - Use this autosave and complete the IST setup from step 18
-  - _Woman::Shopkeeper<Claree, Enchanted - Armor Shop>:
+  - _Woman::Shopkeeper<Clari, Enchanted - Armor Shop>:
       coord: [1854.5, 982]
       comment: .important(sell all roasted carrots) to her
-  - _Woman<Lasli>:
+  - _Woman<Himba>:
       comment: outside clothing shop or sitting with Nanna
       coord: [1846.75, 969.25]
-  - _Woman<Mellie>:
+  - _Woman<Melo>:
       comment: by her house and other cooking pot
       notes: goes to sleep at 8pm
       coord: [1903.375, 980.125]

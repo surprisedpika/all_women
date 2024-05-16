@@ -42,8 +42,8 @@
 - use: ./segments/akkala2.yaml # orange
 
 # Get Foothill stable, NPCs along the road to Woodland Stable
-# Magda, Riverside Stable, Outskirt Stable, along road to Lake Hylia
-# Branch ends at Mei in Lake Hylia
+# Ocoba, Riverside Stable, Outskirt Stable, along road to Lake Hylia
+# Branch ends at Dedur in Lake Hylia
 - use: ./segments/hyrulefield.yaml # orange
 
 #
@@ -77,7 +77,7 @@
 #
 # Faron Branch
 #
-# Start with Loone
+# Start with Lune
 # Get to Highland Stable and follow road all the way to Lurelin Village
 # Get Lakeside Stable and all NPCs along the road
 - use: ./segments/faron.yaml # lightblue

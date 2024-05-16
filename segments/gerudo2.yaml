@@ -9,7 +9,7 @@ Gerudo 2:
   - Enter house near Hudson
   - _Woman::Special<Ruli>:
       coord: [3968.875, -1591.25]
-  - _Woman::Special<Hunnie>:
+  - _Woman::Special<Hannie>:
       coord: [3972, -1592]
   - Talk to Hudson:
       icon: marker
@@ -24,7 +24,7 @@ Gerudo 2:
           warp: true
 
   - WB south to .place(room by cooking pots)
-  - _Woman<Pasha>:
+  - _Woman<Ampu>:
       notes: 3 women talking inside
       coord: [-3811.875, 2956.375]
   - _Woman<Dina>
@@ -52,46 +52,46 @@ Gerudo 2:
   - _Woman<Muava>:
       comment: By hylia statue
       coord: [-3770.25, 2945.75]
-  - _Woman<Lashley>:
+  - _Woman<Augissa>:
       comment: guard
       coord: [-3755.25, 2952.25]
-  - _Woman::Shopkeeper<Frelly, Seal Rental>:
+  - _Woman::Shopkeeper<Freya, Seal Rental>:
       coord: [-3757.75, 2938.875]
-  - _Woman<Essa>:
+  - _Woman<Ektis>:
       comment: sweeping in the seal pen or sleeping in the bed (room on the left)
       coord: [-3773.5, 2916.375]
 
   - back to the .place(main square)
-  - _Woman::Shopkeeper<Saula, Clothing Stand>:
+  - _Woman::Shopkeeper<Saiga, Clothing Stand>:
       notes: talk on shop prompt
       coord: [-3802.375, 2902]
 
   - WB or just run and climb to the .place(palace upper level)
-  - _Woman<Bertri>:
+  - _Woman<Matori>:
       comment: guard at upper left doorway
       coord: [-3862.125, 2961.125]
   - Talk to Riju:
       icon: marker
       coord: [-3868.75, 2948.625]
-  - _Woman<Katta>:
+  - _Woman<Kattoru>:
       comment: guard at upper right doorway
       coord: [-3882.875, 2941.125]
   - Climb wall beside tree outside doorway, follow waterway up to melon lady:
       coord: [-3888.375, 2931.1875]
-  - _Woman<Calyban>:
+  - _Woman<Caliban>:
       comment: eating melon
       coord: [-3914, 2955]
   - drop down into .place(guard's courtyard)
-  - _Woman<Teake>:
+  - _Woman<Tekla>:
       comment: captain
       coord: [-3923.25, 2939.75]
-  - _Woman<Liana>:
+  - _Woman<Lanja>:
       comment: group of 4 women in middle
       coord: [-3910.5625, 2928.4375]
-  - _Woman<Leena>
+  - _Woman<Line>
   - _Woman<Kotta>
-  - _Woman<Barta>
-  - _Woman<Smaude>:
+  - _Woman<Baretta>
+  - _Woman<Semidi>:
       comment: three training together
       coord: [-3910.75, 2913.3125]
   - _Woman<Marta>:
@@ -102,15 +102,15 @@ Gerudo 2:
   - WB <S to .place(Sand-Seal Rally):
       movements:
         - to: [-3878.1875, 2889.0625]
-  - _Woman<Tali + Shabonne>:
-      comment: talk to Tali (afro) for engaging 2 NPCs at once
+  - _Woman<Payu + Shabonne>:
+      comment: talk to Payu (afro) for engaging 2 NPCs at once
       coord: [-3760, 3112]
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
 
   - WB east to .place(outpost)
-  - _Woman<Sudrey>:
+  - _Woman<Sudra>:
       comment: inside outpost
       coord: [-3433.5, 3121.75]
   - climb ladder, start Naboris at Riju

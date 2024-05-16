@@ -2,18 +2,18 @@ Hateno:
   - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
       comment: use stump for step-up
       notes: At fork in road, aim SE toward Muwo Jeem plateau
-  - _Woman::Special<Traveler>:
+  - _Woman::Special<Reisender>:
       coord: [3086.05, 2446.28]
   - WB N> to woods outside hateno
   - _Woman::Attacked::Unarmed<Nat>:
       comment: use bombs to kill their attackers
       coord: [3184, 2137]
-  - _Woman::Attacked::Unarmed<Meghyn>
-  - "Road NPC info card: .link([Toma & Celessa]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
+  - _Woman::Attacked::Unarmed<Meg>
+  - "Road NPC info card: .link([Toma & Liesel]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Toma-Celessa.jpg?raw=true)"
   - _Woman::Road<Toma, Hateno Village, has horse>:
       coord: [3259.75, 2134.25]
-  - _Woman::Road<Celessa, Hateno Village, dark hair>:
-      notes: farm spawns for Toma and Celessa in the same location
+  - _Woman::Road<Liesel, Hateno Village, dark hair>:
+      notes: farm spawns for Toma and Liesel in the same location
   - WB <S to Bolson
   - Talk to Bolson:
       icon: marker
@@ -26,12 +26,12 @@ Hateno:
       comment: with the chickens
       coord: [3349, 2086.75]
   - head toward the main road
-  - _Woman::Shopkeeper<Sophie, Ventest Clothing Boutique>:
+  - _Woman::Shopkeeper<Sophora, Ventest Clothing Boutique>:
       coord: [3361.25, 2129]
-  - _Woman<Ivee>:
+  - _Woman<Effi>:
       comment: outside general store
       coord: [3358.25, 2160]
-  - _Woman<Amira + Nikki>:
+  - _Woman<Amira + Nagi>:
       comment: gossiping
       vars:
         women: .add(1) # 1+1
@@ -45,13 +45,13 @@ Hateno:
   - _Woman<Clavia>:
       comment: behind dye shop
       coord: [3426.25, 2162.75]
-  - _Woman::Child<Aster>:
+  - _Woman::Child<Asta>:
       comment: child running around outside inn
       coord: [3426.5, 2118.75]
-  - _Woman<Uma>:
+  - _Woman<Ume>:
       comment: old
       coord: [3458, 2129.5]
-  - _Woman::Shopkeeper<Prima, The Great Ton Pu Inn>:
+  - _Woman::Shopkeeper<Primella, The Great Ton Pu Inn>:
       notes: stand on the counter
       coord: [3467.25, 2092.25]
   - _Woman::Child<Karin>:

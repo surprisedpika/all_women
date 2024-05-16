@@ -6,7 +6,7 @@ Kara Kara Bazaar:
         - to: [-1437, 1989]
           warp: true
   - BLSS <S
-  - _Woman<Moza>:
+  - _Woman<Mimosa>:
       coord: [-1047, 3567]
   - Ishto Soh:
       icon: shrine
@@ -26,7 +26,7 @@ Kara Kara Bazaar:
       comment: use the edge of the great fairy's flower thing to step-up. steer northeast
       movements:
         - to: [-3740, 2280]
-  - _Woman<Anche>:
+  - _Woman<Ante>:
       coord: [-3740, 2280]
 
   - WB to .place(Daqo Chisay Shrine):
@@ -42,24 +42,24 @@ Kara Kara Bazaar:
       icon: marker
       coord: [-3728.5, 2870.5]
 
-  - _Woman::Road::Watch<Lukan, Gerudo Town and Gerudo Canyon Stable, Gerudo>
+  - _Woman::Road::Watch<Luka, Gerudo Town and Gerudo Canyon Stable, Gerudo>
 
   - "Road NPC info card: .link([Kyra]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Kyra.jpg?raw=true)"
   - _Woman::Road<Kyra, Kara Kara and Gerudo Town, Gerudo usually running>:
       comment: ride the sand-seal back and forth along the road until she appears
       notes:
         - unlike all the other Road NPCs just use a sand seal for Kyra
-  - _Woman::Special<Rhondson>:
+  - _Woman::Special<Pauda>:
       notes: if it's night, you may need to wait on the fire til noon to send her to tarrey town
       comment: send to tarrey town
       coord: [-3269, 2583]
-  - _Woman<Ripp>:
+  - _Woman<Ribia>:
       comment: guard, walking around the pond, starts at the south end by the building
       coord: [-3245.375, 2580.5]
   - Enter building
-  - _Woman::Shopkeeper<Kachoo, Inn>:
+  - _Woman::Shopkeeper<Kahu, Inn>:
       coord: [-3267.5, 2610.5]
-  - _Woman::Shopkeeper<Shaillu>
+  - _Woman::Shopkeeper<Piloru>
   - _Woman<Konora>
   - _Woman::Road::Watch<Calisa, Kara Kara Bazaar and Gerudo Canyon Stable, Gerudo>
   - _Woman::Shopkeeper<Emri>:
@@ -83,21 +83,21 @@ Kara Kara Bazaar:
       icon: marker
       comment: talk to for side quest
       coord: [-2814, 2246.5]
-  - "Road NPC info card: .link([Calisa & Lukan]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
+  - "Road NPC info card: .link([Calisa & Luka]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Lukan-Calisa.jpg?raw=true)"
   - _Woman::Road<Calisa, Gerudo Canyon Stable, Gerudo>:
       coord: [-2785, 2247.5]
-  - _Woman::Road<Lukan, Gerudo Canyon Stable, Gerudo>:
-      notes: farm spawns for Lukan and Calisa in the same location
+  - _Woman::Road<Luka, Gerudo Canyon Stable, Gerudo>:
+      notes: farm spawns for Luka and Calisa in the same location
   - high WBs north and east into valley
-  - _Woman::Special<Flaxel>:
+  - _Woman::Special<Amani>:
       coord: [-2163, 1700]
-  - _Woman::Special<Canolo>:
+  - _Woman::Special<Natane>:
       coord: [-2188.5, 1688]
   - WB <E and <E slight turn to .place(Outskirt Stable):
       movements:
         - to: [-2022, 1640]
 
-  - _Woman<Canni>:
+  - _Woman<Koral>:
       comment: horse customization
       coord: [-1451.55, 1250.47]
   - _Woman::Child<Haite>

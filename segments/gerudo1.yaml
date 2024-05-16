@@ -10,16 +10,16 @@ Gerudo 1:
       comment: 2 guards
       coord: [-3786.25, 2866.5]
   - _Woman<Merina>
-  - _Woman<Fegran>:
+  - _Woman<Flegra>:
       comment: wandering near entrance
       coord: [-3805.875, 2888.25]
-  - _Woman::Shopkeeper<Lorn, Fruit Stand>:
+  - _Woman::Shopkeeper<Velora, Fruit Stand>:
       notes: talk on shop prompt
       coord: [-3822.75, 2877.375]
-  - _Woman::Child<Dalia>:
+  - _Woman::Child<Payua>:
       comment: child sleeping in stall
   - go to .place(jewelery shop)
-  - _Woman<Isha>:
+  - _Woman<Aisha>:
       comment: sidequest npc outside jewelry shop
   - enter jewelery shop:
       coord: [-3837.75, 2866.75]
@@ -32,9 +32,9 @@ Gerudo 1:
   - _Woman<Furosa>:
       comment: barkeeper
   - _Woman<Pritana>:
-      comment: standing across bar with Nellie
-  - _Woman<Nellie>
-  - _Woman<Jules>:
+      comment: standing across bar with Neru
+  - _Woman<Neru>
+  - _Woman<Yuli>:
       comment: hylian in bar
   - _Woman<Deltan>:
       comment: sad drunk
@@ -49,20 +49,20 @@ Gerudo 1:
       comment: under tent outside
   - enter the .place(House next to bar):
       coord: [-3874.75, 2876.125]
-  - _Woman::Child<Pearle>
+  - _Woman::Child<Perl>
   - _Woman<Rotana>:
       comment: shrinequest npc at bookshelf in the same house
   - Across the street, rear entrance of .place(Inn):
       coord: [-3854.25, 2897.875]
-  - _Woman<Tauma>:
+  - _Woman<Tabuma>:
       comment: hylian reading a book in side room
   - .sub(Malena goes to the Inn at ~11pm, if so, talk to her here)
-  - _Woman::Shopkeeper<Romah, Hotel Oasis>
+  - _Woman::Shopkeeper<Aroha, Hotel Oasis>
   - exit .place(front of Inn)
-  - _Woman<Olu>:
+  - _Woman<Ola>:
       coord: [-3839.375, 2893.875]
       comment: outside inn
-  - _Woman::Shopkeeper<Estan, Meat Stand>:
+  - _Woman::Shopkeeper<Esta, Meat Stand>:
       coord: [-3847.1875, 2903.1875]
   - _Woman<Frita>:
       comment: rito
@@ -70,7 +70,7 @@ Gerudo 1:
       comment: wandering in the main square
       coord: [-3842.625, 2915.875]
   - .place(arrow shop)
-  - _Woman::Shopkeeper<Danda, Arrow Stand>:
+  - _Woman::Shopkeeper<Renora, Arrow Stand>:
       notes: get dialog buying
       coord: [-3858, 2911.6875]
   - Shopping:
@@ -79,38 +79,38 @@ Gerudo 1:
       comment: for 2 BTBs, you can shoot Kohga with them too to avoid swapping arrows
   - Buy 20 shock arrows:
       comment: dont use them until Ruta entry at the end of the run
-  - _Woman::Child<Kalani>:
+  - _Woman::Child<Kalana>:
       comment: sleeping child
       notes: 2 children sleeping in stall
-  - _Woman::Child<Makure>:
+  - _Woman::Child<Maku>:
       comment: sleeping child
   - up the steps to the .place(palace entrance)
-  - _Woman<Reeza>:
+  - _Woman<Reesa>:
       coord: [-3868.125, 2939.5625]
       comment: right guard
   - _Woman<Malena>:
       comment: has sidequest, talking to right guard
       notes: might be walking to inn or sleeping in inn
-  - _Woman<Ploka>:
+  - _Woman<Pinja>:
       coord: [-3861.8125, 2945.125]
       comment: left guard
-  - _Woman<Traysi>:
+  - _Woman<Kletis>:
       comment: talking to left guard
   - enter the .place(palace):
       notes: forced dialog
-  - _Woman::Special<Riju + Buliara>:
+  - _Woman::Special<Riju + Bylla>:
       comment: Main Quest dialog
       coord: [-3889.9375, 2969.1875]
       vars:
         women: .add(1) # 1+1
         segment-women: .add(2)
-  - _Woman<Padda>:
+  - _Woman<Padoru>:
       comment: south courtyard with Patricia (seal)
       coord: [-3848.875, 2987.125]
   - WB <N to .place(west entrance seal rental)
-  - _Woman::Shopkeeper<Kohm, Seal Rental>:
+  - _Woman::Shopkeeper<Kohmi, Seal Rental>:
       coord: [-3902.875, 2882.875]
-  - _Woman<Laine>:
+  - _Woman<Laina>:
       comment: guard outside
   - WB super northwest
   - _Segment<Gerudo 1>

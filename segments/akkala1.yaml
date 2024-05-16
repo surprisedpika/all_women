@@ -8,8 +8,8 @@ Akkala 1:
   - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)
-  - _Woman::Road::Watch<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>:
-      notes: we will try to force a spawn for Laroba later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
+  - _Woman::Road::Watch<Balora, East Akkala Stable and South Akkala Stable, Gerudo>:
+      notes: we will try to force a spawn for Balora later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>
@@ -20,7 +20,7 @@ Akkala 1:
       coord: [3988.5, -1597]
   - .important(Make night)
   - WB <S to fairy fountain
-  - _Woman::Special<Mija>:
+  - _Woman::Special<Mijah>:
       comment: pay great fairy
       coord: [4120, -1386]
   - WB to shrine
