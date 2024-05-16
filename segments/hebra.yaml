@@ -1,30 +1,31 @@
 Hebra:
-  - climb up onto the roof
+  - Climb up onto the roof
   - WB chain to .place(Selmie's Cabin):
+      comment: NW until enemy camp, N until lone tree, E until after lone tree, NNE until at cabin
       movements:
         - to: [-3430.5, -2208]
         - to: [-3369, -2545.75]
         - to: [-3261, -2563.5]
         - to: [-3062, -2629]
   - _Woman<Selmie>:
-      comment: at Selmie's Cabin
+      comment: In Selmie's Cabin
       coord: [-2947.5, -3143.5]
 
-  - ? exit and go right toward Shada Naw, knock down and use the stump of the tree to step-up and BLSS
-    : notes: steer southeast around the Hebra peak until you see Death Mountain visible through the fog, steer toward the volcano until .place(Snowfield Stable) is visible below you
+  - Exit and go right toward Shada Naw, knock down and use the stump of the tree to step-up and BLSS:
+      notes: Steer southeast around the Hebra peak until you see Death Mountain visible through the fog, steer toward the volcano until .place(Snowfield Stable) is visible below you
       movements:
         - to: [-2836, -2844]
         - to: [-2612, -2648]
   - _Woman<Juannelle>:
-      comment: at snowfield stable
+      comment: Inside snowfield stable back right
       coord: [-1642, -2568]
   - _Woman<Harlow>:
-      comment: at snowfield stable
+      comment: Inside snowfield stable left entrance
   - WB .S turn super to .place(Serenne Stable)
   - _Woman<Zumi>:
-      comment: at serenne stable
+      comment: At serenne stable cooking pot
       coord: [-1540.5, -1797]
-  - WB E turn to .place(little ruined house)
+  - WB .E turn to .place(little ruined house)
   - _Woman::Attacked::Armed<Chabi>:
       coord: [-1236, -1870]
   - _Segment<Hebra>
