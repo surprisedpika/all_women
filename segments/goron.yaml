@@ -1,10 +1,10 @@
 Goron City:
-  - ? W + midair to tree by on the left plateau of the Akkala Citadel Ruins by the tower
-    : comment: knock down the tree and use stump to step-up. expect stalmoblins, just be fast
+  - W + W midair:
+      comment: To trees on the left plateau of the Akkala Citadel Ruins by the tower
       movements:
         - to: [3443.125, -1296.5]
   - BLSS to .place(Southern Mine):
-      notes: aim for little peak left of tower, over the hill, steer right, follow the road
+      comment: Aim for little peak left of tower, over the hill, steer right, follow the road
       movements:
         - to: [2027, -1503]
         - to: [1824, -1692]
@@ -14,14 +14,14 @@ Goron City:
 
   - WB W> to bombable wall left of lavafalls
   - Stone Smasher:
-      comment: use for attacked NPCs and Kohga
+      notes: use for attacked NPCs and Kohga
       icon: weapon
       coord: [1396, -2069.5]
   - WBs <E + N. to .place(Goron City):
-      notes: unequip or unignite bow before landing
+      comment: .important(Unequip bow before landing)
       coord: [1561, -2246.5]
   - _Woman<Ramella>:
-      comment: sleeping in the inn
+      comment: Sleeping in the inn
       coord: [1678, -2440]
   - _Segment<Goron City>
   - "":
