@@ -8,52 +8,50 @@ Zora:
   - WB to stump:
       coord: [1872, 815.5]
   - BLSS to .place(Zora's Domain):
-      notes: expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
+      notes: Expecting to get here between midnight and 5am, if you're late read the note on Finley. if you're early you can find Tona up the steps after talking to Tula.
   - Talk to Dorephan and Sidon:
-      comment: .important(Equip Zora Armor) as soon as you receive it
+      comment: Equip Zora Armor as soon as you receive it
       icon: marker
       coord: [3331.25, -534.5]
   - Drop down to the level below, west of the throne
   - _Woman<Tula>:
-      comment: red zora running around in circles
+      comment: Red zora running around in circles
       coord: [3300.875, -516.5]
   - _Woman<Torfeau>:
-      comment: guard
+      comment: Guard near pools
       coord: [3314.5, -548]
   - _Woman<Tona>:
-      comment: 3 zora sleeping in one pond (other ponds contain boy zoras)
-      notes: try to avoid going in the water
+      comment: 3 zora sleeping in east pool
       coord: [3317.75, -528]
   - _Woman::Child<Finley>:
-      notes: at 5am she wakes up and will be in the inn
+      notes: At 5am she wakes up and will be in the inn
   - _Woman::Child<Laruta>
   - _Woman<Laflat>:
-      comment: east of sleeping children
+      comment: .important(east) of sleeping children
       coord: [3343, -515]
-  - glide down and run toward ZD entrance
+  - Glide down and run toward ZD entrance
   - _Woman<Dunma>:
-      comment: guard near entrance
+      comment: Guard near entrance (right side)
       coord: [3283.25, -436.5]
   - Talk to Muzu and Sidon:
       icon: marker
       coord: [3305, -475.75]
   - _Woman<Kodah>:
-      comment: in front of the inn
+      comment: In front of the inn (left of statue)
       coord: [3297, -493]
   - _Woman<Marot>:
-      comment: in front of general store
+      comment: In front of general store
       coord: [3323.25, -482.25]
   - WB to east entrance:
-      notes: careful on the railing
+      notes: Careful on the railing
   - _Woman<Gaddison>:
-      comment: guard at east entrance
+      comment: Guard at east entrance
       coord: [3475.25, -484.75]
   - WB .S to .place(East Reservoir):
       icon: marker
       coord: [3597.5, -340.5]
   - Enter .place(Ruta)
   - _Woman::Special<Mipha>:
-      notes: forced dialog
       coord: [3668.5, -215]
   - _Segment<Zora>
   - "":
