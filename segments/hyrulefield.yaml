@@ -2,7 +2,7 @@ Hyrule Field:
   - WB S> + <W turn to .place(Foothill Stable):
       coord: [3099, -1514]
   - _Woman<Gaile>:
-      comment: outside stable
+      comment: sweeping outside stable
       coord: [2606, -1130]
   - _Woman::Road::Watch<Karsh, Foothill Stable and Woodland Stable, Gerudo>
   - BLSS to crossroad near Soh Kofi Shrine
@@ -18,7 +18,7 @@ Hyrule Field:
   - _Woman::Attacked::Armed<Mina>:
       notes: has a male companion, dont talk to him >:)
       coord: [644, -1268]
-  - build cryo block on mud pit and WB east
+  - WB E> to .place(Woodland Stable)
 
   - "Road NPC info card: .link([Karsh]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Karsh.jpg?raw=true)"
   - _Woman::Road<Karsh, Woodland Stable, Gerudo>
@@ -28,10 +28,10 @@ Hyrule Field:
   - _Woman<Breen>:
       comment: horse customization
       coord: [1079.25, -1131.125]
-  - WB north to tree, use stump for step-up to BLSS to Benny's hill:
+  - WB north to tree, use stump for step-up to BLSS to Benny's plateau:
       notes:
         - be quick because these Lizalfos are annoying
-        - aim for the road between the hills and then steer west
+        - aim for the road between the hills and then steer right
       movements:
         - to: [1168.5, -1286]
         - to: [1018, -452]
@@ -40,12 +40,13 @@ Hyrule Field:
   - WB <S slight turn superlaunch to .place(Hila Rao Shrine island)
   - _Woman<Magda>:
       coord: [816.80, 836.77]
-  - WB to bridge
+  - WB SW to bridge
   - _Woman::Attacked::Unarmed<Leekah>:
       coord: [678.875, 979.375]
 
-  - WB to .place(Riverside Stable)
+  - WB <W to .place(Riverside Stable)
   - _Woman<Parcy>:
+      comment: Inside
       coord: [345.00, 1091.50]
 
   - WB south to stump korok and BLSS to .place(Lake Hylia):
@@ -56,7 +57,7 @@ Hyrule Field:
         - to: [-209, 2247]
 
   - _Woman<Mei>:
-      comment: zora in the lake
+      comment: In lake, left and in front of main island
       coord: [-229, 2575]
 
   - _Segment<Hyrule Field>
