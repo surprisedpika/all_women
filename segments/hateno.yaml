@@ -1,6 +1,7 @@
 Hateno:
   - BLSS toward .place(Hateno Village) (Firly Plateau south of the town):
       comment: use stump for step-up
+      notes: At fork in road, aim SE toward Muwo Jeem plateau
   - _Woman::Special<Traveler>:
       coord: [3086.05, 2446.28]
   - WB N> to woods outside hateno
@@ -22,7 +23,7 @@ Hateno:
       comment: talk to Bolson and Hudson
   - WB north
   - _Woman<Tamana>:
-      comment: by the chickens
+      comment: with the chickens
       coord: [3349, 2086.75]
   - head toward the main road
   - _Woman::Shopkeeper<Sophie, Ventest Clothing Boutique>:
@@ -66,7 +67,7 @@ Hateno:
   - WB W> back to .place(Ancient Furnace):
       icon: marker
       coord: [3436, 1978]
-  - Weapon smuggle and WB to .place(Hateno Tech Lab) with blue flame:
+  - Weapon smuggle and WB SE, E to .place(Hateno Tech Lab) with blue flame:
       coord: [3639.5, 2094.5]
   - Light the furnace:
       notes: keep the torch so you have a wooden weapon if there are thunderstorms later
