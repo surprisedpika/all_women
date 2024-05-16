@@ -12,58 +12,58 @@
     - _Woman<Banji>:
         coord: [-2931.375, -547.125]
     - _Woman::Child<Ena>
+    - .important(Make night)
     - "Road NPC info card: .link([Yammo]https://github.com/cobchamp/all_women/blob/main/infocards/NPC-Yammo.jpg?raw=true)"
     - _Woman::Road<Yammo, Tabantha Bridge Stable, has donkey>:
         coord: [-2905.75, -574.25]
-    - .important(Make night)
     - WB to .place(Fairy Fountain):
         coord: [-3538, -748]
     - _Woman::Special<Kaysa>:
-        comment: pay great fairy
+        comment: Pay great fairy
 
     # Start Rito Village
-    - WB to .place(Rito Village):
-        notes: land on the deck of the hut closest to the shrine
+    - WBs to .place(Rito Village):
+        notes: Land on the deck of the hut closest to the shrine. If you miss the deck, you can FDC wall climb back up
     - _Woman<Laissa>:
-        comment: purple bird sleeping
+        comment: Purple bird sleeping
         coord: [-3635.125, -1791]
     - _Woman<Bedoli>:
-        comment: also sleeping
+        comment: Also sleeping
         coord: [-3587, -1798.5]
-        notes: climb up the shelves, can reach her if you're standing on the plates
+        notes: Climb up the shelves, can reach her if you're standing on the plates
     - _Woman::Child<Molli>:
-        comment: little pink bird sleeping next door
+        comment: Little pink bird sleeping next door
     - _Woman<Saki>:
-        comment: pink bird from All Dungeons
+        comment: Pink, next building along
         coord: [-3606.875, -1823.75]
     - Drop down and Talk to Fyson:
         icon: marker
         coord: [-3594, -1821.375]
-    - go to the .place(Inn)
+    - Go to the .place(Inn)
     - _Woman::Shopkeeper<Cecili, Inn>:
         coord: [-3611.8125, -1858.1875]
     - _Woman<Juney>:
-        comment: hylian woman, sleeping in the inn
+        comment: Hylian woman, sleeping in the inn
     - _Woman::Shopkeeper<Misa, Slippery Falcon - General Store>:
         coord: [-3646.5, -1822.75]
     - _Woman::Child<Cree>:
-        comment: little blue bird
+        comment: Little blue bird
         coord: [-3605.5, -1799.5]
     - _Woman::Child<Kotts>:
-        comment: little yellow bird
+        comment: Little yellow bird
     - _Woman::Child<Notts>:
-        comment: little red bird
+        comment: Little red bird
     - _Woman::Child<Kheel>:
-        comment: little red bird
+        comment: Little red bird
     - _Woman::Child<Genli>:
-        comment: little green bird
+        comment: Little green bird
     - _Woman<Amali>:
-        comment: green bird by cooking Pot
+        comment: Green bird by cooking Pot
         coord: [-3589, -1804.75]
 
-    - WB to .place(Rito Village Stable)
+    - WB E. to .place(Rito Village Stable)
     - _Woman<Ariane>:
-        comment: inside on a chair
+        comment: Inside on a chair
         coord: [-3246, -1782]
 
     - _Segment<Rito>
