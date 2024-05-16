@@ -10,14 +10,14 @@ Akkala 2:
       icon: marker
       comment: give wood, get mission to find Gerudo
       coord: [3988.5, -1597]
-  - BLSS toward .place(South Akkala Stable)
+  - BLSS WNW toward .place(South Akkala Stable)
   - _Woman::Road::Watch<Lonni, Tarrey Town and South Akkala Stable>
   - WB west to sheep pen behind stable
   - _Woman<Kaifa>:
       coord: [3164, -1717]
-      comment: sheep pen
+      comment: sheep pen under tree
   - _Woman<Jana>:
-      comment: sitting under tree
+      comment: sitting under tree to the west
       coord: [3132, -1670.5]
   - _Woman::Child<Gleema>
   - _Woman<Tenne>:
