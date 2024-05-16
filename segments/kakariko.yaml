@@ -35,24 +35,24 @@ Kakariko:
       notes:
         - .link([BTB Reference]https://youtu.be/Ki-nt715kZQ)
         - Place cryo block beside the bomb barrel
-        - Slightly delayed shield jump, early bullet time, first frame bow unequip for maximum height, wait a second til over the water then unequip shield, pull glider at peak height and glide North.
+        - First frame bow unequip for maximum height, wait a second til over the water then unequip shield, pull glider at peak height and glide North.
+        - If too low, glide south and blss off lower ore deposits.
   - BLSS to Kakariko:
       comment: Use left side of rightmost ore deposit for step-up
       notes: 4pm - 7pm
       movements:
         - to: [1417.40, 1922.06]
   - _Woman::Special<Cotera>:
-      comment: pay great fairy
+      comment: Great Fairy, .important(you have ragdoll)
       coord: [1976.25, 845.5]
   - _Material<Fairy,1>
   - _Material<Blue Nightshade,3>
   - _Material<Endura Carrot,1>
   - WB to shrine, get an extra carrot/fairy if you need health:
-      notes: you have ragdoll from the shield unequip BTB, so either flop on your shield or quick fix
+      coord: [1841.5, 889.25]
   - Taloh Naeg:
       icon: shrine
       comment: Activate shrine warp
-      coord: [1841.5, 889.25]
   - _Material<Bird Egg>:
       notes: In big tree between shrine and Impa's house
   - _Woman<Paya>:
