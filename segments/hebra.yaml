@@ -17,11 +17,11 @@ Hebra:
         - to: [-2836, -2844]
         - to: [-2612, -2648]
   - _Woman<Juannelle>:
-      comment: Inside snowfield stable back right
+      comment: Inside stable back right
       coord: [-1642, -2568]
   - _Woman<Harlow>:
-      comment: Inside snowfield stable left entrance
-  - WB .S turn super to .place(Serenne Stable)
+      comment: Inside stable left entrance
+  - WB .S turn super (lag from stable) to .place(Serenne Stable)
   - _Woman<Zumi>:
       comment: At serenne stable cooking pot
       coord: [-1540.5, -1797]
