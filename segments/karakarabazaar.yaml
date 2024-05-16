@@ -5,7 +5,7 @@ Kara Kara Bazaar:
       movements:
         - to: [-1437, 1989]
           warp: true
-
+  - BLSS <S
   - _Woman<Moza>:
       coord: [-1047, 3567]
   - Ishto Soh:
@@ -35,10 +35,9 @@ Kara Kara Bazaar:
       icon: shrine
       comment: Activate shrine warp
       coord: [-3814, 2819]
-  - Talk to the nerd outside the shrine
-  - Ignore the seal lady here (you will run right past her later when doing Gerudo 2)
+  - Talk to the nerd outside the shrine:
+      comment: Ignore the seal lady here (you will run right past her later when doing Gerudo 2)
   - Grab a Sand Seal:
-      comment: sand seal recommended on this road due to stopping along the flat desert
       notes: throw bomb at the seal as soon as you stop to prevent it from escaping
       icon: marker
       coord: [-3728.5, 2870.5]
@@ -102,7 +101,8 @@ Kara Kara Bazaar:
       comment: horse customization
       coord: [-1451.55, 1250.47]
   - _Woman::Child<Haite>
-  - _Woman<Myti>
+  - _Woman<Myti>:
+      comment: cooking pot
   - .important(Make night for Gerudo 1)
   - _Woman<Aliza>:
       comment: under tree, 'my hero' lady
