@@ -4,19 +4,19 @@ Akkala 1:
         - to: [4312, 1424]
         - to: [4768, -560]
         - to: [4796, -1432]
-  - talk to the robot to make Robbie and Jerrin appear
+  - Talk to the robot to make Robbie and Jerrin appear
   - _Woman::Special<Jerrin>:
       coord: [4519, -3161]
   - WB to .place(East Akkala Stable)
-  - ? _Woman::Road::Watch<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>
-    : notes: we will try to force a spawn for Laroba later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
+  - _Woman::Road::Watch<Laroba, East Akkala Stable and South Akkala Stable, Gerudo>:
+      notes: we will try to force a spawn for Laroba later, at South Akkala Stable, but this is an early opportunity to potentially get lucky and see her here
   - _Woman<Nobo>:
       coord: [4248, -2750.75]
   - _Woman<Aya>
   - BLSS to .place(Tarrey Town)
   - Talk to Hudson:
       icon: marker
-      comment: give wood, get mission to find Goron
+      comment: Talk twice (give wood, get mission to find Goron)
       coord: [3988.5, -1597]
   - .important(Make night)
   - WB <S to fairy fountain
