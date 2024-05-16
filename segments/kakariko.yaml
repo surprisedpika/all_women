@@ -17,7 +17,6 @@ Kakariko:
       notes: Toma may be here while farming spawns for Brokka but her spawn rate is very low
   - _Woman::Road::Watch<Celessa, Dueling Peaks Stable to Hateno Village, dark hair>:
       notes: Celessa may be here while farming spawns for Brokka but her spawn rate is very low
-  - _Material<Apples, 3>
   - Sell Ruby to Beedle, buy 10 arrows:
       icon: marker
       coord: [1730, 1933]
@@ -26,6 +25,7 @@ Kakariko:
       coord: [1752, 1951.5]
   - _Material<Wood, 1>:
       coord: [1758.25, 1957.5]
+  - _Material<Apples, 3>
   - _Woman<Sagessa>:
       comment: She'll talk to you when you take the Apples (shorter dialog)
       coord: [1742.25, 1943.5]
