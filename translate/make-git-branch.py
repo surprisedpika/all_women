@@ -2,6 +2,7 @@ import csv
 import argparse
 import subprocess
 import glob
+import re
 
 parser = argparse.ArgumentParser(description='Create a git branch based on a column in a CSV file.')
 parser.add_argument('ColumnName', type=str, help='The name of the column in the CSV file')
@@ -10,7 +11,7 @@ args = parser.parse_args()
 
 route_files = glob.glob('../main.yaml') + glob.glob('../segments/*.yaml')
 
-with open('translations.csv', 'r') as translation_file:
+with open('translations.csv', 'r', encoding='utf-8') as translation_file:
     reader = csv.reader(translation_file)
     headers = next(reader)  # Get the headers from the first line
         
@@ -30,8 +31,8 @@ with open('translations.csv', 'r') as translation_file:
         print(f'Column "en" not found in CSV file.')
         exit(1)
     
+    print (f'Processing {args.ColumnName}')
     
-        
     for row in reader:
       source_index = headers.index('en')
       column_index = headers.index(args.ColumnName)
@@ -39,14 +40,15 @@ with open('translations.csv', 'r') as translation_file:
       source = row[source_index]
       dest = row[column_index]
               
-      print(f'Processing {source} -> {dest}')
+    #   print(f'Processing {source} -> {dest}')
       
       for route_file in route_files:
           with open(route_file, 'r') as file:
-              
-              print(f'Processing {route_file}')
-              
-              subprocess.run(['perl', '-i', '-pe', f's/(?<!-){source}/{dest}/g', route_file])
+            
+              content = file.read()              
+              content = re.sub(f'(?<!-){source}', dest, content)
+              with open(route_file, 'w') as file:
+                  file.write(content)
               
     subprocess.run(['git', 'add', '../main.yaml', '../segments/*.yaml'])
     subprocess.run(['git', 'commit', '-m', f'Translate {args.ColumnName}'])
